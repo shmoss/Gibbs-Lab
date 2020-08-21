@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Varta:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gudea&display=swap');
+
 body {
 	width:auto;
 	letter-spacing: 1px;
-	font-family:'Lato', sans-serif;
+	font-family:'Gudea', sans-serif
 	font-size:16px;
 }
 
@@ -29,7 +38,7 @@ body {
 
 p {
 	margin-bottom: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Gudea', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.8em;
@@ -63,4 +72,9 @@ a div.col-md-4.col-sm-6 p, a div.col-md-4.col-sm-6 h3{
     padding-left: 25px;
     color: #b70101;
   
+}
+
+#newsContainer {
+    height:400px;
+    overflow: scroll;
 }
