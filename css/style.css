@@ -7,11 +7,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gudea&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Gudea:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gudea:wght@700&display=swap');
+
+
 body {
 	width:auto;
 	letter-spacing: 1px;
 	font-family:'Gudea', sans-serif;
 	font-size:16px;
+    background-color:#f7f7f7 !important;
+
 }
 
 body::-webkit-scrollbar {
@@ -50,8 +57,6 @@ body::-webkit-scrollbar-thumb {
     width: inherit;
     max-width: 100%;
     margin: auto;
-    background-color: #FFF;
-
     -webkit-box-shadow:0 0 15px rgba(0,0,0,0.3);
     -moz-box-shadow: 0 0 15px rgba(0,0,0,0.3);
     box-shadow:0 0 15px rgba(0,0,0,0.3);
@@ -59,7 +64,7 @@ body::-webkit-scrollbar-thumb {
 
 
 .navbar {
-	background:#373737
+	background:#eff6ef !important
 
 }
 
@@ -80,27 +85,42 @@ body::-webkit-scrollbar-thumb {
 
 .carousel {
   height:250px;
+  width:100%;
+
 
 }
 
 .carousel-item{
     height: 250px;
- 
+
+
 } 
+
+
+
 .carousel-item img{
-    height: 250px;
    
+   
+}
+
+#applegate{
+
 }
 
 .nav-item{
     text-align: right;
     padding:0px 10px 0px 10px
+
 }
 
 .nav-link{
     text-align:left;
+    font-size:14px;
 }
 
+.nav-link:hover { text-decoration: underline; }
+
+.nav-link:active { text-decoration: underline; }
 
 p {
 	margin-bottom: 20px;
@@ -126,6 +146,7 @@ a:hover, a:active {
     width:  100px;
     height: 100px;
     background-position: 50% 50%;
+
 }
 
 .overview {
@@ -143,12 +164,78 @@ a div.col-md-4.col-sm-6 p, a div.col-md-4.col-sm-6 h3{
     height:400px;
     overflow-y: scroll;
 
+
    
 }
 
 
 .list-group{
     float:center;
+
     
+
 }
+
+.list-group-item{
+
+
+
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myInput_year {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 
