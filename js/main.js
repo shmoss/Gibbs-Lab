@@ -4,6 +4,12 @@ $(document).ready(function(){
     })
   });   
 
+var testElement = document.getElementById('toggle');
+if ($('#toggle').attr('aria-expanded') == "true") {
+  console.log("true")
+  }
+
+
 function myFunction() {
   // Declare variables
   var authorInput, authorFilter, table, tr, td, i, txtValue;

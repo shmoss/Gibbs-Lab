@@ -69,9 +69,11 @@ body::-webkit-scrollbar-thumb {
     border-bottom:1px solid #E9E9E9;
     padding-bottom:30px;
 
+}
 
-
-
+.navbar.toggler.collapsed .page-container{
+    background-color: blue
+    
 }
 
 .container-fluid {
@@ -132,21 +134,15 @@ body::-webkit-scrollbar-thumb {
     text-align:left;
     font-size:14px;
     color:#0c2d1c !important;
-}
-
-.nav-link:hover { 
-    color:#f7f7f7 !important;
-    background-color:#0c2d1c;
-    border-radius:8px;
     font-weight:700;
-
 }
+
+
+
+
 
 .nav-link:active { 
-    background-color:#0c2d1c !important;
-    border-radius:8px;
- 
-
+   
 }
 
 p {
@@ -207,6 +203,8 @@ a div.col-md-4.col-sm-6 p, a div.col-md-4.col-sm-6 h3{
 .list-group-item{
     border-left:none;
     border-right:none;
+    border-top:none;
+    border-bottom:none;
     background-color:#f7f7f7
 
 
@@ -271,9 +269,47 @@ input[type=number] {
 
 
 @media (max-width: 769px) {
+
+
+
     .page-container{
-        padding-top:240px;
+        padding-top:42vh
     }
+
+    .nav-link:hover span{ 
+    color:#f7f7f7 !important;
+    background-color:#0c2d1c;
+    border-radius:8px;
+    padding:6px 6px 6px 6px;
+
+    }
+
+    .nav-link span{ 
+
+    padding-left:6px 
+
+    }
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+}
+
+@media (min-width: 769px) {
+
+#about { 
+    color:#f7f7f7 !important;
+    background-color:#0c2d1c;
+    border-radius:8px;
+    padding:6px 6px 6px 6px;
+
+}
+
+
+.nav-link:hover { 
+    color:#f7f7f7 !important;
+    background-color:#0c2d1c;
+    border-radius:8px;
+    padding:6px 6px 6px 6px;
+
+}
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
 }
 
