@@ -1,3 +1,9 @@
+$(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 3000
+    })
+  });   
+
 function myFunction() {
   // Declare variables
   var authorInput, authorFilter, table, tr, td, i, txtValue;
@@ -47,3 +53,4 @@ function myFunction_year() {
     }
   }
 }
+

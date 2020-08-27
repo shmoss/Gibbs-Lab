@@ -60,11 +60,17 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-shadow:0 0 15px rgba(0,0,0,0.3);
     -moz-box-shadow: 0 0 15px rgba(0,0,0,0.3);
     box-shadow:0 0 15px rgba(0,0,0,0.3);
+
 }
 
 
 .navbar {
-	background:#eff6ef !important
+    background-color:#f7f7f7 !important;
+    border-bottom:1px solid #E9E9E9;
+    padding-bottom:30px;
+
+
+
 
 }
 
@@ -83,15 +89,24 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+#carouselContainer{
+  
+
+}
+
+#carouselRow{
+  
+
+}
+
 .carousel {
-  height:250px;
-  width:100%;
+
 
 
 }
 
 .carousel-item{
-    height: 250px;
+    
 
 
 } 
@@ -116,11 +131,23 @@ body::-webkit-scrollbar-thumb {
 .nav-link{
     text-align:left;
     font-size:14px;
+    color:#0c2d1c !important;
 }
 
-.nav-link:hover { text-decoration: underline; }
+.nav-link:hover { 
+    color:#f7f7f7 !important;
+    background-color:#0c2d1c;
+    border-radius:8px;
+    font-weight:700;
 
-.nav-link:active { text-decoration: underline; }
+}
+
+.nav-link:active { 
+    background-color:#0c2d1c !important;
+    border-radius:8px;
+ 
+
+}
 
 p {
 	margin-bottom: 20px;
@@ -129,7 +156,7 @@ p {
     font-weight: 400;
     line-height: 1.8em;
     letter-spacing: 0.05em;	
-    color:#666666;
+    color:#030b07;
 }
 
 a {
@@ -163,6 +190,7 @@ a div.col-md-4.col-sm-6 p, a div.col-md-4.col-sm-6 h3{
 #newsContainer {
     height:400px;
     overflow-y: scroll;
+    border-width:0px;
 
 
    
@@ -177,6 +205,9 @@ a div.col-md-4.col-sm-6 p, a div.col-md-4.col-sm-6 h3{
 }
 
 .list-group-item{
+    border-left:none;
+    border-right:none;
+    background-color:#f7f7f7
 
 
 
@@ -238,4 +269,11 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+
+@media (max-width: 769px) {
+    .page-container{
+        padding-top:240px;
+    }
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+}
 
