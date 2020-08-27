@@ -71,6 +71,8 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+
+
 .navbar.toggler.collapsed .page-container{
     background-color: blue
     
@@ -273,7 +275,7 @@ input[type=number] {
 
 
     .page-container{
-        padding-top:42vh
+        padding-top:0vh
     }
 
     .nav-link:hover span{ 
