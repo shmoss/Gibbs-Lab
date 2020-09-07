@@ -57,3 +57,17 @@ function myFunction_year() {
   }
 }
 
+
+//Sort by class..
+function filterSelection(thing) {
+
+
+$("#myTable tbody tr:not(."+thing + ')').hide();
+
+
+  console.log("clicked")
+
+
+}
+
+

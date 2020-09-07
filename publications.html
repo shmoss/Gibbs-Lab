@@ -55,6 +55,15 @@
         
     </div>
 </nav>
+
+<!-- Control buttons -->
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" id="carsButton" onclick="filterSelection('cars')"> Cars</button>
+  <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+  <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+  <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+</div>
 	
 
 
@@ -85,15 +94,15 @@
   <div class="row">
     <div class="col-md-12 pl-md-5 pr-md-5">
 
- <table id="myTable">
+ <table class="mytable" id="myTable">
   <tr class="header">
     <th style="width:60%;">2020</th>
 
   </tr>
-  <tr>
+  <tr class="cars">
     <td>Rajão, R., B. Soares-Filho, F. Nunes, J. Börner., L. Machado, D. Assis, A. Oliveira, L. Pinto, V. Ribeiro, L. Rausch, <b>H.K. Gibbs</b>, D.Figueira. 2020. “The rotten apples of Brazil’s agribusiness.” <i>Science Vol. 369, Issue 6501, pp. 246-248.</i> [Link]</td>
   </tr>
-  <tr>
+  <tr class="cars">
     <td>Skidmore, M., F. Moffette, L. Rausch, H.K. Gibbs. 2020. “Characterizing compliance in cattle supply chains: What factors encourage deforestation-free production in the Brazilian Amazon?” Report for the Meridian Institute, Supply Chain Sustainability Research Fund. [Link]</td> 
   </tr>
   <tr>

@@ -74,6 +74,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+#toggle{
+    background-color:#0c2d1c;
+}
+
+.navbar-toggler-icon  {
+border-color:red!important;
+}
+
+
 
 .navbar.toggler.collapsed .page-container{
     background-color: blue
@@ -248,6 +257,10 @@ a div.col-md-4.col-sm-6 p, a div.col-md-4.col-sm-6 h3{
 
 h5{
      color:white !important;
+}
+
+h2{
+    font-weight:700;
 }
 
 #newsContainer {
