@@ -61,11 +61,23 @@ function myFunction_year() {
 //Sort by class..
 function filterSelection(thing) {
 
-
+var tabhead = "header"
 $("#myTable tbody tr:not(."+thing + ')').hide();
 
+$("#myTable tr.header").show();
 
-  console.log("clicked")
+}
+
+//display all
+function displayAll() {
+
+
+$("#myTable tr").show();
+
+$("#myTable tr.header").show();
+
+
+
 
 
 }

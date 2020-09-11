@@ -89,6 +89,8 @@ border-color:red!important;
     
 }
 
+
+
 .container-fluid {
 	background:#373737
 
@@ -132,6 +134,7 @@ opacity:.8;
     background-color: black;
     opacity:.8;
     color:white !important;
+    height:125px;
 }
 
 .carousel-item{
@@ -378,7 +381,7 @@ input[type=number] {
     color:#f7f7f7 !important;
     background-color:#0c2d1c;
     border-radius:8px;
-    padding:6px 6px 6px 6px;
+   
 
 }
 
@@ -387,7 +390,7 @@ input[type=number] {
     color:#f7f7f7 !important;
     background-color:#0c2d1c;
     border-radius:8px;
-    padding:6px 6px 6px 6px;
+   
 
 }
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
