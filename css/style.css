@@ -65,6 +65,13 @@ body::-webkit-scrollbar-thumb {
 
 }
 
+#gibbsLogo{
+  max-height:100px;
+
+  
+  
+}
+
 
 .navbar {
     background-color:#f7f7f7 !important;
@@ -351,7 +358,7 @@ input[type=number] {
 }
 
 
-@media (max-width: 769px) {
+@media (max-width: 992px) {
 
 
 
@@ -375,7 +382,7 @@ input[type=number] {
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
 }
 
-@media (min-width: 769px) {
+@media (min-width: 992px) {
 
 #about { 
     color:#f7f7f7 !important;
