@@ -66,7 +66,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 #gibbsLogo{
-  max-height:100px;
+  max-height:110px;
+  padding-left:10px;
 
   
   
