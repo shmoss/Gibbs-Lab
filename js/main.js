@@ -72,12 +72,25 @@ function myFunction_year() {
   }
 }
 
+ var table = $("#myTable") 
+
+  table.find('tr').each(function () {
+    current_row = $(this); //keep track of the row being checked, iterate through it's cells
+                    var rowClass = current_row.attr("class") // class of row
+                    console.log(rowClass)
+  })
 
 //Sort by class..
 function filterSelection(thing) {
 
+
+$("#myTable tr").show();
+
+$('#myTable > tbody > tr').not("[name*=" + thing + "]").hide()
+
+
 var tabhead = "header"
-$("#myTable tbody tr:not(."+thing + ')').hide();
+//$("#myTable tbody tr:not(."+thing + ')').hide();
 
 $("#myTable tr.header").show();
 
@@ -96,112 +109,4 @@ $("#myTable tr.header").show();
 
 
 }
-
-
-$('#red').click(function(){
-    if (this.checked) {
-        $('p').css('color', '#0099ff')
-    }
-}) 
-
-
-
-$('#red').change(function() {
-  alert($(this).prop('checked'))
-  console.log("checked")
-})
-
-$('#red').on('click', function(event) {
-
-  console.log($("#red.btn.btn-primary").hasClass('active'))
-  var myTr = document.getElementsByTagName('tr');
-
-/*
-       for(var i=myTr.length; i--;){
-           if(myTr[i].className.match('(^|\\s+)selected(\\s+|$)')){
-               alert('true');//return true;
-               return;
-           }
-       }
-       alert('false'); //return false
-*/
-});
-
-//console.log($("#red.btn.btn-primary").hasClass('active'))
-
-
-var tableRows = document.getElementsByTagName('tr');
-
-
-
-
-
-
-$('.btn').on('click', function(event){
-
-  var value = $(this).val();
-  console.log(value)
-
- 
-  
-  console.log('clicked!')
-
-  table = $("#myTable"); //set table name
-            search_field = new Object();
-
-                search_field['Filho']      = $( "#Filho" ).val();
-                search_field['Gibbs']  = $("#Gibbs").val();
-                search_field['Spawn']    = $("#Spawn").val();
-
-
-                var myTr = document.getElementsByTagName('tr');
-
-
-
-                console.log($( "#Filho" ).val())
-                /*
-      var display = 0;
-       for(var i=myTr.length; i--;){
-        console.log(myTr[i].className)
-           if(myTr[i].className.match('(^|\\s+)Filho(\\s+|$)')){
-               alert('true!');//return true;
-               return;
-           }
-       }
-       alert('false'); //return false
-       */
-
-
-  table.find('tr').each(function () {
-
-                    current_row = $(this); //keep track of the row being checked, iterate through it's cells
-                    var rowClass = current_row.attr("class") // class of row
-                    console.log(rowClass)
-                    var display = 0;
-                    current_row.show();
-
-
-                    if (rowClass == search_field[rowClass]){
-                      console.log('match')
-                      display++
-                    }
-
-                    /*
-                    $(this).find('td').each(function() {
-                    //when we stumble upon the data used as a search criteria
-                        cell_value = $(this).html(); //gets the value of the cell being checked
-                        console.log(cell_value)
-                        console.log(search_field[this.id])
-                        if (cell_value == search_field[this.id]) {
-                            display++;    
-                        }
-                    });
-  */
-
-                    if (display < 3) {
-                        current_row.hide(); //if this cell is a match, or we no longer want to use it as a search criteria, the row is displayed
-                    }
-})
-
-})
 

@@ -56,39 +56,16 @@
     </div>
 </nav>
 
-<div class="column right">
-<div><b>Filters</b></div>
-<div><b>Gender</b></div>
-<div><input type="checkbox" name="gender" value="male">Male</input></div>
-<div><input type="checkbox" name="gender" value="non-binary">Non-Binary</input></div>
-<div><b>Race</b></div>
-<div><input type="checkbox" name="race" value="sith">Sith</input></div>
-<div><input type="checkbox" name="race" value="human">Human</input></div>
-<div><input type="checkbox" name="race" value="unknown">Unknown</input></div>
-<div><input type="checkbox" name="race" value="droid">Droid</input></div>
-</div>
+
 
 <!-- Control buttons -->
-<div id="myBtnContainer">
-  <div class="bs-example">
-    <div class="btn-group btn-group-toggle" data-toggle="buttons">
-        <label id = "Filho" class="btn btn-primary" value="Filho">
-            <input id = "Filho" value="Filho" type="checkbox" name="options" autocomplete="off" onclick='f1(this)' checked> Filho
-        </label>
-        <label id = "Gibbs" class="btn btn-primary" value="Gibbs">
-            <input id = "Gibbs" value="Gibbs" type="checkbox" name="options" autocomplete="off" > Gibbs
-        </label>
-        <label id = "Spawn" class="btn btn-primary" value="Spawn">
-            <input id = "Spawn" value="Spawn" type="checkbox" name="options" autocomplete="off" checked> Spawn
-        </label>
-    </div>
-</div>
+
 
   <button class="btn active" onclick="displayAll()"> Show all</button>
-  <button class="btn" id="carsButton" onclick="filterSelection('cars')"> Cars</button>
-  <button class="btn" onclick="filterSelection('animals')"> Animals</button>
-  <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-  <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+  <button class="btn" id="carsButton" onclick="filterSelection('brazil')"> brazil</button>
+  <button class="btn" onclick="filterSelection('cattle')"> cattle</button>
+  <button class="btn" onclick="filterSelection('deforestation')"> deforestation</button>
+  <button class="btn" onclick="filterSelection('emissions')"> emissions</button>
 </div>
 
 
@@ -127,25 +104,25 @@
     <th style="width:60%;">2020</th>
 
   </tr>
-  <tr class="cars">
+  <tr name="brazil" class="brazil">
     <td>Rajão, R., B. Soares-Filho, F. Nunes, J. Börner., L. Machado, D. Assis, A. Oliveira, L. Pinto, V. Ribeiro, L. Rausch, <b>H.K. Gibbs</b>, D.Figueira. 2020. “The rotten apples of Brazil’s agribusiness.” <i>Science Vol. 369, Issue 6501, pp. 246-248.</i> [Link]</td>
   </tr>
-  <tr class="cars">
+  <tr name="brazil_cattle" class="brazil_cattle">
     <td>Skidmore, M., F. Moffette, L. Rausch, H.K. Gibbs. 2020. “Characterizing compliance in cattle supply chains: What factors encourage deforestation-free production in the Brazilian Amazon?” Report for the Meridian Institute, Supply Chain Sustainability Research Fund. [Link]</td> 
   </tr>
-  <tr>
+  <tr name="brazil_cattle" class="brazil">
     <td>Moffette, F. and H. K. Gibbs. 2020. “Agricultural Displacement and Deforestation Leakage in the Brazilian Legal Amazon.” Land Economics, vol. 97, no. 1, 2021 [Link]</td>
   </tr>
-  <tr>
+  <tr name="emissions">
     <td>Spawn, S.A. and H.K. Gibbs. 2020. Global maps of above and belowground biomass carbon density in the year 2010. ORNL DAAC [Link]</td>
   </tr>
   <tr class="Cars">
     <th style="width:60%;">2019</th>
   </tr>
-  <tr>
+  <tr name="cattle_emissions">
     <td>Xie, Y.,T.J. Lark., J.F. Brown, and H. K. Gibbs. 2019. “Mapping irrigated cropland extent across the conterminous United States at 30 m resolution using a semi-automatic training approach on Google Earth Engine.” ISPRS Journal of Photogrammetry and Remote Sensing. [Link]</td>
   </tr>
-  <tr>
+  <tr name="cattle">
     <td>Buckley, K.J., P. Newton, H. K. Gibbs, I. McConnel, and J. Ehrmann. 2019. “Pursuing sustainability through multi-stakeholder collaboration: A description of the governance, actions, and perceived impacts of the roundtables for sustainable beef.” World Development. [Link]</td>
   </tr>
   <tr>
@@ -154,7 +131,7 @@
   <tr>
     <td>Spawn, S.A., T.J. Lark, and H. K. Gibbs. 2019. “Carbon emissions from cropland expansion in the United States.” Environmental Research Letters. [Link]</td>
   </tr>
-  <tr>
+  <tr class="cattle">
     <td>Lima, M., C. Antonio da Silva Junior, L.L. Rausch, H. K. Gibbs, and J.A. Johann. 2019. “Demystifying sustainable soy in Brazil.” Land Use Policy. [Link]</td>
   </tr>
   <tr>
