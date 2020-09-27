@@ -83,11 +83,9 @@ function myFunction_year() {
 //Sort by class..
 function filterSelection(thing) {
 
-
 $("#myTable tr").show();
 
 $('#myTable > tbody > tr').not("[name*=" + thing + "]").hide()
-
 
 var tabhead = "header"
 //$("#myTable tbody tr:not(."+thing + ')').hide();
@@ -109,4 +107,10 @@ $("#myTable tr.header").show();
 
 
 }
+
+$('.btn').not(".showAll").click(function() {
+    $(".btn").removeClass('active');
+});
+
+// .btn is the class of the element you want to change color
 

@@ -57,8 +57,7 @@ body::-webkit-scrollbar-thumb {
     width: inherit;
     max-width: 100%;
     margin: auto;
-    -webkit-box-shadow:0 0 15px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    
     
 
 
@@ -66,7 +65,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #gibbsLogo{
-  max-height:110px;
+  max-height:100px;
   padding-left:10px;
 
   
@@ -77,11 +76,38 @@ body::-webkit-scrollbar-thumb {
   background-color:red;
 }
 
+.btn {
+  background-color:#f7f7f7 !important;
+  color:#0c2d1c;
+  border:none;
+}
+
+.btn.active{
+ background-color:#0c2d1c !important;
+  color:#f7f7f7 !important;
+  box-shadow:none !important;
+}
+
+.btn:hover{
+  background-color:#0c2d1c !important;
+  color:#f7f7f7 !important;
+  box-shadow:none !important;
+}
+
+.btn:focus{
+  background-color:#0c2d1c !important;
+  color:#f7f7f7 !important;
+  box-shadow:none !important;
+
+}
+
+
+
 
 .navbar {
     background-color:#f7f7f7 !important;
-    border-bottom:1px solid #E9E9E9;
-    padding-bottom:30px;
+    
+    padding-bottom:10px;
 
 }
 
@@ -372,6 +398,7 @@ input[type=number] {
     }
 
     .nav-link:hover span{ 
+
     color:#f7f7f7 !important;
     background-color:#0c2d1c;
     border-radius:8px;
