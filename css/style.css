@@ -76,6 +76,14 @@ body::-webkit-scrollbar-thumb {
   background-color:red;
 }
 
+#searchBars, #filterButtons{
+  padding-top:20px;
+}
+
+#filterHeading{
+  padding-top:0px;
+}
+
 .btn {
   background-color:#f7f7f7 !important;
   color:#0c2d1c;
