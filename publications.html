@@ -56,14 +56,42 @@
     </div>
 </nav>
 
+<div class="column right">
+<div><b>Filters</b></div>
+<div><b>Gender</b></div>
+<div><input type="checkbox" name="gender" value="male">Male</input></div>
+<div><input type="checkbox" name="gender" value="non-binary">Non-Binary</input></div>
+<div><b>Race</b></div>
+<div><input type="checkbox" name="race" value="sith">Sith</input></div>
+<div><input type="checkbox" name="race" value="human">Human</input></div>
+<div><input type="checkbox" name="race" value="unknown">Unknown</input></div>
+<div><input type="checkbox" name="race" value="droid">Droid</input></div>
+</div>
+
 <!-- Control buttons -->
 <div id="myBtnContainer">
+  <div class="bs-example">
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label id = "Filho" class="btn btn-primary" value="Filho">
+            <input id = "Filho" value="Filho" type="checkbox" name="options" autocomplete="off" onclick='f1(this)' checked> Filho
+        </label>
+        <label id = "Gibbs" class="btn btn-primary" value="Gibbs">
+            <input id = "Gibbs" value="Gibbs" type="checkbox" name="options" autocomplete="off" > Gibbs
+        </label>
+        <label id = "Spawn" class="btn btn-primary" value="Spawn">
+            <input id = "Spawn" value="Spawn" type="checkbox" name="options" autocomplete="off" checked> Spawn
+        </label>
+    </div>
+</div>
+
   <button class="btn active" onclick="displayAll()"> Show all</button>
   <button class="btn" id="carsButton" onclick="filterSelection('cars')"> Cars</button>
   <button class="btn" onclick="filterSelection('animals')"> Animals</button>
   <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
   <button class="btn" onclick="filterSelection('colors')"> Colors</button>
 </div>
+
+
 	
 
 
@@ -111,7 +139,7 @@
   <tr>
     <td>Spawn, S.A. and H.K. Gibbs. 2020. Global maps of above and belowground biomass carbon density in the year 2010. ORNL DAAC [Link]</td>
   </tr>
-  <tr class="header">
+  <tr class="Cars">
     <th style="width:60%;">2019</th>
   </tr>
   <tr>
@@ -131,6 +159,15 @@
   </tr>
   <tr>
     <td>Sullivan, C.C., H. K. Gibbs and L.L. Rausch. 2019. “Towards Zero Deforestation Cattle in Colombia.” Policy brief. [Link]</td>
+  </tr>
+  <tr class="Filho">
+    <td>Filho</td>
+  </tr>
+  <tr class="Filho">
+    <td>Gibbs</td>
+  </tr>
+  <tr class="Filho">
+    <td>Spawn</td>
   </tr>
 </table>  
 </div>
