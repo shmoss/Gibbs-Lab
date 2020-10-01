@@ -114,3 +114,15 @@ $('.btn').not(".showAll").click(function() {
 
 // .btn is the class of the element you want to change color
 
+var $btns = $('.btn').click(function() {
+  console.log(this.id)
+  if (this.id == 'all') {
+    $('#parent > div').show();
+  } else {
+    var $el = $('.' + this.id).show();
+    console.log($el)
+    $('#parent > div').not($el).hide();
+  }
+  $btns.removeClass('active');
+  $(this).addClass('active');
+})

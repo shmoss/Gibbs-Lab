@@ -37,6 +37,9 @@ body::-webkit-scrollbar-thumb {
   border-radius: 8px;
 }
 
+
+
+
 #newsContainer::-webkit-scrollbar {
     width: .75em;
     border-radius: 8px;
