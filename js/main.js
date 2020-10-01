@@ -85,12 +85,12 @@ function filterSelection(thing) {
 
 $("#myTable tr").show();
 
-$('#myTable > tbody > tr').not("[name*=" + thing + "]").hide()
+$('#myTable > tbody > tr').not("[name*=" + thing + "]").fadeOut(300)
 
 var tabhead = "header"
 //$("#myTable tbody tr:not(."+thing + ')').hide();
 
-$("#myTable tr.header").show();
+$("#myTable tr.header").fadeIn(300)
 
 }
 
@@ -117,9 +117,9 @@ $('.btn').not(".showAll").click(function() {
 var $btns = $('.btn').click(function() {
   console.log(this.id)
   if (this.id == 'all') {
-    $('#parent > div').show();
+    $('#parent > div').fadeIn(450);
   } else {
-    var $el = $('.' + this.id).show();
+    var $el = $('.' + this.id).fadeIn(450);
     console.log($el)
     $('#parent > div').not($el).hide();
   }
