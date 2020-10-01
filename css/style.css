@@ -267,7 +267,7 @@ opacity:.8;
     text-align:left;
     font-size:14px;
     color:#0c2d1c !important;
-    font-weight:700;
+    
 }
 
 
@@ -442,9 +442,20 @@ input[type=number] {
     color:#f7f7f7 !important;
     background-color:#0c2d1c;
     border-radius:8px;
-   
-
 }
+
+#people { 
+    color:#f7f7f7 !important;
+    background-color:#0c2d1c;
+    border-radius:8px;
+}
+
+#publications { 
+    color:#f7f7f7 !important;
+    background-color:#0c2d1c;
+    border-radius:8px;
+}
+
 
 
 .nav-link:hover { 
