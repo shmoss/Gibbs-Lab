@@ -413,6 +413,28 @@ input[type=number] {
 
 @media (max-width: 992px) {
 
+  #about span{ 
+    color:#f7f7f7 !important;
+    background-color:#0c2d1c;
+    border-radius:8px;
+    padding:6px 6px 6px 6px;
+}
+
+#people span{ 
+    color:#f7f7f7 !important;
+    background-color:#0c2d1c;
+    border-radius:8px;
+    padding:6px 6px 6px 6px;
+}
+
+#publications span{ 
+    color:#f7f7f7 !important;
+    background-color:#0c2d1c;
+    border-radius:8px;
+    padding:6px 6px 6px 6px;
+}
+
+
 
 
     .page-container{
