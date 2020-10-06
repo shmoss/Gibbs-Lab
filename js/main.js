@@ -23,6 +23,8 @@ function filterTable() {
 
 
 function myFunction() {
+  $(".btn").removeClass("active")
+  //$("#brazil").addClass("active")
   // Declare variables
   var authorInput, authorFilter, table, tr, td, i, txtValue;
   authorInput = document.getElementById("myInput");
