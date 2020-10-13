@@ -80,8 +80,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .img-holder {
-  width: 200px;
-  height: 200px;
+  max-width: 200px;
+  max-height: 200px;
   overflow: hidden;
   border-radius: 50%;
   margin:0 auto
@@ -90,7 +90,12 @@ body::-webkit-scrollbar-thumb {
 
 .bio-holder {
   padding-top:10px;
+
+
+
 }
+
+ 
 
 
 .img-fluid.d-block.mb-3.mx-auto.rounded-circle:hover{
@@ -471,6 +476,14 @@ input[type=number] {
 
 
 @media (max-width: 992px) {
+
+ .people_name {
+  font-size:20px !important;
+ }
+
+ .mb-0{
+   font-size:14px !important;
+ }
 
   .container{
     
