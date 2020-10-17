@@ -80,9 +80,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .img-holder {
-  max-width: 200px;
-  max-height: 200px;
-  overflow: hidden;
+  max-width: 190px;
+  max-height: 190px;
+  overflow: hidden !important;
   border-radius: 50%;
   margin:0 auto
 
@@ -499,6 +499,19 @@ input[type=number] {
 
 
 @media (max-width: 992px) {
+
+    .img-holder {
+  max-width: 120px;
+  max-height: 120px;
+  overflow: hidden !important;
+  border-radius: 50%;
+  margin:0 auto
+
+}
+
+
+
+
 
  .people_name {
   font-size:20px !important;
