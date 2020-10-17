@@ -553,8 +553,8 @@ input[type=number] {
 
     .page-container{
         padding-top:0vh;
-        padding-left:0vh;
-        padding-right:0vh;
+        padding-left:3vh;
+        padding-right:3vh;
     }
 
     .nav-link:hover span{ 
