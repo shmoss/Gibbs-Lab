@@ -98,8 +98,6 @@ body::-webkit-scrollbar-thumb {
 .bio-holder {
   padding-top:10px;
 
-
-
 }
 
 .news-blurb p{
@@ -112,14 +110,14 @@ body::-webkit-scrollbar-thumb {
  
 
 
-.img-fluid.d-block.mb-3.mx-auto.rounded-circle:hover{
-    -webkit-transform: scale(1.1);
-    -webkit-transition: all 0.125s ease-in-out 0s;
-    -moz-transition: all 0.125s ease-in-out 0s;
-    -ms-transition: all 0.125s ease-in-out 0s;
-    -o-transition: all 0.125s ease-in-out 0s;
-    transition: all 0.125s ease-in-out 0s;
-}
+    .img-fluid.d-block.mb-3.mx-auto.rounded-circle:hover{
+        -webkit-transform: scale(1.1);
+        -webkit-transition: all 0.125s ease-in-out 0s;
+        -moz-transition: all 0.125s ease-in-out 0s;
+        -ms-transition: all 0.125s ease-in-out 0s;
+        -o-transition: all 0.125s ease-in-out 0s;
+        transition: all 0.125s ease-in-out 0s;
+    }
 
 .d-block.w-100.news-image:hover{
     -webkit-transform: scale(1.1);
@@ -267,8 +265,8 @@ opacity:.8;
     height:125px;
 }
 
-.carousel-item{
-
+.carousel-item img{
+width:100% !important;
 
 
 } 
@@ -504,7 +502,6 @@ input[type=number] {
 
 
 
-
  .people_name {
   font-size:20px !important;
  }
@@ -543,8 +540,8 @@ input[type=number] {
 
     .page-container{
         padding-top:0vh;
-        padding-left:3vh;
-        padding-right:3vh;
+        padding-left:0vh;
+        padding-right:0vh;
     }
 
     .nav-link:hover span{ 
