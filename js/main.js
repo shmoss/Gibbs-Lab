@@ -23,8 +23,9 @@ function filterTable() {
 
 
 function myFunction() {
+  console.log("hi")
   $(".btn").removeClass("active")
-  //$("#brazil").addClass("active")
+  $("#showAll").addClass("active")
   // Declare variables
   var authorInput, authorFilter, table, tr, td, i, txtValue;
   authorInput = document.getElementById("myInput");
@@ -88,7 +89,7 @@ function filterSelection(thing) {
   var rows = $('#myTable').find('tr:not(:has(th))').get();
   console.log(rows)
 
-$("#myTable tr").show();
+$("#myTable tr").show()
 
 
 $('#myTable').find('tr:not(:has(th))').not('thead tr').not("[name*=" + thing + "]").fadeOut(300)

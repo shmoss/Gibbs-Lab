@@ -83,7 +83,7 @@ body::-webkit-scrollbar-thumb {
   max-width: 190px;
   max-height: 190px;
   overflow: hidden !important;
-  border-radius: 50%;
+  border-radius:0%;
   margin:0 auto
 
 }
@@ -109,7 +109,17 @@ body::-webkit-scrollbar-thumb {
 }
  
 
-.img-fluid.d-block.mb-3.mx-auto.rounded-circle:hover{
+.img-fluid.d-block.mb-3.mx-auto:hover{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: all 0.125s ease-in-out 0s;
+        -moz-transition: all 0.125s ease-in-out 0s;
+        -ms-transition: all 0.125s ease-in-out 0s;
+        -o-transition: all 0.125s ease-in-out 0s;
+        transition: all 0.125s ease-in-out 0s;
+    }
+
+.img-fluid.d-block.mb-3.mx-auto:focus{
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
         -webkit-transition: all 0.125s ease-in-out 0s;
@@ -184,6 +194,10 @@ img.rounded-circle.z-depth-1 {
   max-height:200px;
 }
 
+ .people_name {
+
+  color:#0c2d1c !important
+ }
 
 
 
@@ -363,7 +377,7 @@ a {
 }
 
 b {
-  color: #17A2B8;
+  font-weight: 700;
 }
 
 .bioName, .aboutHeading {
@@ -467,8 +481,8 @@ h2{
   border-collapse: separate; /* Collapse borders */
   width: 100%; /* Full-width */
   border: 0px solid #ddd; /* Add a grey border */
-  font-size: 18px; /* Increase font-size */
-  border-spacing:0 1em 
+  font-size: 16px; /* Increase font-size */
+  border-spacing:0 .7em 
 }
 
 #myTable th, #myTable td {
@@ -517,6 +531,7 @@ input[type=number] {
 
  .people_name {
   font-size:20px !important;
+  color:black !important
  }
 
  .mb-0{
