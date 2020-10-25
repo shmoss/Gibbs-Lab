@@ -85,14 +85,18 @@ function myFunction_year() {
 //Sort by class..
 function filterSelection(thing) {
 
+  var rows = $('#myTable').find('tr:not(:has(th))').get();
+  console.log(rows)
+
 $("#myTable tr").show();
 
-$('#myTable > tbody > tr').not("[name*=" + thing + "]").fadeOut(300)
+
+$('#myTable').find('tr:not(:has(th))').not('thead tr').not("[name*=" + thing + "]").fadeOut(300)
 
 var tabhead = "header"
 //$("#myTable tbody tr:not(."+thing + ')').hide();
 
-$("#myTable tr.header").fadeIn(300)
+//$("#myTable tr.header").fadeIn(1)
 
 }
 
