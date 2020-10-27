@@ -107,6 +107,11 @@ body::-webkit-scrollbar-thumb {
 .news-blurb-date span{
 
 }
+
+#lark-headshot{
+  width:70% !important;
+  pointer-events:none !important;
+}
  
 
 .img-fluid.d-block.mx-auto:hover{
