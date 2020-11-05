@@ -101,6 +101,24 @@ var tabhead = "header"
 
 }
 
+//Sort by class..
+function filterYear(thing) {
+
+  var rows = $('#myTable').find('tr:not(:has(th))').get();
+  console.log(rows)
+
+$("#myTable tr").show()
+
+
+$('#myTable').find('tr:not(:has(th))').not('thead tr').not("[class*=" + thing + "]").fadeOut(300)
+
+var tabhead = "header"
+//$("#myTable tbody tr:not(."+thing + ')').hide();
+
+//$("#myTable tr.header").fadeIn(1)
+
+}
+
 //display all
 function displayAll() {
 

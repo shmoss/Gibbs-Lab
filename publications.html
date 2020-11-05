@@ -85,6 +85,19 @@
   <button class="btn" onclick="filterSelection('emissions')"> Emissions</button>
 </div>
 </div>
+
+<div id='filterButtons' class='row'>
+
+    <div class='col-md-12 pl-md-5 pr-md-5'>
+     
+  <button class="btn active" id ="showAllYears" onclick="displayAll()"> All Years</button>
+  <button class="btn" onclick="displayAll()"> 2017</button>
+  <button class="btn" onclick="filterYear('2018')"> 2018</button>
+  <button class="btn" onclick="filterYear('2019')"> 2019</button>
+  <button class="btn" onclick="filterYear('2020')"> 2020</button>
+</div>
+</div>
+
 <div class='row'>
    <div class="col-md-12 pl-md-5 pr-md-5">
     <div id ='searchBars' class="row">
@@ -93,9 +106,6 @@
         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by keyword..">
       </div>
 
-      <div class="col-md-4">
-        <input type="number" id="myInput_year" onkeyup="myFunction()" placeholder="Search by year..">
-      </div>
 </div>
 </div>
 
@@ -119,11 +129,11 @@
     <th style="width:60%;">2020</th>
 
   </tr>
-  <tr name="brazil" class="brazil">
+  <tr name="brazil" class="brazil_2020">
     <td name="brazil"><b>Lark, T.</b> 2020.”Protecting our prairies: Research and policy actions for conserving America’s grasslands.” Land Use Policy, Vol 93. [Link]
   </td>
   </tr>
-  <tr name="brazil" class="brazil">
+  <tr name="brazil" class="brazil_2020">
     <td name="brazil"><b>Ritaumaria, P., L.L. Rausch, A. Carrara, and H.K. Gibbs.</b> 2020. “Extensive Production Practices and Incomplete Implementation Hinder Brazil’s Zero-Deforestation Cattle Agreements in Pará.” Tropical Conservation Science, Vol 13, 1-13. [Link]</td>
   </tr>
   <tr name="brazil" class="brazil">
@@ -174,7 +184,7 @@
   <tr class="header">
     <th style="width:60%;">2019</th>
   </tr>
-  <tr name="cattle_emissions">
+  <tr name="cattle_emissions" class="2019">
     <td name="cattle_emissions"><b>Xie, Y.,T.J. Lark., J.F. Brown, and H. K. Gibbs.</b> 2019. “Mapping irrigated cropland extent across the conterminous United States at 30 m resolution using a semi-automatic training approach on Google Earth Engine.” ISPRS Journal of Photogrammetry and Remote Sensing. [Link]</td>
   </tr>
   <tr name="cattle">
