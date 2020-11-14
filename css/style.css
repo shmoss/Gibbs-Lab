@@ -109,8 +109,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 #lark-headshot{
-  width:70% !important;
+  width:100% !important;
+
   pointer-events:none !important;
+}
+
+.bio-title{
+  margin-bottom:0px;
+  font-weight:700;
+  font-size:18px;
+}
+
+.bio-contact-info{
+
 }
  
 
@@ -525,6 +536,9 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+@media (max-width: 575px) {
+ 
+}
 
 @media (max-width: 992px) {
 
@@ -537,7 +551,7 @@ input[type=number] {
   color:black !important
  }
 
- .mb-0{
+ .mb-0, {
    font-size:14px !important;
  }
 
