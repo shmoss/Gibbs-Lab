@@ -37,8 +37,9 @@ body::-webkit-scrollbar-thumb {
   border-radius: 8px;
 }
 
-
-
+a {
+  color:#004869;
+}
 
 #newsContainer::-webkit-scrollbar {
     width: .75em;
@@ -119,13 +120,14 @@ body::-webkit-scrollbar-thumb {
 
 .bio-title{
   margin-bottom:0px;
-  font-weight:700;
+  font-weight:500;
   font-size:18px;
   color:#004869;
 }
 
 .bio-contact-info{
-
+color:red;
+font-size:18px !important;
 }
 
 .mb-0 {
