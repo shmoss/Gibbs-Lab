@@ -127,7 +127,6 @@ a {
 
 .bio-contact-info{
 color:red;
-font-size:18px !important;
 }
 
 .mb-0 {
@@ -413,13 +412,14 @@ b {
   color:#004869
 }
 
-.bioName,  {
+.bioName  {
    color: #030b07;
+   font-size: 48px !important
 
 }
 
 .bioName {
-   font-size: 35px;
+   
 }
 
 .email{
@@ -591,8 +591,8 @@ input[type=number] {
 
 @media (max-width: 992px) {
 
-.bio-contact-info{
-font-size:14px !important;
+.bio-contact-info {
+  font-size:18px !important
 }
 
 
