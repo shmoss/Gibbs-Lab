@@ -93,7 +93,20 @@ a {
   
 }
 
+#navPills li{
+  padding:6px 6px 6px 6px !important;
+  font-size: 14px !important;
+}
 
+#aboutPill {
+  font-size: 14px !important;
+}
+
+
+#nav-pills ul{
+
+  padding:16px 16px 16px 6px !important
+}
 
 
 .col-lg-4.col-md-6.p-4{
@@ -635,6 +648,8 @@ input[type=number] {
     padding:6px 6px 6px 6px;
 }
 
+
+
 #people span{ 
     color:#f7f7f7 !important;
     background-color:#0c2d1c;
@@ -697,6 +712,9 @@ input[type=number] {
 
 
 
+
+
+
 .nav-link:hover { 
     color:#f7f7f7 !important;
     background-color:#0c2d1c;
@@ -706,6 +724,15 @@ input[type=number] {
 }
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
 }
+
+
+@media (max-width:767px) {
+ .nav-pills {
+   float: left !important;
+ }
+} 
+
+
 
 @media only screen and (max-width: 768px) {
     #second {
@@ -717,5 +744,6 @@ input[type=number] {
     }
    
 }
+
 
 

@@ -151,3 +151,9 @@ var $btns = $('.btn').click(function() {
   $btns.removeClass('active');
   $(this).addClass('active');
 })
+
+
+// $('.nav .nav-link').click(function(){
+//     $('.nav .nav-link').removeClass('active');
+//     $(this).addClass('active');
+// })
