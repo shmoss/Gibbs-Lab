@@ -470,7 +470,7 @@ p {
 }
 
 a {
-	
+	color:#0c2d1c
 }
 
 b {
@@ -581,7 +581,8 @@ h5{
     border-top:none;
     border-bottom:none;
     background-color:#f7f7f7;
-    padding: 10px 30px 10px 0px !important
+    padding: 10px 30px 18px 0px !important;
+    color:#403F3F !important;
    
 
 
