@@ -567,6 +567,15 @@ h5{
   
 }
 
+.who-we-are p{
+  font-size:16px !important;
+  font-weight:500;
+}
+
+.featured-media-coverage p{
+  font-size:16px !important;
+  font-weight:500;
+}
 
 .list-group{
     float:center;
