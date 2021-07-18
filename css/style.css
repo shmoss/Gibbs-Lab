@@ -163,13 +163,13 @@ a {
 
 .bio-title{
   margin-bottom:0px;
-  font-weight:500;
+  font-weight:600;
   font-size:18px;
   color:#004869;
 }
 
 .bio-contact-info{
-color:red;
+color:#004869 !important
 }
 
 .mb-0 {
@@ -347,6 +347,26 @@ color:red !important
 
 }
 
+.container.publications{
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:0px;
+    padding-bottom:20px;
+    margin-right:auto;
+    margin-left:auto;
+
+}
+
+.container.publicationsFilters{
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:40px;
+    padding-bottom:0px;
+    margin-right:auto;
+    margin-left:auto;
+
+}
+
 #carouselContainer{
   
 
@@ -488,7 +508,7 @@ b {
 
 .bioName  {
    color: #030b07;
-   font-size: 48px !important
+   font-size: 44px !important
 
 }
 
@@ -517,6 +537,13 @@ b {
 
 .col-md-4 {
   padding-top:40px;
+padding-right: 15px;
+padding-left: 15px;
+
+}
+
+.col-md-4.publication-search-bar {
+  padding-top:0px;
 padding-right: 15px;
 padding-left: 15px;
 
@@ -624,7 +651,7 @@ h5{
   border-collapse: separate; /* Collapse borders */
   width: 100%; /* Full-width */
   border: 0px solid #ddd; /* Add a grey border */
-  font-size: 16px; /* Increase font-size */
+  font-size: 14px; /* Increase font-size */
   border-spacing:0 .7em 
 }
 
