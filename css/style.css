@@ -299,6 +299,10 @@ img.rounded-circle.z-depth-1 {
  
 }
 
+.publink:hover{
+  color:#FF9900;
+}
+
 .navbar {
     background-color:#f7f7f7 !important;
     
