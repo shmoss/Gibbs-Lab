@@ -88,13 +88,17 @@
 
     <div class='col-md-12 pl-md-5 pr-md-5'>
      
-  <button class="btn active" id ="showAllYears" onclick="displayAll()"> All Years</button>
-  <button class="btn" onclick="displayAll()"> 2017</button>
-  <button class="btn" onclick="filterYear('2018')"> 2018</button>
-  <button class="btn" onclick="filterYear('2019')"> 2019</button>
-  <button class="btn" onclick="filterYear('2020')"> 2020</button>
+  <button class="btn active" id ="showAll" onclick="displayAll()"> Show All</button>
+  <button class="btn" onclick="filterSelection('zero-deforestation')">Zero-Deforestation</button>
+  <button class="btn" onclick="filterSelection('policy-outcomes')">Policy Outcomes</button>
+  <button class="btn" onclick="filterSelection('supply-chain')">Supply Chain Traceability</button>
+  <button class="btn" onclick="filterSelection('cropland-expansion')">US Cropland Expansion</button>
+  <button class="btn" onclick="filterSelection('carbon-and-emissions')">Global Carbon and Emmisions</button>
+  <button class="btn" onclick="filterSelection('irrigation')">Irrigation</button>
+  <button class="btn" onclick="filterSelection('biofuels')">Biofuels</button>
 </div>
 </div>
+
 
 <div class='row'>
    <div class="col-md-12 pl-md-5 pr-md-5">
@@ -127,253 +131,306 @@
     <th style="width:60%;">2020</th>
 
   </tr>
-  <tr name="latin_america" class="brazil_2020">
-    <td name="brazil"><b>Skidmore, M., F. Moffette, L.L. Rausch, M. Christie, J. Munger, and H.K. Gibbs.</b> 2021. “Cattle Ranchers and Deforestation in the Brazilian Amazon: Production, Location, and Policies.” Global Environmental Change. <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0959378021000595">[Link] </a>
+  <tr name="latin_america_zero-deforestation_policy-outcomes" class="brazil_2020">
+    <td name="Zero-Deforestation Commitments for soy and beef, Evaluating policy outcomes"><b>Skidmore, M., F. Moffette, L.L. Rausch, M. Christie, J. Munger</b>, and <b>H.K. Gibbs</b>. 2021. “Cattle Ranchers and Deforestation in the Brazilian Amazon: Production, Location, and Policies.” <i>Global Environmental Change</i>. <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0959378021000595">[Link] </a>
   </tr>
-  <tr name="latin_america" class="brazil_2020">
-    <td name="brazil"><b>Jung, S., C. Dyngeland, L.L. Rausch, and L.V. Rasmussen.</b> 2021. “Brazilian Land Registry Impacts on Land Use Conversion.” American Journal of Agricultural Economics. <a class="publink" href="https://onlinelibrary.wiley.com/doi/10.1111/ajae.12217?af=R">[Link] </a>
+  <tr name="latin_america_policy-outcomes" class="brazil_2020">
+    <td name="brazil">Jung, S., C. Dyngeland, <b>L.L. Rausch</b>, and L.V. Rasmussen. 2021. “Brazilian Land Registry Impacts on Land Use Conversion.” <i>American Journal of Agricultural Economics</i>. <a class="publink" href="https://onlinelibrary.wiley.com/doi/10.1111/ajae.12217?af=R">[Link] </a>
     </td>
   </tr>
-  <tr name="latin_america" class="brazil">
-    <td name="brazil"><b>Rausch, L.L., and H.K. Gibbs.</b> 2021. “The Low Opportunity Costs of the Amazon Soy Moratorium.” Frontiers in Forests and Global Change.<a class="publink" href="https://www.frontiersin.org/articles/10.3389/ffgc.2021.621685/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Forests_and_Global_Change&id=621685">[Link] </a>
+  <tr name="latin_america_zero-deforestation_supply-chain_policy-outcomes" class="brazil">
+    <td name="brazil"><b>Rausch, L.L.</b>, and <b>H.K. Gibbs</b>. 2021. “The Low Opportunity Costs of the Amazon Soy Moratorium.” <i>Frontiers in Forests and Global Change</i>.<a class="publink" href="https://www.frontiersin.org/articles/10.3389/ffgc.2021.621685/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Forests_and_Global_Change&id=621685">[Link] </a>
     </td>
   </tr>
-  <tr name="north_america" class="brazil_cattle">
-    <td name="usa"><b>Lark, T.J., I.H. Schelly, and  H.K. Gibbs.</b> 2021. “Accuracy, Bias, and Improvements in Mapping Crops and Cropland across the United States Using the USDA Cropland Data Layer.” Remote Sensing. <a class="publink" href="https://www.mdpi.com/2072-4292/13/5/968">[Abstract]</a> <a class="publink" href="https://www.mdpi.com/2072-4292/13/5/968/pdf">[Link]</a>
+  <tr name="north_america_cropland-expansion" class="brazil_cattle">
+    <td name="usa"><b>Lark, T.J., I.H. Schelly</b>, and <b>H.K. Gibbs.</b> 2021. “Accuracy, Bias, and Improvements in Mapping Crops and Cropland across the United States Using the USDA Cropland Data Layer.” <i>Remote Sensing</i>. <a class="publink" href="https://www.mdpi.com/2072-4292/13/5/968">[Abstract]</a> <a class="publink" href="https://www.mdpi.com/2072-4292/13/5/968/pdf">[Link]</a>
     </td> 
   </tr>
-  <tr name="north_america" class="brazil">
-    <td name="usa"><b>Lark, T.J., S.A. Sparwn, M. Bougie, and  H.K. Gibbs. 2020.</b> “Cropland expansion in the United Stated produces marginal yields at high costs to wildlife.” Nature Communications.<a class="publink" href="https://www.nature.com/articles/s41467-020-18045-z">[Link]</a> <a class="publink" href="https://news.wisc.edu/research-highlights-need-for-grassland-conservation-agriculture-support/">[UW Press Release]</a>
+  <tr name="north_america_cropland-expansion" class="brazil">
+    <td name="usa"><b>Lark, T.J., S.A. Spawn, M. Bougie</b>, and  <b>H.K. Gibbs</b>. 2020.</b> “Cropland expansion in the United Stated produces marginal yields at high costs to wildlife.” <i>Nature Communications</i>.<a class="publink" href="https://www.nature.com/articles/s41467-020-18045-z">[Link]</a> <a class="publink" href="https://news.wisc.edu/research-highlights-need-for-grassland-conservation-agriculture-support/">[UW Press Release]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td name="brazil_amazon"><b>Heilmayr, R., L.L Rausch, J. Munger, and H.K. Gibbs.</b> 2020. “Brazil’s Amazon Soy Moratorium reduced deforestation.” Nature Food vol. 1, 801-810. <a class="publink" href="https://www.nature.com/articles/s43016-020-00194-5.epdf?sharing_token=yIRXzDKnY1SWzEhf-zHJtdRgN0jAjWel9jnR3ZoTv0Oa2FMWeiwlE6MY1GTMdP9tUmoB5H_awbqYsY73mNGZY2JG4QaWssutUUbeteHhv7c9oySnqitYhzN3WH-g1G0nECPuHQWHQZioYhoZFUuG0TpPBQuuSlT3SB2zeamhga8=">[Link]</a>
+  <tr name="latin_america_zero-deforestation_supply-chain_policy-outcomes">
+    <td name="brazil_amazon">Heilmayr, R., <b>L.L Rausch, J. Munger</b>, and <b>H.K. Gibbs</b>. 2020. “Brazil’s Amazon Soy Moratorium reduced deforestation.” <i>Nature Food vol. 1, 801-810</i>. <a class="publink" href="https://www.nature.com/articles/s43016-020-00194-5.epdf?sharing_token=yIRXzDKnY1SWzEhf-zHJtdRgN0jAjWel9jnR3ZoTv0Oa2FMWeiwlE6MY1GTMdP9tUmoB5H_awbqYsY73mNGZY2JG4QaWssutUUbeteHhv7c9oySnqitYhzN3WH-g1G0nECPuHQWHQZioYhoZFUuG0TpPBQuuSlT3SB2zeamhga8=">[Link]</a>
+    </td>
+  </tr>
+  <tr name="latin_america_zero-deforestation_supply-chain_policy-outcomes">  <!-- diff link needed-->
+    <td name="brazil_amazon"><b>Moffette, F., M. Skidmore</b>, and <b>H. K. Gibbs</b>. 2020. “Environmental Policies That Shape Productivity: Evidence from Cattle Ranching in the Amazon.” Revise and resubmit at <i>Journal of Environmental Economics and Management</i>. <a class="publink" href="assets/Environmental_policies_shaping_productivity.pdf">[Link]</a>
+    </td>
+  </tr>
+  <tr name="north_america_cropland-expansion">
+    <td name="usa"><b>Lark, T.J.</b> 2020.”Protecting our prairies: Research and policy actions for conserving America’s grasslands.” <i>Land Use Policy, Vol 93</i>. <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0264837717310372?via%3Dihub">[Link]</a>
+    </td>
+  </tr>
+  <tr name="latin_america_zero-deforestation_supply-chain_policy-outcomes">
+    <td name="brazil"><b>Pereira, R., L.L. Rausch, A. Carrara</b>, and <b>H.K. Gibbs</b>. 2020. “Extensive Production Practices and Incomplete Implementation Hinder Brazil’s Zero-Deforestation Cattle Agreements in Pará.” <i>Tropical Conservation Science, Vol 13, 1-13</i>. <a class="publink" href="https://journals.sagepub.com/doi/full/10.1177/1940082920942014">[Link]</a>
+    </td>
+  </tr>
+  <tr name="latin_america_policy-outcomes">
+    <td name="brazil">Rajão, R., B. Soares-Filho, F. Nunes, J. Börner., L. Machado, D. Assis, A. Oliveira, L. Pinto, V. Ribeiro, <b>L. Rausch, H.K. Gibbs</b>, and D.Figueira. 2020. “The rotten apples of Brazil’s agribusiness.” <i>Science vol. 369, Issue 6501, pp. 246-248</i>. <a class="publink" href="http://www.lagesa.org/wp-content/uploads/documents/Rajao_20_Rotten%20apples_w_SM.pdf">[Link]</a>
+    </td>
+  </tr>
+  <tr name="latin_america_zero-deforestation_supply-chain_policy-outcomes">
+    <td name="brazil"><b>Skidmore, M., F. Moffette, L. Rausch</b>, and <b>H.K. Gibbs</b>. 2020. “Characterizing compliance in cattle supply chains: What factors encourage deforestation-free production in the Brazilian Amazon?” Report for the Meridian Institute, Supply Chain Sustainability Research Fund. <a class="publink" href="https://743a3c3a-9890-45b8-a645-7c0b50c92edb.filesusr.com/ugd/5e1a0d_d0736c11c9c949c39c802c6f9da0d1a5.pdf">[Link]</a>
+    </td>
+  </tr>
+  <tr name="latin_america_zero-deforestation_policy-outcomes">
+    <td name="brazil"><b>Moffette, F.</b> and <b>H. K. Gibbs</b>. 2020. “Agricultural Displacement and Deforestation Leakage in the Brazilian Legal Amazon.” <i>Land Economics vol. 97, no. 1, 2021</i>. <a class="publink" href="https://fannymoffette.files.wordpress.com/2019/10/leakage_in_legal_amazon_manuscript_reviewed_for_glue.pdf">[Link]</a>
+    </td>
+  </tr>
+  <tr name="global_carbon-and-emissions">
+    <td name="brazil"><b>Spawn, S.A.</b> and <b>H.K. Gibbs</b>. 2020. Global maps of above and belowground biomass carbon density in the year 2010. ORNL DAAC. <a class="publink" href="https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1763">[Link]</a>
+    </td>
+  </tr>
+  <tr name="global_cropland-expansion">
+    <td name="brazil"><b>Yin, H., A. Brandão Jr.</b>, J. Butcher, D. Helmers, B.G. Iuliano, N.E. Kimambo, K.E. Lewińska, E. Razenkova, N. Rogova and <b>S.A. Spawn</b>. 2020. “Monitoring cropland abandonment with Landsat time series.” <i>Remote Sensing of Environment, 246, p.111873.</i> <a class="publink" href="https://www.researchgate.net/publication/341598433_Monitoring_cropland_abandonment_with_Landsat_time_series">[Link]</a>
+    </td>
+  </tr>
+  <tr name="latin_america_supply-chain">  <!-- diff link needed-->
+    <td name="brazil"><b>Rausch, L.</b>, B. Aoife, <b>C. Sullivan</b>, and <b>H. K. Gibbs</b>. 2020. “Pathways to zero deforestation oil palm in Peru.” <i>Gibbs Land Use and Environment Report Series</i>. <a class="publink" href="assets/Peru_Report_2020-4-19.pdf">[Link]</a>
+    </td>
+  </tr>
+  <tr name="latin_america_carbon-and-emissions">
+    <td name="brazil"><b>Spawn, S.A., C. Sullivan, T. J. Lark</b>, and <b>H. K. Gibbs</b>. 2020. “Harmonized global maps of above and below ground biomass carbon density in the year 2010.” <i>Nature Scientific Data</i>. <a class="publink" href="https://www.nature.com/articles/s41597-020-0444-4.epdf?author_access_token=WB6W2bOET4Ui_wk_YYV5PdRgN0jAjWel9jnR3ZoTv0NpIlCbruT4iUcRjRqgBXBqLvmki9eKoNyVOYNgcRrCE02ELQMlrXMvt_FdaXHexK-J0oCmlPmd1i39DOBLRFFfBQJvVSpKx4PBpXWo_u4GLA%3D%3D">[Link]</a>
+    </td>
+  </tr>
+  <tr name="global_carbon-and-emissions">
+    <td name="emissions">Soto-Navarro C., C. Ravilious, X. de Lamo, A. Arnell, M. Harfoot, S. Hill, O.R. Wearn, M. Santoro, A. Bouvet, S. Mermox, T. Le Toan, J. Xia, W. Yuan, <b>S.A Spawn, H. K. Gibbs</b>, Ferrier, T. Harwood, R. Alkemade, A. Schipper, L. Miles, N.D. Burgess, and V. Kapos. 2020. “Mapping co-benefits for carbon storage and biodiversity to inform conservation policy and action.” <i>Transactions of the Royal Society of London B: Biological Sciences</i>.<a class="publink" href="https://royalsocietypublishing.org/doi/full/10.1098/rstb.2019.0128">[Link]</a>
+    </td>
+  </tr>
+  <tr name="global_carbon-and-emissions">
+    <td name="emissions">Goldstein, A., W. R. Turner, <b>S. A. Spawn</b>, K. J. Anderson-Teixeira, S. Cook-Patton, J. Fargione, <b>H. K. Gibbs</b>, B. Griscom, J. H. Hewson, J. F. Howard, J. C. Ledezma, S. Page, L. P. Koh, J. Rockström, J. Sanderman, and D. Hole. 2020. “Protecting irrecoverable carbon in Earth’s ecosystems.” <i>Nature Climate Change</i>. <a class="publink" href="https://www.nature.com/articles/s41558-020-0738-8">[Link]</a>
     </td>
   </tr>
   <tr name="latin_america">  <!-- diff link needed-->
-    <td name="brazil_amazon"><b>Moffette, F., M. Skidmore, and H. K. Gibbs.</b> 2020. “Environmental Policies That Shape Productivity: Evidence from Cattle Ranching in the Amazon.” Revise and resubmit at Journal of Environmental Economics and Management. <a class="publink" href="assets/Environmental_policies_shaping_productivity.pdf">[Link]</a>
+    <td name="emissions"><b>Carvalho, R.</b>, A.P.  Dutra de Aguiar, and S. Amaral. 2020. “Diversity of cattle raising systems and its effects over forest regrowth in a core region of cattle production in the Brazilian Amazon.” <i>Regional Environmental Change</i>. <a class="publink" href="assets/Carvalho2020_Article_DiversityOfCattleRaisingSystem.pdf">[Link]</a>
     </td>
   </tr>
-  <tr name="north_america">
-    <td name="usa"><b>Lark, T.J.</b> 2020.”Protecting our prairies: Research and policy actions for conserving America’s grasslands.” Land Use Policy, Vol 93. <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0264837717310372?via%3Dihub">[Link]</a>
+  <tr name="latin_america_supply-chain">   <!-- diff link needed-->
+    <td name="emissions"><b>Rausch, L., J. Munger</b>, and <b>H. K. Gibbs</b>. 2020. “Amazon deforestation linked to European imports via specially licensed ranches and their suppliers.” <i>Gibbs Land Use and Environment Report Series</i>. <a class="publink" href="assets/SISBOV_report_March_2020.pdf">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td name="brazil"><b>Pereira, R., L.L. Rausch, A. Carrara, and H.K. Gibbs.</b> 2020. “Extensive Production Practices and Incomplete Implementation Hinder Brazil’s Zero-Deforestation Cattle Agreements in Pará.” Tropical Conservation Science, Vol 13, 1-13. <a class="publink" href="https://journals.sagepub.com/doi/full/10.1177/1940082920942014">[Link]</a>
+  <tr name="latin_america_supply-chain">
+    <td name="emissions"><b>Rausch, L., J. Munger, I. Schelly</b>, and <b>H. K. Gibbs</b>. 2020. “The role of Brazil’s cattle sector in the 2019 fire season.” <i>Gibbs Land Use and Environment Report Series</i>. <a class="publink" href="assets/Cattle_sector_fire_report_2020.pdf">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td name="brazil"><b>Rajão, R., B. Soares-Filho, F. Nunes, J. Börner., L. Machado, D. Assis, A. Oliveira, L. Pinto, V. Ribeiro, L. Rausch, H.K. Gibbs, and D.Figueira.</b> 2020. “The rotten apples of Brazil’s agribusiness.” Science vol. 369, Issue 6501, pp. 246-248. <a class="publink" href="http://www.lagesa.org/wp-content/uploads/documents/Rajao_20_Rotten%20apples_w_SM.pdf">[Link]</a>
+  <tr name="latin_america_zero-deforestation">
+    <td name="emissions"><b>Brandão Jr. A., L. Rausch</b>, A.P. Durán, C. Costa Jr., C. Costa, <b>S.A. Spawn, and H. K. Gibbs</b>. 2020. “Estimating the Potential for Conservation and Farming in the Amazon and Cerrado under Four Policy Scenarios.” <i>Sustanability</i>. <a class="publink" href="https://www.mdpi.com/2071-1050/12/3/1277">[Abstract]</a> <a class="publink" href="assets/sustainability-12-01277-v2.pdf">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td name="brazil"><b>Skidmore, M., F. Moffette, L. Rausch, and H.K. Gibbs.</b> 2020. “Characterizing compliance in cattle supply chains: What factors encourage deforestation-free production in the Brazilian Amazon?” Report for the Meridian Institute, Supply Chain Sustainability Research Fund. <a class="publink" href="https://743a3c3a-9890-45b8-a645-7c0b50c92edb.filesusr.com/ugd/5e1a0d_d0736c11c9c949c39c802c6f9da0d1a5.pdf">[Link]</a>
+  <tr name="global_carbon-and-emissions">
+    <td name="emissions">Soto-Navarro, C., C. Ravilious, A. Arnell, X. de Lamo, M. Harfoot, S.L.L. Hill, O.R. Wearn, M. Santoro, A. Bouvet, S. Mermoz, T. Le Toan, J. Xia, S. Liu, W. Yuan, <b>S.A. Spawn, H. K. Gibbs</b>, S. Ferrier, T. Harwood, R. Alkemade, A.M. Schipper, G. Schmidt-Traub, B. Strassburg, L. Miles, N..D Burgess, and V. Kapos. 2020. “Mapping co-benefits for carbon storage and biodiversity to inform conservation policy and action.” <i>Philosophical Transactions of the Royal Society B</i>. <a class="publink" href="https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2019.0128">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td name="brazil"><b>Moffette, F. and H. K. Gibbs.</b> 2020. “Agricultural Displacement and Deforestation Leakage in the Brazilian Legal Amazon.” Land Economics vol. 97, no. 1, 2021. <a class="publink" href="https://fannymoffette.files.wordpress.com/2019/10/leakage_in_legal_amazon_manuscript_reviewed_for_glue.pdf">[Link]</a>
-    </td>
-  </tr>
-  <tr name="global">
-    <td name="brazil"><b>Spawn, S.A. and H.K. Gibbs.</b> 2020. Global maps of above and belowground biomass carbon density in the year 2010. ORNL DAAC. <a class="publink" href="https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1763">[Link]</a>
-    </td>
-  </tr>
-  <tr name="global">
-    <td name="brazil"><b>Yin, H., A. Brandão Jr., J. Butcher, D. Helmers, B.G. Iuliano, N.E. Kimambo, K.E. Lewińska, E. Razenkova, N. Rogova and S.A. Spawn.</b> 2020. “Monitoring cropland abandonment with Landsat time series.” Remote Sensing of Environment, 246, p.111873. <a class="publink" href="https://www.researchgate.net/publication/341598433_Monitoring_cropland_abandonment_with_Landsat_time_series">[Link]</a>
-    </td>
-  </tr>
-  <tr name="latin_america">  <!-- diff link needed-->
-    <td name="brazil"><b>Rausch, L., B. Aoife, C. Sullivan, and H. K. Gibbs.</b> 2020. “Pathways to zero deforestation oil palm in Peru.” Gibbs Land Use and Environment Report Series. <a class="publink" href="assets/Peru_Report_2020-4-19.pdf">[Link]</a>
-    </td>
-  </tr>
-  <tr name="latin_america">
-    <td name="brazil"><b>Spawn, S.A., C. Sullivan, T. J. Lark, and H. K. Gibbs.</b> 2020. “Harmonized global maps of above and below ground biomass carbon density in the year 2010.” Nature Scientific Data. <a class="publink" href="https://www.nature.com/articles/s41597-020-0444-4.epdf?author_access_token=WB6W2bOET4Ui_wk_YYV5PdRgN0jAjWel9jnR3ZoTv0NpIlCbruT4iUcRjRqgBXBqLvmki9eKoNyVOYNgcRrCE02ELQMlrXMvt_FdaXHexK-J0oCmlPmd1i39DOBLRFFfBQJvVSpKx4PBpXWo_u4GLA%3D%3D">[Link]</a>
-    </td>
-  </tr>
-  <tr name="global">
-    <td name="emissions"><b>Soto-Navarro C., C. Ravilious, X. de Lamo, A. Arnell, M. Harfoot, S. Hill, O.R. Wearn, M. Santoro, A. Bouvet, S. Mermox, T. Le Toan, J. Xia, W. Yuan, S.A Spawn, H. K. Gibbs, Ferrier, T. Harwood, R. Alkemade, A. Schipper, L. Miles, N.D. Burgess, and V. Kapos.</b> 2020. “Mapping co-benefits for carbon storage and biodiversity to inform conservation policy and action.” Transactions of the Royal Society of London B: Biological Sciences.<a class="publink" href="https://royalsocietypublishing.org/doi/full/10.1098/rstb.2019.0128">[Link]</a>
-    </td>
-  </tr>
-  <tr name="global">
-    <td name="emissions"><b>Goldstein, A., W. R. Turner, S. A. Spawn, K. J. Anderson-Teixeira, S. Cook-Patton, J. Fargione, H. K. Gibbs, B. Griscom, J. H. Hewson, J. F. Howard, J. C. Ledezma, S. Page, L. P. Koh, J. Rockström, J. Sanderman, and D. Hole.</b>  2020. “Protecting irrecoverable carbon in Earth’s ecosystems.” Nature Climate Change. <a class="publink" href="https://www.nature.com/articles/s41558-020-0738-8">[Link]</a>
-    </td>
-  </tr>
-  <tr name="latin_america">  <!-- diff link needed-->
-    <td name="emissions"><b>Carvalho, R., A.P.  Dutra de Aguiar, and S. Amaral.</b> 2020. “Diversity of cattle raising systems and its effects over forest regrowth in a core region of cattle production in the Brazilian Amazon.” Regional Environmental Change. <a class="publink" href="assets/Carvalho2020_Article_DiversityOfCattleRaisingSystem.pdf">[Link]</a>
-    </td>
-  </tr>
-  <tr name="latin_america">   <!-- diff link needed-->
-    <td name="emissions"><b>Rausch, L., J. Munger, and H. K. Gibbs.</b> 2020. “Amazon deforestation linked to European imports via specially licensed ranches and their suppliers.” Gibbs Land Use and Environment Report Series. <a class="publink" href="assets/SISBOV_report_March_2020.pdf">[Link]</a>
-    </td>
-  </tr>
-  <tr name="latin_america">
-    <td name="emissions"><b>Rausch, L., J. Munger, I. Schelly, and H. K. Gibbs.</b> 2020. “The role of Brazil’s cattle sector in the 2019 fire season.” Gibbs Land Use and Environment Report Series. <a class="publink" href="assets/Cattle_sector_fire_report_2020.pdf">[Link]</a>
-    </td>
-  </tr>
-  <tr name="latin_america">
-    <td name="emissions"><b>Brandão Jr. A., L. Rausch, A.P. Durán, C. Costa Jr., C. Costa, S.A. Spawn, and H. K. Gibbs.</b> 2020. “Estimating the Potential for Conservation and Farming in the Amazon and Cerrado under Four Policy Scenarios.” Sustanability. <a class="publink" href="https://www.mdpi.com/2071-1050/12/3/1277">[Abstract]</a> <a class="publink" href="assets/sustainability-12-01277-v2.pdf">[Link]</a>
-    </td>
-  </tr>
-  <tr name="global">
-    <td name="emissions"><b>Soto-Navarro, C., C. Ravilious, A. Arnell, X. de Lamo, M. Harfoot, S.L.L. Hill, O.R. Wearn, M. Santoro, A. Bouvet, S. Mermoz, T. Le Toan, J. Xia, S. Liu, W. Yuan, S.A. Spawn, H. K. Gibbs, S. Ferrier, T. Harwood, R. Alkemade, A.M. Schipper, G. Schmidt-Traub, B. Strassburg, L. Miles, N..D Burgess, and V. Kapos.</b> 2020. “Mapping co-benefits for carbon storage and biodiversity to inform conservation policy and action.” Philosophical Transactions of the Royal Society B. <a class="publink" href="https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2019.0128">[Link]</a>
-    </td>
-  </tr>
-  <tr name="southeast_asia">
-    <td name="emissions"><b>Santika, T, E. Law, K. A. Wilson, F.A.V. St John, K. Carlson, H. K. Gibbs C. L. Morgans, M. Ancrenaz, and E. Meijaard.</b> 2020. “Impact of palm oil sustainability certification on village well-being and poverty in Indonesia” In Review. <a class="publink" href="https://www.researchgate.net/profile/Erik-Meijaard/publication/338703778_Impact_of_palm_oil_sustainability_certification_on_village_well-being_and_poverty_in_Indonesia/links/5e26963192851c89c9b5b006/Impact-of-palm-oil-sustainability-certification-on-village-well-being-and-poverty-in-Indonesia.pdf">[Link]</a>
+  <tr name="southeast_asia_policy-outcomes">
+    <td name="emissions">Santika, T, E. Law, K. A. Wilson, F.A.V. St John, K. Carlson, <b>H. K. Gibbs</b>, C. L. Morgans, M. Ancrenaz, and E. Meijaard. 2020. “Impact of palm oil sustainability certification on village well-being and poverty in Indonesia” <i>In Review</i>. <a class="publink" href="https://www.researchgate.net/profile/Erik-Meijaard/publication/338703778_Impact_of_palm_oil_sustainability_certification_on_village_well-being_and_poverty_in_Indonesia/links/5e26963192851c89c9b5b006/Impact-of-palm-oil-sustainability-certification-on-village-well-being-and-poverty-in-Indonesia.pdf">[Link]</a>
     </td>
   </tr>
   <tr class="header">
     <th style="width:60%;">2019</th>
   </tr>
-  <tr name="north_america" class="2019">
-    <td name="cattle_emissions"><b>Xie, Y.,T.J. Lark., J.F. Brown, and H. K. Gibbs.</b> 2019. “Mapping irrigated cropland extent across the conterminous United States at 30 m resolution using a semi-automatic training approach on Google Earth Engine.” ISPRS Journal of Photogrammetry and Remote Sensing. <a class="publink" href="https://www.sciencedirect.com/science/article/abs/pii/S0924271619301728">[Link]</a>
+  <tr name="north_america_irrigation" class="2019">
+    <td name="cattle_emissions"><b>Xie, Y.,T.J. Lark.</b>, J.F. Brown, and <b>H. K. Gibbs</b>. 2019. “Mapping irrigated cropland extent across the conterminous United States at 30 m resolution using a semi-automatic training approach on Google Earth Engine.” <i>ISPRS Journal of Photogrammetry and Remote Sensing</i>. <a class="publink" href="https://www.sciencedirect.com/science/article/abs/pii/S0924271619301728">[Link]</a>
     </td>
   </tr>
-  <tr name="global">
-    <td name="global"><b>Buckley, K.J., P. Newton, H. K. Gibbs, I. McConnel, and J. Ehrmann.</b> 2019. “Pursuing sustainability through multi-stakeholder collaboration: A description of the governance, actions, and perceived impacts of the roundtables for sustainable beef.” World Development. <a class="publink" href="https://www.sciencedirect.com/science/article/abs/pii/S0305750X18302481">[Link]</a>
+  <tr name="global_policy-outcomes">
+    <td name="global">Buckley, K.J., P. Newton, <b>H. K. Gibbs</b>, I. McConnel, and J. Ehrmann. 2019. “Pursuing sustainability through multi-stakeholder collaboration: A description of the governance, actions, and perceived impacts of the roundtables for sustainable beef.” <i>World Development</i>. <a class="publink" href="https://www.sciencedirect.com/science/article/abs/pii/S0305750X18302481">[Link]</a>
     </td>
   </tr>
-  <tr name="north_america">
-    <td><b>Lark, T.J., B. Larson, I. Schelly, S. Batish, and H. K. Gibbs.</b> 2019. “Accelerated conversion of native prairie to cropland in Minnesota.” Environmental Conservation. <a class="publink" href="https://www.cambridge.org/core/journals/environmental-conservation/article/accelerated-conversion-of-native-prairie-to-cropland-in-minnesota/1CFE4984A38E544B4102904E5B554980">[Link]</a>
+  <tr name="north_america_cropland-expansion">
+    <td><b>Lark, T.J.</b>, B. Larson, <b>I. Schelly</b>, S. Batish, and <b>H. K. Gibbs</b>. 2019. “Accelerated conversion of native prairie to cropland in Minnesota.” <i>Environmental Conservation</i>. <a class="publink" href="https://www.cambridge.org/core/journals/environmental-conservation/article/accelerated-conversion-of-native-prairie-to-cropland-in-minnesota/1CFE4984A38E544B4102904E5B554980">[Link]</a>
     </td>
   </tr>
-  <tr name="north_america">
-    <td><b>Spawn, S.A., T.J. Lark, and H. K. Gibbs.</b> 2019. “Carbon emissions from cropland expansion in the United States.” Environmental Research Letters. <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/ab0399/meta">[Link]</a>
+  <tr name="north_america_carbon-and-emissions_cropland-expansion">
+    <td><b>Spawn, S.A., T.J. Lark</b>, and <b>H. K. Gibbs</b>. 2019. “Carbon emissions from cropland expansion in the United States.” <i>Environmental Research Letters</i>. <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/ab0399/meta">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td class="cattle"><b>Lima, M., C. Antonio da Silva Junior, L.L. Rausch, H. K. Gibbs, and J.A. Johann.</b> 2019. “Demystifying sustainable soy in Brazil.” Land Use Policy. <a class="publink" href="https://www.sciencedirect.com/science/article/abs/pii/S0264837718317836">[Link]</a>
+  <tr name="latin_america_zero-deforestation">
+    <td class="cattle">Lima, M., C. Antonio da Silva Junior, <b>L.L. Rausch, H. K. Gibbs</b>, and J.A. Johann. 2019. “Demystifying sustainable soy in Brazil.” <i>Land Use Policy</i>. <a class="publink" href="https://www.sciencedirect.com/science/article/abs/pii/S0264837718317836">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td><b>Sullivan, C.C., H. K. Gibbs and L.L. Rausch.</b> 2019. “Towards Zero Deforestation Cattle in Colombia.” Policy brief. <a class="publink" href="assets/Towards_Zero_Deforestation_Cattle_In_Colombia.pdf">[Link]</a>
+  <tr name="latin_america_supply-chain">
+    <td><b>Sullivan, C.C., H. K. Gibbs</b> and <b>L.L. Rausch</b>. 2019. “Towards Zero Deforestation Cattle in Colombia.” <i>Policy brief</i>. <a class="publink" href="assets/Towards_Zero_Deforestation_Cattle_In_Colombia.pdf">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td><b>National Wildlife Federation and Gibbs Land Use and Environment Lab.</b> 2019. “Amazon Soy Moratorium: Delivering Win-Win Outcomes for Forests and Agribusiness.” Policy brief. <a class="publink" href="assets/ASM_Factsheet_December_2019.pdf">[Link]</a>
+  <tr name="latin_america_supply-chain">
+    <td>National Wildlife Federation and <b>Gibbs Land Use and Environment Lab</b>. 2019. “Amazon Soy Moratorium: Delivering Win-Win Outcomes for Forests and Agribusiness.” <i>Policy brief</i>. <a class="publink" href="assets/ASM_Factsheet_December_2019.pdf">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td><b>Rausch, L.L., H. K. Gibbs, I. Schelly, A. Brandão Jr., D.C. Morton, A.C. Filho, B. Strassburg, N. Walker, P. Noojipady, P. Barreto, and D. Meyer.</b> 2019. “Soy expansion in Brazil’s Cerrado.” Conservation Letters. <a class="publink" href="https://conbio.onlinelibrary.wiley.com/doi/10.1111/conl.12671">[Link]</a>
+  <tr name="latin_america_zero-deforestation">
+    <td><b>Rausch, L.L., H. K. Gibbs, I. Schelly, A. Brandão Jr.</b>, D.C. Morton, A.C. Filho, B. Strassburg, N. Walker, P. Noojipady, P. Barreto, and D. Meyer. 2019. “Soy expansion in Brazil’s Cerrado.” <i>Conservation Letters</i>. <a class="publink" href="https://conbio.onlinelibrary.wiley.com/doi/10.1111/conl.12671">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td><b>Brito, B., P. Barreto, A. Brandão Jr., S Baima, and P. H. Gomes.</b> 2019. “Stimulus for land grabbing and deforestation in the Brazilian Amazon.” Environmental Research Letters. <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/ab1e24">[Abstract]</a> <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/ab1e24/pdf">[Link]</a>
+  <tr name="latin_america_policy-outcomes">
+    <td>Brito, B., P. Barreto, <b>A. Brandão Jr.</b>, S Baima, and P. H. Gomes. 2019. “Stimulus for land grabbing and deforestation in the Brazilian Amazon.” <i>Environmental Research Letters</i>. <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/ab1e24">[Abstract]</a> <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/ab1e24/pdf">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td><b>Vale, P., H. K. Gibbs, R. Vale, J. Munger, A. Brandão, M. Christie, and E. Florence.</b> 2019. “Mapping the cattle industry in Brazil’s most dynamic cattle ranching state: Slaughterhouses in Mato Grosso, 1967-2016.” PlosOne. <a class="publink" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215286">[Link]</a>
+  <tr name="latin_america_supply-chain">
+    <td><b>Vale, P., H. K. Gibbs, R. Vale, J. Munger, A. Brandão, M. Christie</b>, and <b>E. Florence</b>. 2019. “Mapping the cattle industry in Brazil’s most dynamic cattle ranching state: Slaughterhouses in Mato Grosso, 1967-2016.” <i>PlosOne</i>. <a class="publink" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215286">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td><b>Vale, R., P. Vale, H. K. Gibbs, D. Pedrón, J. Engelman, P. Barreto, and R. Pereira.</b> 2019. “Expansion and market concentration of Brazil’s beef industry, 1966-2017.” (almost in review) <a class="publink" href="assets/Vale_etal_2019_Expansion_and_market_concentration_of_Brazils_beef_industry.pdf">[Link]</a>
+  <tr name="latin_america_supply-chain">
+    <td><b>Vale, R., P. Vale, H. K. Gibbs</b>, D. Pedrón, <b>J. Engelman</b>, P. Barreto, and <b>R. Pereira</b>. 2019. “Expansion and market concentration of Brazil’s beef industry, 1966-2017.” (almost in review) <a class="publink" href="assets/Vale_etal_2019_Expansion_and_market_concentration_of_Brazils_beef_industry.pdf">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td><b>Vale, P., H. K. Gibbs, R. Vale, M. Christie, E. Florence, J. Munger, and D. Sabaini.</b> 2019. “The expansion of intensive beef farming to the Brazilian Amazon.” Global Environmental Change. <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0959378018312093">[Link]</a>
+  <tr name="latin_america_zero-deforestation_policy-outcomes">
+    <td><b>Vale, P., H. K. Gibbs, R. Vale, M. Christie, E. Florence, J. Munger</b>, and D. Sabaini. 2019. “The expansion of intensive beef farming to the Brazilian Amazon.” <i>Global Environmental Change</i>. <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0959378018312093">[Link]</a>
     </td>
   </tr>
-  <tr name="global">
-    <td><b>Garrett, R.D., S. Levy, K.M. Carlson, T.A. Gardner, J. Godar, J. Clapp, P. Dauvergne, R. Heilmayr, Y. le Polain de Waroux, B. Ayre, R. Barr, B .Døvre, H. K. Gibbs, S. Hall, S. Lake, J.C. Milder, L.L. Rausch, R. Rivero, X. Rueda, R. Sarsfield, B. Soares-Filho, and N. Villoria.</b> 2019. “Criteria for effective zero-deforestation commitments.” Global Environmental Change. <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0959378018306654">[Link]</a>
+  <tr name="global_policy-outcomes">
+    <td>Garrett, R.D., S. Levy, K.M. Carlson, T.A. Gardner, J. Godar, J. Clapp, P. Dauvergne, R. Heilmayr, Y. le Polain de Waroux, B. Ayre, R. Barr, B .Døvre, <b>H. K. Gibbs</b>, S. Hall, S. Lake, J.C. Milder, <b>L.L. Rausch</b>, R. Rivero, X. Rueda, R. Sarsfield, B. Soares-Filho, and N. Villoria.</b> 2019. “Criteria for effective zero-deforestation commitments.” <i>Global Environmental Change</i>. <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0959378018306654">[Link]</a>
     </td>
   </tr>
-  <tr name="north_america">
-    <td>Fargione, Joseph E., S. Bassett, T. Boucher , S. D. Bridgham , R. T. Conant , S. C. Cook-Patton , P. W. Ellis, A. Falcucci , J. W. Fourqurean , T. Gopalakrishna , H. Gu, B. Henderson, M. D. Hurteau, K. D. Kroeger, T. Kroeger , T. J. Lark, S. M. Leavitt , G. Lomax, R. I. McDonald, J. P. Megonigal, D. A. Miteva, C.J. Richardson, J. Sanderman, D. Shoch, <b>S. A. Spawn</b>, J. W. Veldman, C. A. Williams, P. B. Woodbury, C.  Zganjar, M. Baranski, P. Elias, R. A. Houghton, E. Landis, E. McGlynn, W. H. Schlesinger, J. V. Siikamaki, A. E. Sutton-Grier, and B. W. Griscom. 2018. “Natural climate solutions for the United States.” Science Advances. <a class="publink" href="http://advances.sciencemag.org/content/4/11/eaat1869">[Abstract]</a> <a class="publink" href="https://www.science.org/doi/10.1126/sciadv.aat1869">[Link]</a>
+  <tr name="north_america_cropland-expansion">
+    <td>Fargione, Joseph E., S. Bassett, T. Boucher , S. D. Bridgham , R. T. Conant , S. C. Cook-Patton , P. W. Ellis, A. Falcucci , J. W. Fourqurean , T. Gopalakrishna , H. Gu, B. Henderson, M. D. Hurteau, K. D. Kroeger, T. Kroeger , <b>T. J. Lark</b>, S. M. Leavitt , G. Lomax, R. I. McDonald, J. P. Megonigal, D. A. Miteva, C.J. Richardson, J. Sanderman, D. Shoch, <b>S. A. Spawn</b>, J. W. Veldman, C. A. Williams, P. B. Woodbury, C.  Zganjar, M. Baranski, P. Elias, R. A. Houghton, E. Landis, E. McGlynn, W. H. Schlesinger, J. V. Siikamaki, A. E. Sutton-Grier, and B. W. Griscom. 2018. “Natural climate solutions for the United States.” <i>Science Advances</i>. <a class="publink" href="http://advances.sciencemag.org/content/4/11/eaat1869">[Abstract]</a> <a class="publink" href="https://www.science.org/doi/10.1126/sciadv.aat1869">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td><b>Rausch, L.L., I. Schelly,S. Hall, and H. K. Gibbs.</b> 2018. “Conversion-free soy agreements: Potential impacts on farms in the Cerrado.” Graphical policy brief. <a class="publink" href="assets/Infographic_Estimating_Cerrado_Farmer_Opportunity_Costs_August2018.pdf">[Link]</a>
+  <tr name="latin_america_supply-chain">
+    <td><b>Rausch, L.L., I. Schelly</b>, S. Hall, and <b>H. K. Gibbs</b>. 2018. “Conversion-free soy agreements: Potential impacts on farms in the Cerrado.” <i>Graphical policy brief</i>. <a class="publink" href="assets/Infographic_Estimating_Cerrado_Farmer_Opportunity_Costs_August2018.pdf">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td>Frey, G., T. West, T. Hickler, <b>L. Rausch, H. K. Gibbs</b>, and J. Börner. 2018. “Simulated Impacts of Soy and Infrastructure Expansion in the Brazilian Amazon: A Maximum Entropy Approach” Forests. <a class="publink" href="https://www.mdpi.com/1999-4907/9/10/600">[Link]</a>
-    </td>
-  </tr>
-  <tr name="southeast_asia">
-    <td>Noojipady, P., D. C. Morton, D. Burns, K. Carlson, <b>H. K. Gibbs</b>, W. Schroeder, N. Walker, C. Huang and S. D. Prince. 2018. “Managing fire risk during drought: the influence of certification and El Niño on fire-driven forest conversion for oil palm in Southeast Asia.” Earth System Dynamics. <a class="publink" href="https://esd.copernicus.org/articles/8/749/2017/">[Abstract]</a> <a class="publink" href="https://esd.copernicus.org/articles/8/749/2017/esd-8-749-2017.pdf">[Link]</a>
+  <tr name="latin_america_policy-outcomes">
+    <td>Frey, G., T. West, T. Hickler, <b>L. Rausch, H. K. Gibbs</b>, and J. Börner. 2018. “Simulated Impacts of Soy and Infrastructure Expansion in the Brazilian Amazon: A Maximum Entropy Approach” <i>Forests</i>. <a class="publink" href="https://www.mdpi.com/1999-4907/9/10/600">[Link]</a>
     </td>
   </tr>
   <tr name="southeast_asia">
-    <td>Carlson, K. M., R. Heilmayr, <b>H. K. Gibbs</b>, P. Noojipady, D. N. Burns, D. C. Morton, N. F. Walker, G. D. Paoli and C. Kremen. 2018. “Effect of oil palm sustainability certification on deforestation and fire in Indonesia.” PNAS. <a class="publink" href="http://www.pnas.org/content/115/1/121">[Link]</a>
+    <td>Noojipady, P., D. C. Morton, D. Burns, K. Carlson, <b>H. K. Gibbs</b>, W. Schroeder, N. Walker, C. Huang and S. D. Prince. 2018. “Managing fire risk during drought: the influence of certification and El Niño on fire-driven forest conversion for oil palm in Southeast Asia.” <i>Earth System Dynamics</i>. <a class="publink" href="https://esd.copernicus.org/articles/8/749/2017/">[Abstract]</a> <a class="publink" href="https://esd.copernicus.org/articles/8/749/2017/esd-8-749-2017.pdf">[Link]</a>
     </td>
   </tr>
-  <tr name="global">
-    <td>Lambin, E. F., <b>H. K. Gibbs</b>, R. Heilmayr, K. M. Carlson, L. C. Fleck, R. D. Garrett, Y. Waroux, C. L. McDermott, D. McLaughlin, P. Newton, C. Nolte, P. Pacheco, <b>L. Rausch</b>, C. Streck, T. Thorlakson and N. F. Walker. 2018. “The role of supply-chain initiatives in reducing deforestation.” Nature Climate Change. <a class="publink" href="https://www.nature.com/articles/s41558-017-0061-1.epdf?author_access_token=FEluma9uR_Q4QkVYw0dbWdRgN0jAjWel9jnR3ZoTv0PcwRkhSdtyXitkw3UksHshgGvlFWszUPU3RQafMH5JlY8r79cJsHKWxAw-2sF1AEx-Z-PBQ0aT0X4aY8wQzklW3XNFvC2nT_eeChqcxDn3fg%3D%3D">[Link]</a>
+  <tr name="southeast_asia_supply-chain">
+    <td>Carlson, K. M., R. Heilmayr, <b>H. K. Gibbs</b>, P. Noojipady, D. N. Burns, D. C. Morton, N. F. Walker, G. D. Paoli and C. Kremen. 2018. “Effect of oil palm sustainability certification on deforestation and fire in Indonesia.” <i>PNAS</i>. <a class="publink" href="http://www.pnas.org/content/115/1/121">[Link]</a>
     </td>
   </tr>
-  <tr name="north_america">
+  <tr name="global_supply-chain">
+    <td>Lambin, E. F., <b>H. K. Gibbs</b>, R. Heilmayr, K. M. Carlson, L. C. Fleck, R. D. Garrett, Y. Waroux, C. L. McDermott, D. McLaughlin, P. Newton, C. Nolte, P. Pacheco, <b>L. Rausch</b>, C. Streck, T. Thorlakson and N. F. Walker. 2018. “The role of supply-chain initiatives in reducing deforestation.” <i>Nature Climate Change</i>. <a class="publink" href="https://www.nature.com/articles/s41558-017-0061-1.epdf?author_access_token=FEluma9uR_Q4QkVYw0dbWdRgN0jAjWel9jnR3ZoTv0PcwRkhSdtyXitkw3UksHshgGvlFWszUPU3RQafMH5JlY8r79cJsHKWxAw-2sF1AEx-Z-PBQ0aT0X4aY8wQzklW3XNFvC2nT_eeChqcxDn3fg%3D%3D">[Link]</a>
+    </td>
+  </tr>
+  <tr name="north_america_cropland-expansion">
     <td><b>Lark, T.</b>  and <b>I. Schelly.</b> 2018. “Potential impacts of cropland expansion on threatened and endangered species in the United States” Research Summary. <a class="publink" href="assets/Endangered_Species_extended_brief.pdf">[Link]</a>
     </td>
   </tr>
   <tr name="latin_america">
-    <td><b>Vale, P.</b> 2017. “Poverty, the missing link of zero deforestation.”  Op-Ed published on NEXO. <a class="publink" href="https://www.nexojornal.com.br/ensaio/2017/Pobreza-o-elo-perdido-do-desmatamento-zero">[Link]</a>
+    <td><b>Vale, P.</b> 2017. “Poverty, the missing link of zero deforestation.”  <i>Op-Ed published on NEXO</i>. <a class="publink" href="https://www.nexojornal.com.br/ensaio/2017/Pobreza-o-elo-perdido-do-desmatamento-zero">[Link]</a>
     </td>
   </tr>
   <tr name="latin_america">
-    <td>Bradley, B.V., I. Rosa, <b>A. Brandão Jr.</b>, S. Crema, C. Dobler, S. Moulds, S.Ahmed, T. Carneiro, M.J. Smith, and R.M. Ewers. 2017. “An ensemble of spatially explicit land-cover model projections: Prospects and challenges to retrospectively evaluate deforestation policy.” Modeling Earth Systems and Environment. <a class="publink" href="https://link.springer.com/epdf/10.1007/s40808-017-0376-y?author_access_token=9BBuCYBdeSIGpWicDYunlve4RwlQNchNByi7wbcMAY6khzmyq5bfRY4OzE-8n6xg9lFHistUBCKG-OrCNiHHvbgiFNNZNQaVhN9FxYET-e-KqIv92KV-TxLMzlp9DsvndgOuNrAqPTgR-bC857qISw%3D%3D">[Link]</a>
+    <td>Bradley, B.V., I. Rosa, <b>A. Brandão Jr.</b>, S. Crema, C. Dobler, S. Moulds, S.Ahmed, T. Carneiro, M.J. Smith, and R.M. Ewers. 2017. “An ensemble of spatially explicit land-cover model projections: Prospects and challenges to retrospectively evaluate deforestation policy.” <i>Modeling Earth Systems and Environment</i>. <a class="publink" href="https://link.springer.com/epdf/10.1007/s40808-017-0376-y?author_access_token=9BBuCYBdeSIGpWicDYunlve4RwlQNchNByi7wbcMAY6khzmyq5bfRY4OzE-8n6xg9lFHistUBCKG-OrCNiHHvbgiFNNZNQaVhN9FxYET-e-KqIv92KV-TxLMzlp9DsvndgOuNrAqPTgR-bC857qISw%3D%3D">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td>Alix-Garcia, J., <b>L. Rausch, J. L’Roe, H. K. Gibbs</b>, and <b>J. Munger</b>. 2017. “Avoided deforestation linked to environmental registration in the Brazilian Amazon.” Conservation Letters. <a class="publink" href="https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/conl.12414">[Abstract]</a> <a class="publink" href="https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/conl.12414">[Link]</a>
+  <tr name="latin_america_zero-deforestation_policy-outcomes">
+    <td>Alix-Garcia, J., <b>L. Rausch, J. L’Roe, H. K. Gibbs</b>, and <b>J. Munger</b>. 2017. “Avoided deforestation linked to environmental registration in the Brazilian Amazon.” <i>Conservation Letters</i>. <a class="publink" href="https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/conl.12414">[Abstract]</a> <a class="publink" href="https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/conl.12414">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td>Alix-Garcia, J. and <b>H. K. Gibbs</b>. 2017. “Forest conservation effects of Brazil’s zero deforestation agreements undermined by leakage.” Global Environmental Change. <a class="publink" href="https://www.sciencedirect.com/science/article/abs/pii/S095937801730170X">[Link]</a>
+  <tr name="latin_america_supply-chain">
+    <td>Alix-Garcia, J. and <b>H. K. Gibbs</b>. 2017. “Forest conservation effects of Brazil’s zero deforestation agreements undermined by leakage.” <i>Global Environmental Change</i>. <a class="publink" href="https://www.sciencedirect.com/science/article/abs/pii/S095937801730170X">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td>Noojipady, P., D.C Morton, M.N. Macedo, D.C. Victoria, C. Huang, <b>H. K. Gibbs</b>, and E. L. Bolfe. 2017.  “Forest carbon emissions from cropland expansion in the Brazilian Cerrado biome.” Environmental Research Letters12 (2), 025004. <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/aa5986/meta">[Abstract]</a> <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/aa5986/pdf">[Link]</a>
+  <tr name="north_america_cropland-expansion">
+    <td><b>Lark, T.J.</b>, R. M. Mueller, D. M. Johnson, <b>J. M. Salmon</b>, and <b>H. K. Gibbs</b>. 2017. “Measuring land-use and land-cover change using the U.S. Department of Agriculture’s Cropland Data Layer: Cautions and Recommendations.” <i>International Journal of Applied Earth Observation and Geoinformation</i>. <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0303243417301332">[Link]</a>
     </td>
   </tr>
-  <tr name="north_america">
-    <td>Wright, C., B. Larson, <b>T. Lark</b>, and <b>H. K. Gibbs</b>. 2017.  “Recent grassland losses are concentrated around U.S. ethanol refineries.” Environmental Research Letters12 (4). <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/aa6446/meta">[Abstract]</a> <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/aa6446/pdf">[Link]</a>
+  <tr name="latin_america_carbon-and-emissions">
+    <td>Noojipady, P., D.C Morton, M.N. Macedo, D.C. Victoria, C. Huang, <b>H. K. Gibbs</b>, and E. L. Bolfe. 2017.  “Forest carbon emissions from cropland expansion in the Brazilian Cerrado biome.” <i>Environmental Research Letters</i> 12 (2), 025004. <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/aa5986/meta">[Abstract]</a> <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/aa5986/pdf">[Link]</a>
     </td>
   </tr>
-  <tr name="north_america">
-    <td><b>Lark, T.J</b>., R. M. Mueller, D. M. Johnson, <b>J. M. Salmon</b>, and <b>H. K. Gibbs</b>. 2017. “Measuring land-use and land-cover change using the U.S. Department of Agriculture’s Cropland Data Layer: Cautions and Recommendations.”International Journal of Applied Earth Observation and Geoinformation. <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0303243417301332">[Link]</a>
+  <tr name="north_america_biofuels_cropland-expansion">
+    <td>Wright, C., B. Larson, <b>T. Lark</b>, and <b>H. K. Gibbs</b>. 2017.  “Recent grassland losses are concentrated around U.S. ethanol refineries.” <i>Environmental Research Letters</i> 12 (4). <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/aa6446/meta">[Abstract]</a> <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/aa6446/pdf">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td>Nolte, C., Y. le Polain de Waroux, <b>J. Munger</b>, T. N. P. Reis, and E. F. Lambin. 2017. “Conditions influencing the adoption of effective anti-deforestation policies in South America’s commodity frontiers.”  Global Environmental Change43:1-14. <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0959378017300109">[Link]</a>
+  <tr name="latin_america_policy-outcomes">
+    <td>Nolte, C., Y. le Polain de Waroux, <b>J. Munger</b>, T. N. P. Reis, and E. F. Lambin. 2017. “Conditions influencing the adoption of effective anti-deforestation policies in South America’s commodity frontiers.”  <i>Global Environmental Change</i> 43:1-14. <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0959378017300109">[Link]</a>
     </td>
   </tr>
   <tr name="southeast_asia">
-    <td>Noojipady, P., D.C. Morton, W. Schroeder, K.M Carlson, C. Huang, <b>H. K. Gibbs</b>, D. Burns, N.F. Walker and S.D. Prince. 2017. “Managing fire risk during drought: the influence of certification and El Niño on fire-driven forest conversion for oil palm in Southeast Asia.” Earth System Dynamics. <a class="publink" href="http://www.earth-syst-dynam-discuss.net/esd-2017-2/">[Abstract]</a> <a class="publink" href="https://esd.copernicus.org/preprints/esd-2017-2/esd-2017-2.pdf">[Link]</a>
+    <td>Noojipady, P., D.C. Morton, W. Schroeder, K.M Carlson, C. Huang, <b>H. K. Gibbs</b>, D. Burns, N.F. Walker and S.D. Prince. 2017. “Managing fire risk during drought: the influence of certification and El Niño on fire-driven forest conversion for oil palm in Southeast Asia.” <i>Earth System Dynamics</i>. <a class="publink" href="http://www.earth-syst-dynam-discuss.net/esd-2017-2/">[Abstract]</a> <a class="publink" href="https://esd.copernicus.org/preprints/esd-2017-2/esd-2017-2.pdf">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">  
-    <td><b>L’Roe, J., L. Rausch, J. Munger</b> and <b>H. K. Gibbs</b>. 2016. “Mapping properties to monitor forests: Landholder response to a large environmental registration program in the Brazilian Amazon.” Land Use Policy57: 193-203. <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0264837716305142">[Abstract]</a> <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0303243417301332">[Link]</a>
+  <tr name="latin_america_policy-outcomes">  
+    <td><b>L’Roe, J., L. Rausch, J. Munger</b> and <b>H. K. Gibbs</b>. 2016. “Mapping properties to monitor forests: Landholder response to a large environmental registration program in the Brazilian Amazon.” <i>Land Use Policy</i> 57: 193-203. <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0264837716305142">[Abstract]</a> <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0303243417301332">[Link]</a>
     </td>
   </tr>
-  <tr name="latin_america">
-    <td>Pereira, R., C.S. Simmons and R. Walker. 2016. “Smallholders, Agrarian Reform, and Globalization in the Brazilian Amazon: Cattle versus the Environment.” Land5(3), 24. <a class="publink" href="https://www.mdpi.com/2073-445X/5/3/24">[Abstract]</a> <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0303243417301332">[Link]</a>
-    </td>
-  </tr>
-  <tr name="latin_america">
-    <td>Morton, D. C., P. Noojipady, M. M. Macedo, <b>H. K. Gibbs</b>, D. C. Victoria and E. L. Bolfe. 2016. “Reevaluating suitability estimates based on dynamics of cropland expansion in the Brazilian Amazon.” Global Environmental Change Volume 37. <a class="publink" href="https://www.sciencedirect.com/science/article/abs/pii/S0959378016300127">[Link]</a>
+  <tr name="latin_america_policy-outcomes">
+    <td><b>Pereira, R.</b>, C.S. Simmons and R. Walker. 2016. “Smallholders, Agrarian Reform, and Globalization in the Brazilian Amazon: Cattle versus the Environment.” <i>Land 5</i>(3), 24. <a class="publink" href="https://www.mdpi.com/2073-445X/5/3/24">[Abstract]</a> <a class="publink" href="https://www.sciencedirect.com/science/article/pii/S0303243417301332">[Link]</a>
     </td>
   </tr>
   <tr name="latin_america">
-    <td><b>Rausch, L</b>. and <b>H. K. Gibbs</b>. 2016. “Property Arrangements and Soy Governance in the Brazilian State of Mato Grosso: Implications for Deforestation-Free Production.” Land 5(2) <a class="publink" href="https://www.mdpi.com/2073-445X/5/2/7">[Abstract]</a> <a class="publink" href="https://www.mdpi.com/2073-445X/5/2/7/htm">[Link]</a>
+    <td>Morton, D. C., P. Noojipady, M. M. Macedo, <b>H. K. Gibbs</b>, D. C. Victoria and E. L. Bolfe. 2016. “Reevaluating suitability estimates based on dynamics of cropland expansion in the Brazilian Amazon.” <i>Global Environmental Change Volume 37</i>. <a class="publink" href="https://www.sciencedirect.com/science/article/abs/pii/S0959378016300127">[Link]</a>
+    </td>
+  </tr>
+  <tr name="latin_america_policy-outcomes_zero-deforestation">
+    <td><b>Rausch, L</b>. and <b>H. K. Gibbs</b>. 2016. “Property Arrangements and Soy Governance in the Brazilian State of Mato Grosso: Implications for Deforestation-Free Production.” <i>Land 5</i>(2) <a class="publink" href="https://www.mdpi.com/2073-445X/5/2/7">[Abstract]</a> <a class="publink" href="https://www.mdpi.com/2073-445X/5/2/7/htm">[Link]</a>
+    </td>
+  </tr>
+  <tr name="latin_america_supply-chain">
+    <td><b>Gibbs, H. K., J. Munger, J. L’Roe</b>, P. Barreto, <b>R. Pereira, M. Christie, T. Amaral</b>, and N.F. Walker. 2015. “Did Ranchers and Slaughterhouses Respond to Zero-Deforestation Agreements in the Brazilian Amazon?” <i>Conservation Letters</i>. <a class="publink" href="https://conbio.onlinelibrary.wiley.com/doi/epdf/10.1111/conl.12175">[Link]</a> <a class="publink" href="assets/Gibbs-Portuguese-Acordos-Desmatamento-Zero_Conservation_letters_formatting_v05.pdf">[Portuguese Version]</a>
+    </td>
+  </tr>
+  <tr name="latin_america_policy-outcomes">
+    <td>Barreto, P. and <b>H. K. Gibbs</b>. 2015. “Imazon Research Brief: How to improve the effectiveness of agreements against deforestation associated with ranching in the Amazon?” <i>Imazon, Belem Brazil and University of Wisconsin-Madison</i>. <a class="publink" href="http://imazon.org.br/PDFimazon/Portugues/livros/TACPecuaria_WEB.pdf">[Link]</a>
+    </td>
+  </tr>
+  <tr name="latin_america_supply-chain">
+    <td><b>Gibbs, H. K., L. Rausch, J. Munger, I. Schelly</b>, D. C. Morton, P. Noojipady, B. Soares-Filho, P. Barreto, L. Micol, and N. F. Walker. 2015. “Brazil’s Soy Moratorium: Supply chain governance is needed to avoid deforestation.”  <i>Science</i> 347(6220): 377-378 <a class="publink" href="http://imazon.org.br/PDFimazon/Portugues/livros/TACPecuaria_WEB.pdf">[Abstract]</a> <a class="publink" href="http://imazon.org.br/PDFimazon/Portugues/livros/TACPecuaria_WEB.pdf">[Link]</a> <a class="publink" href="assets/aaa0181.Gibbs_.wSM_.Port_formatted_03162016-3.pdf">[Portuguese version]</a>
+    </td>
+  </tr>
+  <tr name="global_irrigation">
+    <td><b>Salmon, J. M</b>, M. A. Friedl, S. Frolking, D. Wisser, and E. M. Douglas. 2015. “Global rain-fed, irrigated, and paddy croplands: A new high resolution map derived from remote sensing, crop inventories and climate data.” <i>International Journal of Applied Earth Observation and Geoinformation</i> 38: 321-334 <a class="publink" href="https://www.sciencedirect.com/science/article/abs/pii/S0303243415000240">[Abstract]</a> <a class="publink" href="assets/Salmon_Global_rain_fed_irrigated_and_paddy_croplands_2015.pdf">[Link]</a>
+    </td>
+  </tr>
+  <tr name="global">
+    <td><b>Gibbs, H. K.</b> and <b>J. M. Salmon</b>. 2015. “Mapping the world’s degraded land.” <i>Applied Geography</i> 57: 12-21 <a class="publink" href="http://imazon.org.br/PDFimazon/Portugues/livros/TACPecuaria_WEB.pdf">[Link]</a>
+    </td>
+  </tr>
+  <tr name="latin_america_policy-outcomes">
+    <td>Garrett, R. D. and <b>L. Rausch</b>. 2015. “Green for gold: Social and ecological tradeoffs influencing the sustainability of the Brazilian soy industry.” <i>Journal of Peasant Studies</i>. <a class="publink" href="https://www.tandfonline.com/doi/full/10.1080/03066150.2015.1010077#.VeCpO_lVhBc">[Abstract]</a> <a class="publink" href="https://www.tandfonline.com/doi/pdf/10.1080/03066150.2015.1010077">[Link]</a>
+    </td>
+  </tr>
+  <tr name="north_america_biofuels_cropland-expansion">
+    <td><b>Lark, T. J., J. M. Salmon</b>, and <b>H. K. Gibbs</b>. 2015. “Cropland expansion outpaces agricultural and biofuel policies in the United States.” <i>Environmental Research Letters</i> 10(4): 044003. <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/10/4/044003">[Abstract]</a> <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/10/4/044003/pdf">[Link]</a>
+    </td>
+  </tr>
+  <tr name="global_carbon-and-emissions">
+    <td><b>Gibbs, H. K.</b>, S. Yui, and R. Plevin. 2014. “New Estimates of Soil and Biomass Carbon Stocks for Global Economic Models: Global Trade Analysis Project (GTAP) Technical Paper No. 33.” <i>Center for Global Trade Analysis, Department of Agricultural Economics, Purdue University. West Lafayette, IN</i>. <a class="publink" href="https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=4344">[Abstract]</a> <a class="publink" href="https://www.gtap.agecon.purdue.edu/resources/download/6688.pdf">[Link]</a>
+    </td>
+  </tr>
+  <tr name="global_carbon-and-emissions">
+    <td>Plevin, R., <b>H. K. Gibbs</b>, J. Duffy, S. Yui and S. Yeh. 2014. “Agro-ecological Zone Emission Factor (AEZ-EF) Model (v47): Global Trade Analysis Project (GTAP) Technical Paper No. 34.” <i>Center for Global Trade Analysis, Department of Agricultural Economics, Purdue University. West Lafayette, IN</i>. <a class="publink" href="https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=4346">[Abstract]</a> <a class="publink" href="https://www.gtap.agecon.purdue.edu/resources/download/6692.pdf">[Link]</a>
+    </td>
+  </tr>
+  <tr name="latin_america_policy-outcomes">
+    <td><b>L’Roe, J.</b> and L. Naughton-Treves. 2014. “Effects of a policy-induced income shock on forest-dependent households in the Peruvian Amazon.” <i>Ecological Economics</i> 97: 1-9 <a class="publink" href="http://imazon.org.br/PDFimazon/Portugues/livros/TACPecuaria_WEB.pdf">[Abstract]</a> <a class="publink" href="http://www.gibbs-lab.com/wp-content/uploads/2015/09/Lroe_Effects_of_a_policy-induced_income_shock_on_forest-dependent_households_in_the_Peruvian_Amazon_2014.pdf">[Link]</a>
     </td>
   </tr>
   <tr name="latin_america">
-    <td><b>Gibbs, H. K., J. Munger, J. L’Roe</b>, P. Barreto, <b>R. Pereira, M. Christie, T. Amaral</b>, and N.F. Walker. 2015. “Did Ranchers and Slaughterhouses Respond to Zero-Deforestation Agreements in the Brazilian Amazon?” Conservation Letters. <a class="publink" href="https://conbio.onlinelibrary.wiley.com/doi/epdf/10.1111/conl.12175">[Link]</a> <a class="publink" href="assets/Gibbs-Portuguese-Acordos-Desmatamento-Zero_Conservation_letters_formatting_v05.pdf">[Portuguese Version]</a>
+    <td><b>Rausch, L.</b> 2014. “Converging Agrarian Frontiers in Mato Grosso” <i>Historical Geography</i> 42: 276-297 <a class="publink" href="https://digitalrepository.unm.edu/peer_review_list.html">[Abstract]</a> <a class="publink" href="assets/Rausch_Converging_Agrarian_Frontiers_in_Mato_Grosso_2014.pdf">[Link]</a>
     </td>
   </tr>
   <tr name="latin_america">
-    <td>Barreto, P. and <b>H. K. Gibbs</b>. 2015. “Imazon Research Brief: How to improve the effectiveness of agreements against deforestation associated with ranching in the Amazon?” Imazon, Belem Brazil and University of Wisconsin-Madison. <a class="publink" href="http://imazon.org.br/PDFimazon/Portugues/livros/TACPecuaria_WEB.pdf">[Link]</a>
+    <td>Brown, J. C., <b>L. Rausch</b>, and V. G. Luz. 2014. “Toward a Spatial Understanding of Staple Food and Non-Staple Food Production in Brazil.” <i>The Professional Geographer</i> 66(2): 249-259 <a class="publink" href="https://www.tandfonline.com/doi/full/10.1080/00330124.2013.781492#abstract">[Abstract]</a>
     </td>
   </tr>
-  <tr class="Filho">
-    <td>Filho</td>
+  <tr name="global_policy-outcomes">
+    <td>Meyfroidt, P., K. Carlson, M. Fagan, V, Gutierrez-Velez, M. Macedo, L. Curran, R. DeFries, G. Dyer, <b>H. K. Gibbs</b>, E. Lambin, D. Morton, and V. Robiglio. 2014. “Multiple Pathways of Expansion of Commodity Crops in Tropical Forest Landscapes.” <i>Environmental Research Letters</i> 9(7): 074012 <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/9/7/074012/meta">[Abstract]</a> <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/9/7/074012/pdf">[Link]</a>
+    </td>
   </tr>
-  <tr class="Filho">
-    <td>Gibbs</td>
+  <tr name="global">
+    <td>Lambin, E. F., <b>H. K. Gibbs</b>, L. Ferreira, R. Grau, P. Mayaux, P. Meyfroidt, D. C. Morton, T. Rudel, I. Gasparri, and <b>J. Munger</b>. 2013. “Estimating the world’s potentially available cropland using a bottom-up approach.” <i>Global Environmental Change</i> 23(5): 892-901 <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/9/7/074012/meta">[Abstract]</a> <a class="publink" href="assets/Gibbs_Estimating_the-worlds_potentially_available_cropland_using_a_bottom-up_approach_2013.pdf">[Link]</a>
+    </td>
   </tr>
-  <tr class="Filho">
-    <td>Spawn</td>
+  <tr name="latin_america">
+    <td><b>Gibbs, H. K</b>. 2012. “Trading forests for oil yields in the Peruvian Amazon.” <i>Environmental Research Letters</i> 7(1): 011007 Invited Perspective. <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/7/1/011007">[Abstract]</a> <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/7/1/011007/pdf">[Link]</a>
+    </td>
   </tr>
+  <tr name="global">
+    <td>Turner, W. R., K. Brandon, T. M. Brooks, C. Gascon, <b>H. K. Gibbs</b>, K. S. Lawrence, R. A. Mittermeier, and E. R. Salig. 2012. “Global biodiversity conservation and the alleviation of poverty.” <i>BioScience</i> 62(1): 85-92 <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/7/1/011007">[Abstract]</a> <a class="publink" href="https://iopscience.iop.org/article/10.1088/1748-9326/7/1/011007/pdf">[Link]</a>
+    </td>
+  </tr>
+  <tr name="global_policy-outcomes">
+    <td>Turner, W. R., K. Brandon, T. M. Brooks, C. Gascon, <b>H. K. Gibbs</b>, K. S. Lawrence, R. A. Mittermeier, and E. R. Salig. 2012. “The potential, realized, and essential ecosystem service benefits of biodiversity conservation.”  <i>Biodiversity Conservation and Poverty Alleviation: Exploring the Evidence for a Link</i>. New Jersey: Wiley-Blackwell. 21-35. Print. <a class="publink" href="https://onlinelibrary.wiley.com/doi/10.1002/9781118428351.ch2">[Summary]</a> <a class="publink" href="assets/Gibbs_The_potential_realized_and_essential_ecosystem_service_benefits_of_biodiversity_conservation_2012.pdf">[Link]</a>
+    </td>
+  </tr>
+  
+  
 </table>  
 </div>
 </div>
