@@ -86,6 +86,8 @@ function myFunction_year() {
 //Sort by class..
 function filterSelection(thing) {
 
+  console.log("filtering by thing")
+
   var rows = $('#myTable').find('tr:not(:has(th))').get();
   console.log(rows)
 
@@ -93,6 +95,9 @@ $("#myTable tr").show()
 
 
 $('#myTable').find('tr:not(:has(th))').not('thead tr').not("[name*=" + thing + "]").fadeOut(300)
+
+
+
 
 var tabhead = "header"
 //$("#myTable tbody tr:not(."+thing + ')').hide();
@@ -105,6 +110,8 @@ var tabhead = "header"
 //Sort by class..
 function filterSelectionByTopic(thing) {
 
+  console.log("filtering by thing")
+
   var rows = $('#myTable').find('tr:not(:has(th))').get();
   console.log(rows)
 
@@ -113,7 +120,11 @@ $("#myTable tr").show()
 
 $('#myTable').find('tr:not(:has(th))').not('thead td').not("[name*=" + thing + "]").fadeOut(300)
 
+
+
 var tabhead = "header"
+
+$("#myTable").find("tr.header:has(+ tr.header)").hide()
 //$("#myTable tbody tr:not(."+thing + ')').hide();
 
 //$("#myTable tr.header").fadeIn(1)
@@ -158,18 +169,18 @@ $('.btn').not(".showAll").click(function() {
 
 // .btn is the class of the element you want to change color
 
-var $btns = $('.btn').click(function() {
-  console.log(this.id)
-  if (this.id == 'all') {
-    $('#parent > div').fadeIn(450);
-  } else {
-    var $el = $('.' + this.id).fadeIn(450);
-    console.log($el)
-    $('#parent > div').not($el).hide();
-  }
-  $btns.removeClass('active');
-  $(this).addClass('active');
-})
+// var $btns = $('.btn').click(function() {
+//   console.log(this.id)
+//   if (this.id == 'all') {
+//     $('#parent > div').fadeIn(450);
+//   } else {
+//     var $el = $('.' + this.id).fadeIn(450);
+//     console.log($el)
+//     $('#parent > div').not($el).hide();
+//   }
+//   $btns.removeClass('active');
+//   $(this).addClass('active');
+// })
 
 
 // $('.nav .nav-link').click(function(){
