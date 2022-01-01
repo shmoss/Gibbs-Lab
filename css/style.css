@@ -157,7 +157,7 @@ a {
   display:inline-block;
 }
 
-.svg-inline--fa.fa-linkedin.fa-w-14 {
+/*.svg-inline--fa.fa-linkedin.fa-w-14 {
   display:inline-block;
   color:#0e76a8;
   height:100%;
@@ -181,9 +181,64 @@ a {
   height:25px;
   width:25px;
   vertical-align: bottom;
+}*/
+
+.social-menu {
+  display: flex;
+  list-style-type: none;
+}
+ 
+.social-menu i {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 25px;
+  margin-right: 10px;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  justify-content: center;
+
 }
 
+ul.social-menu{
+  padding-left:0px;
+}
 
+.social-menu i:before {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.social-menu a {
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background:#3b5998
+} 
+
+.fa-linkedin {
+  background:#007bb6
+}
+
+.fa-google {
+  background:#4285F4
+}
+
+.fa-researchgate {
+  background:#40BA9B
+}
+
+.fa-github {
+  background:#211F1F
+}
+
+.social-menu i:hover {
+  opacity: .7;
+  border-radius: 0;
+}
 
 .google-scholar {
   display:inline-block;
