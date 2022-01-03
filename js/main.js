@@ -157,14 +157,17 @@ $("#myTable tr").show();
 
 $("#myTable tr.header").show();
 
-
-
-
-
 }
+
+$('.col-6.col-md-4.p-4.alumni').fadeOut(0);
 
 $('.btn').not(".showAll").click(function() {
     $(".btn").removeClass('active');
+});
+
+
+$(".showAll").click(function() {
+    console.log("showAll")
 });
 
 // .btn is the class of the element you want to change color
@@ -173,6 +176,7 @@ var $btns = $('.btn').click(function() {
   console.log(this.id)
   if (this.id == 'all') {
     $('#parent > div').fadeIn(450);
+    $('.col-6.col-md-4.p-4.alumni').fadeOut(450);
   } else {
     var $el = $('.' + this.id).fadeIn(450);
     console.log($el)

@@ -157,6 +157,11 @@ a {
   display:inline-block;
 }
 
+
+.row.research{
+  padding-bottom:55px;
+}
+
 /*.svg-inline--fa.fa-linkedin.fa-w-14 {
   display:inline-block;
   color:#0e76a8;
@@ -280,6 +285,20 @@ color:#004869 !important
 
 .mb-0 {
   color:#004869;
+}
+
+.research_subtopic_description {
+  color:#004869;
+  size:14px !important;
+  text-align: center
+}
+
+
+.col-sm-2.back_to_research_nav {
+  color:#004869 !important;
+  text-align:left !important;
+
+
 }
  
 .img-holder {
@@ -836,9 +855,17 @@ input[type=number] {
 }
 
 
+
+
+
 }
 
 @media (max-width: 992px) {
+
+
+.row.research{
+  padding-bottom:0px;
+}
 
 .bio-contact-info {
   font-size:18px !important
@@ -963,6 +990,61 @@ input[type=number] {
     }
    
 }
+
+
+.card-img-top {
+
+
+    -webkit-filter: brightness(100%);
+
+
+
+}
+
+.card-text.readMore {
+  padding-top:12px;
+  font-size:12px;
+  color:#403F3F;
+  font-weight:700;
+}
+
+
+/* mouse over link */
+.card-text.readMore :hover {
+  color: #08c;
+}
+
+.card-img-top:hover {
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+
+.block-grid-mosaic__group {
+  background-color:rgba(255,255,255,0.8);bottom:1.375rem;left:0;padding:0.3125rem 0.625rem;position:absolute;width:80%;z-index:3;}
+
+  .block-grid-mosaic__item{float:left;margin-bottom:0.625rem;margin-right:0.625rem;overflow:hidden;position:relative;}
+
+  @media screen and (max-width:767px){.block-grid-mosaic__item{padding-bottom:73.5%;width:calc((100% - 0.625rem) / 2);}
+
+  .block-grid-mosaic__item:nth-child(2n + 1){clear:both;}
+
+  .block-grid-mosaic__item:nth-child(2n){margin-right:0;}}
+
+  .block-grid-mosaic__item:hover 
+
+  .block-grid-mosaic__image:before{opacity:1;}
+
+  .block-grid-mosaic__item:hover .social-tile{background-color:#070808}
+
+  .block-grid-mosaic__content{height:100%;left:0;position:absolute;right:0;width:100%;}.block-grid-mosaic__content .type{background-color:#fff;font-size:0.8125rem;left:0;padding:0.125rem 0.625rem 0.0625rem 1.625rem;position:absolute;top:1.375rem;z-index:2;}.block-grid-mosaic__content .type:before{left:0.625rem;margin:0;top:0.3125rem;}
+
+
+
 
 
 
