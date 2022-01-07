@@ -269,6 +269,13 @@ ul.social-menu{
 .bio-title{
   margin-bottom:0px;
   font-weight:600;
+  font-size:14px;
+  color:#004869;
+}
+
+.bio-subtitle{
+  margin-bottom:0px;
+  font-weight:600;
   font-size:18px;
   color:#004869;
 }
@@ -1009,8 +1016,21 @@ input[type=number] {
 }
 
 
+
+
+
 /* mouse over link */
 .card-text.readMore :hover {
+  color: #08c;
+}
+
+
+/* mouse over link */
+.lab_news_link:hover {
+  color: #08c;
+}
+
+.more_news_link:hover {
   color: #08c;
 }
 
