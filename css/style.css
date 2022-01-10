@@ -98,10 +98,20 @@ a {
     max-width: 100%;
     margin: auto;
     
-    
+}
 
+.col-10.team {
+  padding-bottom:10%;
+}
 
+.col-10.holly {
+  padding-bottom:10%;
+  padding-left:0%;
+  padding-right:0%;
+}
 
+.holly_photo_description_container {
+  padding-top:2%;
 }
 
 #gibbsLogo{
