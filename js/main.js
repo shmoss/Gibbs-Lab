@@ -259,13 +259,24 @@ var geog_env_309_HTML = '<div class="col-md-10">' +
 
                
 
-var grad_seminar = '<div class="content">' +
-                        '<h3> <strong>Overdose Fatality Review (OFR)</strong></h3>' +
-                        '<br>'+
-                        '<p> The OFR Reporting System is designed to collect participant-level data for treatment court and diversion programs in the State of Wisconsin. The data can be utilized for performance measurement, evaluation, and tracking of participant progress through various programs. This is a secure site intended for authorized users at the state and local level.</p>' +
-                        '<p>The OFR also serves as the Statistical Analysis Center (SAC) for the State of Wisconsin and contributes directly to the ability of the Department of Justice to provide research results that aid in decision making for criminal justice programs and policies.  The BJIA provides additional program information, including data publications and UCR forms and manuals on the Department’s Law Enforcement website  <a href = "https://wilenet.org/html/justice-programs/programs/justice-stats/index.htm/" target="_blank">wilenet.org</a>.' +
-                    '</div>';
-
+var grad_seminar = '<div class="col-md-10">' +
+                          '<h2 class="mb-3" contenteditable="true">Graduate Seminars</h2>' +
+                          '<h6 class="mb-3">I generally teach one graduate level seminar each year often on interdisciplinary topics around land change science.</h6>' +
+                          '<p>'+
+                          '</p>' +
+                          '<h6 class="mb-3">Approaches to Reducing Tropical Deforestation</h6>' +
+                          '<p>'+
+                            'In this graduate seminar, we will explore a range of approaches aiming to reduce deforestation looking across the tropics and through time.  We will consider the social and environmental implications of various efforts including REDD+, payments for ecosystem services, demand-side conservation such as eco-certification and zero-deforestation agreements, and command-and-control interventions including land use zoning and protected areas.  Are they effective?  Where and under what circumstances?  What are the unintended consequences?   All major forest regions will be considered but Brazil will be a focus as we examine the dramatic fluctuations in rates of forest clearing.  This is an interdisciplinary seminar, leaning heavily on literature from “land change science”, which seeks to understand the dynamics of land cover and land use and their various consequences through an examination of coupled human-environment systems.  By the end of the class, you will be conversant in the major issues surrounding tropical deforestation, and complete an in-depth research paper or project.'+
+                          '</p>'+
+                          '<h6 class="mb-3">Emerging Market Impacts on Global Agriculture</h6>' +
+                          '<p>'+
+                            'In this graduate seminar, we will explore a range of approaches aiming to reduce deforestation looking across the tropics and through time.  We will consider the social and environmental implications of various efforts including REDD+, payments for ecosystem services, demand-side conservation such as eco-certification and zero-deforestation agreements, and command-and-control interventions including land use zoning and protected areas.  Are they effective?  Where and under what circumstances?  What are the unintended consequences?   All major forest regions will be considered but Brazil will be a focus as we examine the dramatic fluctuations in rates of forest clearing.  This is an interdisciplinary seminar, leaning heavily on literature from “land change science”, which seeks to understand the dynamics of land cover and land use and their various consequences through an examination of coupled human-environment systems.  By the end of the class, you will be conversant in the major issues surrounding tropical deforestation, and complete an in-depth research paper or project.'+
+                          '</p>'+
+                          '<h6 class="mb-3">The Global Land Reserve</h6>' +
+                          '<p>'+
+                            'Land suitable for agricultural production is becoming an increasingly scarce resource globally as demands for food, feed and fuel grow.  This graduate–level discussion seminar will investigate the location and potential of the world’s available land bank (aka relatively unused, productive lands) to produce the needed agricultural products.  Most studies have quantified the global land reserve from a top-down perspective relying on global models and statistics that neglect spatial information and local realities such as use by local communities, degraded soils, land zoning, land tenure, conservation concerns and transportation infrastructure.  We will explore these issues using peer-reviewed manuscripts, grey literature, newspaper articles, maps, and census data, and attempt to navigate the constraints and opportunities to utilize the land reserve over the next 5-10 years.  The land reserve is concentrated in Latin America’s cerrados and grasslands, Indonesia grasslands, African savannas and abandoned / idle farmland in the US, Europe and following the collapse of the Soviet Union.'+
+                          '</p>'
+                    '</div>'
 
 
 
@@ -299,3 +310,17 @@ $(document).ready(function(){
   document.getElementById("course-info").innerHTML = grad_seminar;
   });
 });
+
+
+
+const trs=[...document.querySelector("#myTable>tbody").children];
+function fltTbl(pat){
+  trs
+   .filter(tr=>(tr.style.display="none",tr.classList.contains("header")||
+tr.dataset.name&&tr.dataset.name.indexOf(pat)>-1))
+   .forEach((tr,i,a)=>{
+  if (tr.dataset.name
+      || a[i+1]&&a[i+1].dataset.name)
+    tr.style.display="";
+ });
+}
