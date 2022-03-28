@@ -102,6 +102,26 @@ a {
 
 .col-10.team {
   padding-bottom:10%;
+  max-width:70%;
+}
+
+.col-md-6.course {
+  color:#403F3F
+}
+
+.course-photo {
+  max-width:50%;
+}
+
+.img-fluid.course {
+  padding-top:4%;
+  padding-bottom:4%;
+  max-width:60%;
+}
+
+.img-fluid.course.hollybio {
+  padding-left:4%;
+  max-width:75%;
 }
 
 .col-10.holly {

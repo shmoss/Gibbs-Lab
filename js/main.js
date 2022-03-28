@@ -193,3 +193,109 @@ var $btns = $('.btn').click(function() {
 //     $('.nav .nav-link').removeClass('active');
 //     $(this).addClass('active');
 // })
+
+
+//Set dynamic content for teaching page
+
+var capstone_HTML = '<div class="container">' +
+                        '<h3> <strong>Comprehensive Outcome, Research and Evaluation</strong></h3>' +
+                        '<br>'+
+                        '<p> The CORE Reporting System is designed to collect participant-level data for treatment court and diversion programs in the State of Wisconsin. The data can be utilized for performance measurement, evaluation, and tracking of participant progress through various programs. This is a secure site intended for authorized users at the state and local level.</p>' +
+                        '<p>The BJIA also serves as the Statistical Analysis Center (SAC) for the State of Wisconsin and contributes directly to the ability of the Department of Justice to provide research results that aid in decision making for criminal justice programs and policies.  The BJIA provides additional program information, including data publications and UCR forms and manuals on the Department’s Law Enforcement website  <a href = "https://wilenet.org/html/justice-programs/programs/justice-stats/index.htm/" target="_blank">wilenet.org</a>.' +
+                    '</div>';
+
+
+
+var geog_env_309_HTML = '<div class="col-md-10">' +
+                          '<h2 class="mb-3" contenteditable="true">Geog / Env. St 309: People, Land & Food</h2>' +
+                          '<h6 class="mb-3">Welcome to the “People, Land and Food” course website!  You can download a syllabus <a class = "more_news_link" href = "http://www.gibbs-lab.com/wp-content/uploads/2019/09/Gibbs_syllaubus_People_Land_Food_Spring_2018_Final_REVISED.pdf" target="_blank"><b><i>here</i></b></a> to learn more.</h6>' +
+                          '<p>'+
+                            'The ways in which our society uses and transforms land to produce food has impacted our world more than any other environmental change.  This course will explore real-world examples and together we will investigate solutions to improve our use of land and food production strategies. We will also go beyond the walls of the classroom to study our campus and city community, and work towards making change on the ground.'+
+                          '</p>'+
+                          '<p>'+
+                            'I greatly enjoy teaching this course, and it has been very well received in the past.  You can read a sample of direct quotes from students here. Here are some examples of student outreach projects aiming to reduce household food waste, encourage reuse of containers and use of more sustainable packaging. I hope you can join us!'+
+                          '</p>'+
+                          '<p>'+
+                            'P.S. Some good news!!  I’m honored to have been awarded the Chancellor’s Distinguished Teaching Award in 2016 and the University Housing Honored Instructor Award 2015!  My warmest thanks to the students and faculty who took the time to nominate me!'+
+                            '</p>'+
+                            '<p>'+
+                            'Please email me with any questions (hkgibbs@wisc.edu).'+
+                          '</p>'+
+                        '<p class=course-photo>'+              
+                          '<div class="col-8 course">' +
+                            '<a href="http://www.gibbs-lab.com/wp-content/uploads/2013/01/urban_farming.jpg">'+
+                            '<img class="img-fluid course" src="http://www.gibbs-lab.com/wp-content/uploads/2013/01/urban_farming.jpg" alt="Card image cap">'+
+                            '</a>'+
+                          '</div>'+
+                          '</p>'+
+                          '<p>'+
+                            'PROFESSOR BIO'+
+                          '</p>'+
+                          '<p>'+
+                          '<div class="row">'+
+                            '<div class="col-md-6 course">'+
+                              'I am an Associate Professor of Geography and Environmental Studies, and part of the Center for Sustainability and the Global Environment and the Wisconsin Energy Initiative.  A physical scientist by training, I focus on interdisciplinary, applied questions around land-use change, globalization, environment, and policy.  I investigate how and why people clear tropical forests or change agricultural practices around the world and what that means for climate change, biodiversity and social justice.  Much of my time is spent behind a computer using satellite images and models to understand land use but I also spend quite a bit of time exploring communities and conditions in tropical countries especially Brazil, Indonesia, Malaysia and Ethiopia.' +
+                            '</div>'+
+                              '<div class="col-md-6">' +
+                                '<a href="http://www.gibbs-lab.com/wp-content/uploads/2013/01/urban_farming.jpg">'+
+                                  '<img class="img-fluid course hollybio" src="bio_img/Holly_headshot_2019-768x512.jpeg" alt="Card image cap">'+
+                                '</a>'+
+                            '</div>' +
+                          '</div>' +
+                          '</p>'+
+                           '<p>'+
+                            'I am passionate about using my academic scholarship to change the world. Throughout my career, I have worked closely with policymakers, business leaders and non-governmental organizations to ensure that the science I conduct matters.  Accordingly, I am highly committed to teaching and love the opportunity to share my experience and expertise with students while also learning from them.  Teaching “People, Land and Food” is a dream come true for me as I am passionate about the topic and eager to consider opportunities to make a difference here at home as well as around the world!  I enjoy sharing my on-the-ground experiences with students whether from testifying at a political hearing about the impacts of crop-based biofuels on climate, assisting climate negotiators from developing countries, measuring trees or interviewing farmers in the tropics.'+
+                            '</p>'+
+                            '<p>'+
+                            'You can learn more about me and my research here: gibbs-lab.com'+
+                          '</p>'+
+
+
+
+
+                    '</div>' 
+                        
+               
+
+               
+
+var grad_seminar = '<div class="content">' +
+                        '<h3> <strong>Overdose Fatality Review (OFR)</strong></h3>' +
+                        '<br>'+
+                        '<p> The OFR Reporting System is designed to collect participant-level data for treatment court and diversion programs in the State of Wisconsin. The data can be utilized for performance measurement, evaluation, and tracking of participant progress through various programs. This is a secure site intended for authorized users at the state and local level.</p>' +
+                        '<p>The OFR also serves as the Statistical Analysis Center (SAC) for the State of Wisconsin and contributes directly to the ability of the Department of Justice to provide research results that aid in decision making for criminal justice programs and policies.  The BJIA provides additional program information, including data publications and UCR forms and manuals on the Department’s Law Enforcement website  <a href = "https://wilenet.org/html/justice-programs/programs/justice-stats/index.htm/" target="_blank">wilenet.org</a>.' +
+                    '</div>';
+
+
+
+
+
+
+//Set event listeners for programs
+
+$(document).ready(function(){ 
+  $('#coreNav').on('click', function(e) {
+
+    // Prevent the page from reloading
+  
+  document.getElementById("course-info").innerHTML = coreHTML;
+  });
+});
+
+$(document).ready(function(){ 
+  $('#geog-env-309').on('click', function(e) {
+
+    // Prevent the page from reloading
+  
+  document.getElementById("course-info").innerHTML = geog_env_309_HTML;
+  });
+});
+
+$(document).ready(function(){ 
+  $('#grad-seminar').on('click', function(e) {
+
+    // Prevent the page from reloading
+  
+  document.getElementById("course-info").innerHTML = grad_seminar;
+  });
+});
