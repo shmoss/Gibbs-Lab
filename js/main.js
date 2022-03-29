@@ -197,17 +197,107 @@ var $btns = $('.btn').click(function() {
 
 //Set dynamic content for teaching page
 
-var capstone_HTML = '<div class="container">' +
-                        '<h3> <strong>Comprehensive Outcome, Research and Evaluation</strong></h3>' +
-                        '<br>'+
-                        '<p> The CORE Reporting System is designed to collect participant-level data for treatment court and diversion programs in the State of Wisconsin. The data can be utilized for performance measurement, evaluation, and tracking of participant progress through various programs. This is a secure site intended for authorized users at the state and local level.</p>' +
-                        '<p>The BJIA also serves as the Statistical Analysis Center (SAC) for the State of Wisconsin and contributes directly to the ability of the Department of Justice to provide research results that aid in decision making for criminal justice programs and policies.  The BJIA provides additional program information, including data publications and UCR forms and manuals on the Department’s Law Enforcement website  <a href = "https://wilenet.org/html/justice-programs/programs/justice-stats/index.htm/" target="_blank">wilenet.org</a>.' +
-                    '</div>';
+var capstone_HTML = '<div class="col-md-10">' +
+              '<h2 class="mb-3">Environmental Studies Capstone</h2>' +
+                '<p>' +
+                  '<h6 class="mb-3">Consumer-Driven Sustainability: Making Our Choices Matter Spring 2014</h6>' +
+                  '<h6 class="mb-3">Co-taught by Prof. Holly Gibbs and Tyler Lark Spring 2014</h6>' +
+                '</p>' +
+
+                '<div class="course-content">' +
+                
+                '<p>' +
+                'Overview.   In this SIRE-supported course, students gained practical hands-on experiencing conducting a semester long research project culminating in working, distributable reports or media designed to create change regarding a sustainability-related topic on campus or in the community.' +
+                '</p>' +
+
+                '<p class=course-photo>' +
+           
+                '<div class="col-8 course">' +
+                  '<a href="https://uwmadison.box.com/shared/static/8bhxieluotgnx1pmfuf9994p8x2swe5e.jpg">' +
+                  '<img class="img-fluid course" src="https://uwmadison.box.com/shared/static/8bhxieluotgnx1pmfuf9994p8x2swe5e.jpg" alt="Card image cap">' +
+                  '</a>' +
+                '</div>' +
+                '</p>' +
+
+                '<p>' +
+                '<a class="more_news_link" href="https://uwmadison.box.com/shared/static/umynniy83olv59o5cafciaurxksxypch.pdf"><b><i>See class poster here»</i></b>' +
+                
+              '</a>' +
+              '</p>' +
+
+                '<p>' +
+                'The course was designed and executed using the philosophy that campus is a unique place—a  microcosm of which to affect change—where students form lifelong habits that can influence the  rest of the world.  The implemented format of experiential learning helped build new coalitions and directly reshape students’ relationships with food and place.' +
+                '</p>' +
+
+                '<p>' +
+                'Metrics.  A key theme throughout the course was the concept of metrics.  Students were exposed to the value, importance, and data needed to quantitatively identify and measure meaningful statistics and outcomes related to sustainability and their specific research projects.   Examples of metrics computed by the students include:' +
+                '</p>' +
+
+                '<ul>' +
+                  '<li>' +
+                    'Wisconsin union produces 285 miles of receipts per year, at an annual purchasing cost of $17,000' +
+                  '</li>' +
+                  '<li>' +
+                    'UW Housing produces 550 miles of receipts per year, costing $35,000' +
+                  '</li>' +
+                  '<li>' +
+                    '79.8% of Union entrée purchases contained meat' +
+                  '</li>' +
+                  '<li>' +
+                    'In 2013, $168,560.95 of grass-fed beef patties were in consumed in UW Madison dining halls' +
+                  '</li>' +
+                  '<li>' +
+                    'In Madison, consumers annually use 75 million plastic bags, enough to fill every seat in Camp Randall with 933 bags!' +
+                  '</li>' +               
+                '</ul>' +
+
+                '<p>' +
+                'Outcomes.  Each team of students created a functioning website or professional report which communicated a campus sustainability issue and provided both background knowledge and potential solutions.' +
+                '</p>' +
+
+                '<p>' +
+                'Food Sustainability Map – The team created a Campus Sustainable Dining Map to empower students to evaluate their food choices and provide them with the right tools to make sustainable decisions on campus.  The map highlights food choice options and provides information on which campus eateries offer composting, recycling, reusable dishware, local or organic options, reusable discounts, and other sustainable dining options.' +
+                '</p>' +
+
+                '<p>' +
+                '<a class="more_news_link" href="http://preview.sustainability.wisc.edu/campusfoodmap/"><b><i>See the map here»</i></b></a>' +
+                
+                '</p>' +
+
+                '<p>' +
+                'Plastic Bag Reduction Campaign – A team created an informational and behavior-focused campaign to reduce plastic bag consumption on campus and in the greater Madison.  The team performed outreach to students on campus by holding tabling events and creating an informational website and social media resources.  Their campaign was subsequently adopted by the student organization Rethink for the 2014-2015 school year.' +
+                '</p>' +
+
+                '<p>' +
+                  
+
+                  '<a class="more_news_link" href="http://bagfreebadgers.wordpress.com/https://twitter.com/BagFreeBadgershttps://www.facebook.com/BagFreeBadgers"><b><i>Website and resources available here»</i></b></a>' +
+                '</p>' +
+
+                '<p>' +
+                'Campus sustainable food guide — Team developed a website to provide information about food sustainability in an easy-to-comprehend format focused on campus-specific issues to aid student decision making.' +
+                '</p>' +
+
+                '<p>' +
+                
+                  '<a class="more_news_link" href="http://eatsmartuw.wordpress.com/"><b><i>Website available here»</i></b></a>' +
+                '</p>' +
+
+                '<p>' +
+                'Receipt Reduction — Cross-organizational team created a Receipt Reduction Resource (R3) guide to help campus businesses go paper free in their receipt production.  Team members held tabling events to raise awareness, worked with campus partners to implement pilot receipt reduction programs, and worked with Union eateries to transition to BPA-free receipt paper.' +
+                '</p>' +
+
+                '<p>' +
+                
+                  '<a class="more_news_link" href="http://sustainability.wisc.edu/receipt-reduction/"><b><i>Information available here»</i></b></a>' +
+                '</p>' +
+              '</div>' +
+              '</div>' 
 
 
 
 var geog_env_309_HTML = '<div class="col-md-10">' +
-                          '<h2 class="mb-3" contenteditable="true">Geog / Env. St 309: People, Land & Food</h2>' +
+                          '<h2 class="mb-3">Geog / Env. St 309: People, Land & Food</h2>' +
                           '<h6 class="mb-3">Welcome to the “People, Land and Food” course website!  You can download a syllabus <a class = "more_news_link" href = "http://www.gibbs-lab.com/wp-content/uploads/2019/09/Gibbs_syllaubus_People_Land_Food_Spring_2018_Final_REVISED.pdf" target="_blank"><b><i>here</i></b></a> to learn more.</h6>' +
                           '<p>'+
                             'The ways in which our society uses and transforms land to produce food has impacted our world more than any other environmental change.  This course will explore real-world examples and together we will investigate solutions to improve our use of land and food production strategies. We will also go beyond the walls of the classroom to study our campus and city community, and work towards making change on the ground.'+
@@ -260,7 +350,7 @@ var geog_env_309_HTML = '<div class="col-md-10">' +
                
 
 var grad_seminar = '<div class="col-md-10">' +
-                          '<h2 class="mb-3" contenteditable="true">Graduate Seminars</h2>' +
+                          '<h2 class="mb-3">Graduate Seminars</h2>' +
                           '<h6 class="mb-3">I generally teach one graduate level seminar each year often on interdisciplinary topics around land change science.</h6>' +
                           '<p>'+
                           '</p>' +
@@ -285,11 +375,11 @@ var grad_seminar = '<div class="col-md-10">' +
 //Set event listeners for programs
 
 $(document).ready(function(){ 
-  $('#coreNav').on('click', function(e) {
+  $('#capstone').on('click', function(e) {
 
     // Prevent the page from reloading
   
-  document.getElementById("course-info").innerHTML = coreHTML;
+  document.getElementById("course-info").innerHTML = capstone_HTML;
   });
 });
 
