@@ -213,14 +213,14 @@ var capstone_HTML = '<div class="col-md-10">' +
                 '<p class=course-photo>' +
            
                 '<div class="col-8 course">' +
-                  '<a href="https://uwmadison.box.com/shared/static/8bhxieluotgnx1pmfuf9994p8x2swe5e.jpg">' +
-                  '<img class="img-fluid course" src="https://uwmadison.box.com/shared/static/8bhxieluotgnx1pmfuf9994p8x2swe5e.jpg" alt="Card image cap">' +
+                  '<a href="assets/capstone_graphic.jpeg">' +
+                  '<img class="img-fluid course" src="assets/capstone_graphic.jpeg" alt="Card image cap">' +
                   '</a>' +
                 '</div>' +
                 '</p>' +
 
                 '<p>' +
-                '<a class="more_news_link" href="https://uwmadison.box.com/shared/static/umynniy83olv59o5cafciaurxksxypch.pdf"><b><i>See class poster here»</i></b>' +
+                '<a class="more_news_link" href="assets/capstone_poster.pdf" src="assets/capstone_poster.pdf"><b><i>See class poster here»</i></b>' +
                 
               '</a>' +
               '</p>' +
@@ -313,8 +313,8 @@ var geog_env_309_HTML = '<div class="col-md-10">' +
                           '</p>'+
                         '<p class=course-photo>'+              
                           '<div class="col-8 course">' +
-                            '<a href="http://www.gibbs-lab.com/wp-content/uploads/2013/01/urban_farming.jpg">'+
-                            '<img class="img-fluid course" src="http://www.gibbs-lab.com/wp-content/uploads/2013/01/urban_farming.jpg" alt="Card image cap">'+
+                            '<a href="assets/geog_309_farming.jpeg" src="assets/geog_309_farming.jpeg">'+
+                            '<img class="img-fluid course" src="assets/geog_309_farming.jpeg" alt="Card image cap">'+
                             '</a>'+
                           '</div>'+
                           '</p>'+
@@ -327,8 +327,8 @@ var geog_env_309_HTML = '<div class="col-md-10">' +
                               'I am an Associate Professor of Geography and Environmental Studies, and part of the Center for Sustainability and the Global Environment and the Wisconsin Energy Initiative.  A physical scientist by training, I focus on interdisciplinary, applied questions around land-use change, globalization, environment, and policy.  I investigate how and why people clear tropical forests or change agricultural practices around the world and what that means for climate change, biodiversity and social justice.  Much of my time is spent behind a computer using satellite images and models to understand land use but I also spend quite a bit of time exploring communities and conditions in tropical countries especially Brazil, Indonesia, Malaysia and Ethiopia.' +
                             '</div>'+
                               '<div class="col-md-6">' +
-                                '<a href="http://www.gibbs-lab.com/wp-content/uploads/2013/01/urban_farming.jpg">'+
-                                  '<img class="img-fluid course hollybio" src="bio_img/Holly_headshot_2019-768x512.jpeg" alt="Card image cap">'+
+                                '<a href="assets/geog_309_holly.jpeg">'+
+                                  '<img class="img-fluid course hollybio" src="assets/geog_309_holly.jpeg" alt="Card image cap">'+
                                 '</a>'+
                             '</div>' +
                           '</div>' +
