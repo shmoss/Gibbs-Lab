@@ -29,8 +29,9 @@ body {
 h2{
   font-family: 'Benne', serif;
   font-family: 'Martel Sans', sans-serif;
-  font-weight: 600;
-  color:#0c2d1c;
+  font-weight: 800 !important;
+  color:#0c2d1c !important;
+  font-size: 26px !important;
 
 }
 
@@ -40,7 +41,7 @@ h2{
 }
 
 .logo_header {
-  font-size: 35px;
+  font-size: 40px;
   font-weight:800 !important;
   font: Raleway, sans-serif;
 
@@ -334,6 +335,10 @@ color:#004869 !important
 
 .mb-0 {
   color:#004869;
+  font-size:14px;
+  font-weight:400 !important;
+  text-transform: uppercase
+
 }
 
 .research_subtopic_description {
@@ -443,7 +448,8 @@ img.rounded-circle.z-depth-1 {
 }
 
  .people_name {
-
+  padding-top:2px;
+  font-size: 20px;
   color:#0c2d1c !important
  }
 
@@ -680,7 +686,7 @@ p {
 	margin-bottom: 20px;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 400 !important;
     line-height: 1.8em;
     letter-spacing: 0.01em;	
     color:#403F3F;
@@ -924,13 +930,18 @@ input[type=number] {
 
 
  .people_name {
-  font-size:20px !important;
-  color:black !important
+  font-size:16px !important;
+  color:#0c2d1c !important
  }
 
  .mb-0 {
-   font-size:14px !important;
- }
+  color:#004869;
+  font-size:12px;
+  text-transform: uppercase;
+  font-weight:400 !important;
+}
+
+
 
   .container{
     
