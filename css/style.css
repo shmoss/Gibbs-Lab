@@ -34,6 +34,16 @@ h2{
 
 }
 
+.logo_subheader {
+  font-size: 12px;
+  font-weight:400 !important;
+}
+
+.logo_header {
+  font-size: 35px;
+  font-weight:800 !important;
+}
+
 .introHomePage{
   font-size: 16px;
   font-weight:800 !important;
