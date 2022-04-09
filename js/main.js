@@ -174,19 +174,19 @@ $(".showAll").click(function() {
 
 // .btn is the class of the element you want to change color
 
-// var $btns = $('.btn').click(function() {
-//   console.log(this.id)
-//   if (this.id == 'all') {
-//     $('#parent > div').fadeIn(450);
-//     $('.col-6.col-md-3.p-4.alumni').fadeOut(450);
-//   } else {
-//     var $el = $('.' + this.id).fadeIn(450);
-//     console.log($el)
-//     $('#parent > div').not($el).hide();
-//   }
-//   $btns.removeClass('active');
-//   $(this).addClass('active');
-// })
+var $btns = $('.btn.people').click(function() {
+  console.log(this.id)
+  if (this.id == 'all') {
+    $('#parent > div').fadeIn(450);
+    $('.col-6.col-md-3.p-4.alumni').fadeOut(450);
+  } else {
+    var $el = $('.' + this.id).fadeIn(450);
+    console.log($el)
+    $('#parent > div').not($el).hide();
+  }
+  $btns.removeClass('active');
+  $(this).addClass('active');
+})
 
 
 $(function(){
