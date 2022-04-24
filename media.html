@@ -84,7 +84,7 @@
 
   <div id='filterHeading' class='row'>
     <div class='col-md-12 pl-md-5 pr-md-5'>
-    <h4 >Filter Publications:</h4>
+    <h4 >Gibbs Lab Media</h4>
   </div>
 </div>
 
@@ -94,26 +94,11 @@
      
   <button class="btn active" id ="showAll" onclick="displayAll()">Show All</button>
   <button class="btn" onclick="fltTbl('latin_america')">Latin America</button>
-  <button class="btn" onclick="fltTbl('usa')">USA</button>
-  <button class="btn" onclick="fltTbl('other')">Other News</button>
-</div>
-</div>
-<div class='row'>
-   <div class="col-md-12 pl-md-5 pr-md-5">
-    <div id ='searchBars' class="row">
-       <div class="col-md-4">
-
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by keyword..">
-      </div>
-
-      <div class="col-md-4">
-        <input type="number" id="myInput_year" onkeyup="myFunction()" placeholder="Search by year..">
-      </div>
+  <button class="btn" onclick="fltTbl('north_america')">North America</button>
+  <button class="btn" onclick="fltTbl('global')">Global</button>
 </div>
 </div>
 
-
-</div>
 
 </div>
 	
@@ -129,115 +114,374 @@
 
  <table class="mytable" id="myTable">
   <tr class="header">
-    <th style="width:60%;">2020</th>
+    <th style="width:60%;">2022</th>
 
   </tr>
   <tr data-name="latin_america" class="">
-    <td name=""><b class="media-item">Reuters </b>| One Brazilian farmer tried – and failed – to ranch more responsibly in the Amazon
+    <td name="">
+      <a href = "https://www.washingtonpost.com/climate-solutions/2022/03/09/amazon-rainforest-deforestation-beef/">
+      <b class="media-item">Washington Post</b> | Demand for meat is destroying the Amazon. Smarter choices at the dinner table can go a long way to help.     
+      </a> 
+  </td>
+  </tr>
+  <tr data-name="latin_america" class="">
+    <td name="">
+      <a href = "https://www.theguardian.com/environment/2022/feb/10/loophole-allowing-for-deforestation-on-soya-farms-in-brazils-amazon">
+      <b class="media-item">The Guardian</b> | ‘Loophole’ allowing for deforestation on soya farms in Brazil’s Amazon   
+      </a>   
+  </td>
+  </tr>
+  <tr data-name="latin_america" class="">
+    <td name="">
+      <a href = "https://www.bloomberg.com/graphics/2022-beef-industry-fueling-amazon-rainforest-destruction-deforestation/">
+      <b class="media-item">Bloomberg</b> | How Big Beef Is Fueling the Amazon’s Destruction   
+      </a>  
+  </td>
+  </tr>
+  <tr class="header">
+    <th style="width:60%;">2021</th>
+
+  </tr>
+  <tr data-name="latin_america" class="">
+    <td name="">
+      <a href = "https://www.just-style.com/news/leather-working-group-to-conduct-leather-supply-chain-project/">
+      <b class="media-item">Just Style</b> | New project said to be the largest to map leather supply chains  
+      </a>  
+  </td>
+  </tr>
+  <tr data-name="global" class="">
+    <td name="">
+      <a href = "https://www.washingtonpost.com/world/2021/11/17/eu-commodity-imports-deforestation/">
+      <b class="media-item">Washington Post</b> |  E.U. seeks to block import of commodities that drive deforestation   
+      </a>
+  </td>
+  </tr>
+  <tr data-name="latin_america" class="">
+    <td name="">
+      <a href = "https://www.nytimes.com/2021/11/17/climate/leather-seats-cars-rainforest.html?unlocked_article_code=AAAAAAAAAAAAAAAACEIPuonUktbfqohlSVUaBCbeWdkipwGLwvzCyaA8i2W7NyWcVS0HxO0PGM2a8kbLa615asAvmTSHQdsLeJkeeMtP9M4NdUp8V1vv5ZKehJUOJyhy9Ym6Dz5pg56IA-1nqXq3YDTmbe0hze36skzcOTXtUabe0HR1Nx8l9cU-DSyi33MLz6nGEOBniJIpjbp6WMcMFXpXbzKKvvLrFx19JN2DCxnc4QI3UOhdMirByZ_es_lTNVUPVi-VCS938m0-69tDONgIPa6ZLxUoe8D2gLt5GXXpl_Adi7jA7R_tccamDAoL&smid=url-share">
+      <b class="media-item">New York Times</b> | How Americans' appetite for leather in luxury SUVs is worsening Amazon deforestation  
+      </a>
+  </td>
+  </tr>
+  <tr data-name="global" class="">
+    <td name="">
+      <a href = "https://www.popsci.com/environment/cop26-deforestation/">
+      <b class="media-item">Popular Science</b> | World leaders promise to end deforestation. Is that even possible? 
+      </a>
+  </td>
+  </tr>
+  <tr data-name="latin_america" class="">
+    <td name="">
+      <a href = "https://www.thebureauinvestigates.com/stories/2021-05-19/loophole-lets-soya-farmers-tear-down-the-amazon">
+      <b class="media-item">The Bueau of Investigative Journalism</b> | Loophole lets soya farmers tear down the Amazon 
+      </a>
+  </td>
+  </tr>
+  <tr data-name="latin_america" class="">
+    <td name="">
+      <a href = "https://news.mongabay.com/2021/05/deforestation-free-beef-stymied-by-brazils-unequal-supply-chain/">
+      <b class="media-item">Mongabay</b> | Deforestation-free beef stymied by Brazil’s unequal supply chain
+      </a>
+  </td>
+  </tr>
+  <tr class="header">
+    <th style="width:60%;">2020</th>
+  </tr> 
+  <tr data-name="latin_america" class="">
+    <td name="">
+      <a href = "https://news.mongabay.com/2020/12/soy-moratorium-averted-new-jersey-size-loss-of-amazon-rainforest-study/">
+      <b class="media-item">Mongabay</b> | Soy moratorium averted New Jersey-size loss of Amazon rainforest 
+      </a>
+  </td>
+  </tr>
+  
+  <tr data-name="latin_america" class="">
+    <td name="">
+      <a href = "https://www.bloomberg.com/news/features/2020-12-17/saving-the-amazon-starts-with-cleaning-up-the-beef-industry">
+      <b class="media-item">Bloomberg Green</b> | Bloomberg Green - Why It’s So Hard to Stop Amazon Deforestation, Starting With the Beef Industry 
+      </a>
+  </td>
+  </tr>
+  <tr data-name="latin_america" class="">
+    <td name="">
+      <a href = "https://www.reuters.com/investigates/special-report/brazil-deforestation-cattle/">
+      <b class="media-item">Reuters </b>| One Brazilian farmer tried – and failed – to ranch more responsibly in the Amazon
+      </a>
   </td>
   </tr>
   <tr data-name="latin_america" class="brazil">
-    <td name=""><b class="media-item">Forbes </b>| Forbes – Rotten Apples Could Spoil Brazilian Soybean Exports</td>
+    <td name="">
+      <a href = "https://www.forbes.com/sites/jordanstrickler/2020/07/17/rotten-apples-could-spoil-brazilian-soybean-exports/?sh=40cb5dde6614">
+      <b class="media-item">Forbes </b>| Rotten Apples Could Spoil Brazilian Soybean Exports
+      </a>
+    </td>
   </tr>
   <tr data-name="latin_america" class="brazil">
-    <td name=""><b class="media-item">The Guardian | </b>A fifth of Brazilian soy in Europe is result of deforestation</td>
+    <td name="">
+      <a href = "https://www.theguardian.com/environment/2020/jul/16/a-fifth-of-brazilian-soy-in-europe-is-result-of-deforestation-amazon-jair-bolsonaro">
+      <b class="media-item">The Guardian </b>| A fifth of Brazilian soy in Europe is result of deforestation
+      </a>
+    </td>
   </tr>
   <tr data-name="latin_america" class="brazil">
-    <td name=""><b class="media-item">BBC | </b>Amazon soya and beef exports ‘linked to deforestation’</td> 
+    <td name="">
+      <a href = "https://www.bbc.com/news/science-environment-53438680">
+      <b class="media-item">BBC </b>| Amazon soya and beef exports ‘linked to deforestation’
+      </a>
+    </td> 
   </tr>
   <tr data-name="latin_america" class="brazil">
-    <td name=""><b class="media-item">CNN | </b>Brazil’s beef and soy exports to the EU linked to illegal deforestation, study finds</td>
+    <td name="">
+      <a href = "https://www.cnn.com/2020/07/16/americas/brazil-deforestation-soy-beef-eu-intl-hnk/index.html">
+      <b class="media-item">CNN </b>| Brazil’s beef and soy exports to the EU linked to illegal deforestation, study finds
+      </a>
+    </td>
   </tr>
   <tr data-name="latin_america" class="brazil">
-    <td name=""><b class="media-item">Reuters | </b>A fifth of EU soy imports from Brazil could be tainted by deforestation</td>
+    <td name="">
+      <a href = "https://www.reuters.com/article/us-brazil-environment/a-fifth-of-eu-soy-imports-from-brazil-could-be-tainted-by-deforestation-study-says-idUSKCN24H2XN">
+      <b class="media-item">Reuters </b>| A fifth of EU soy imports from Brazil could be tainted by deforestation
+      </a>
+    </td>
   </tr>
   <tr data-name="latin_america" class="brazil">
-    <td name=""><b class="media-item">Phys | </b>Revealing Brazil’s rotten agribusinesses</td>
+    <td name="">
+      <a href = "https://phys.org/news/2020-07-revealing-brazil-rotten-agribusinesses.html">
+      <b class="media-item">Phys </b>| Revealing Brazil’s rotten agribusinesses
+      </a>
+    </td>
   </tr>
   <tr data-name="latin_america" class="brazil">
-    <td name=""><b class="media-item"> Mongabay | </b>Only a few ‘rotten apples’ causing most illegal Brazil deforestation</td>
+    <td name="">
+      <a href = "https://news.mongabay.com/2020/07/only-a-few-rotten-apples-causing-most-illegal-brazil-deforestation-study/">
+      <b class="media-item"> Mongabay </b>| Only a few ‘rotten apples’ causing most illegal Brazil deforestation
+      </a>
+    </td>
   </tr>
   <tr data-name="latin_america">
-    <td name=""><b class="media-item">Hellenic Shipping News | </b>A fifth of EU soy imports from Brazil could be tainted by deforestation</td>
+    <td name="">
+      <a href = "https://www.hellenicshippingnews.com/a-fifth-of-eu-soy-imports-from-brazil-could-be-tainted-by-deforestation-study-says/">
+      <b class="media-item">Hellenic Shipping News </b>| A fifth of EU soy imports from Brazil could be tainted by deforestation
+      </a>
+    </td>
   </tr>
   <tr data-name="latin_america">
-    <td name=""><b class="media-item">Medium | </b>The rotten apples of Brazil’s agribusiness</td>
+    <td name="">
+      <a href = "https://medium.com/@naplanicie/the-rotten-apples-of-brazils-agribusiness-4846ef3fe984">
+      <b class="media-item">Medium </b>| The rotten apples of Brazil’s agribusiness
+      </a>
+    </td>
   </tr>
   <tr data-name="latin_america">
-    <td name=""><b class="media-item">New Food | </b>Study reveals scale of illegal soy and beef exports from Brazil to EU</td>
+    <td name="">
+      <a href = "https://www.newfoodmagazine.com/news/114543/study-reveals-scale-of-illegal-soy-and-beef-exports-from-brazil-to-eu/">
+      <b class="media-item">New Food </b>| Study reveals scale of illegal soy and beef exports from Brazil to EU
+      </a>
+    </td>
   </tr>
   <tr data-name="latin_america">
-    <td name=""><b class="media-item">The Cattle Site | </b>Amazon deforestation linked with soya and beef production</td>
+    <td name="">
+      <a href = "https://www.thecattlesite.com/news/55617/amazon-deforestation-linked-with-soya-and-beef-production/">
+      <b class="media-item">The Cattle Site </b>| Amazon deforestation linked with soya and beef production
+      </a>
+    </td>
   </tr>
   <tr data-name="latin_america">
-    <td name=""><b class="media-item">Merco Press | </b>A fifth of Brazilian soy exports to EU may have come from illegally deforested land</td>
+    <td name="">
+      <a href = "https://en.mercopress.com/2020/07/21/a-fifth-of-brazilian-soy-exports-to-eu-may-have-come-from-illegally-deforested-land">
+      <b class="media-item">Merco Press </b>| A fifth of Brazilian soy exports to EU may have come from illegally deforested land
+      </a>
+    </td>
   </tr>
-  <tr data-name="emissions">
-    <td name=""><b class="media-item">Rausch, L., J. Munger, I. Schelly, and H. K. Gibbs.</b> 2020. “The role of Brazil’s cattle sector in the 2019 fire season.” Gibbs Land Use and Environment Report Series. [Link]</td>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://www.ecodebate.com.br/2020/07/17/20-da-soja-e-carne-exportadas-para-a-ue-podem-estar-vinculadas-ao-desmatamento-ilegal/">
+      <b class="media-item">Eco Debate</b> | 20% da soja e carne exportadas para a UE podem estar vinculadas ao desmatamento ilegal 
+      </a>
+    </td>   
   </tr>
-  <tr data-name="emissions">
-    <td name=""><b class="media-item">Brandão Jr. A., L. Rausch, A.P. Durán, C. Costa Jr., C. Costa, S.A. Spawn, and H. K. Gibbs.</b> 2020. “Estimating the Potential for Conservation and Farming in the Amazon and Cerrado under Four Policy Scenarios.” Sustanability. [Abstract] [Link]</td>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://noticias.uol.com.br/colunas/reinaldo-azevedo/2020/07/16/science-cerca-de-um-quinto-da-soja-e-carne-brasileiras-vem-de-desmatamento.htm">
+      <b class="media-item">UOL</b> | Cerca de um quinto da soja e carne brasileiras vêm de desmatamento 
+      </a>
+    </td>   
   </tr>
-  <tr data-name="emissions">
-    <td name=""><b>Soto-Navarro, C., C. Ravilious, A. Arnell, X. de Lamo, M. Harfoot, S.L.L. Hill, O.R. Wearn, M. Santoro, A. Bouvet, S. Mermoz, T. Le Toan, J. Xia, S. Liu, W. Yuan, S.A. Spawn, H. K. Gibbs, S. Ferrier, T. Harwood, R. Alkemade, A.M. Schipper, G. Schmidt-Traub, B. Strassburg, L. Miles, N..D Burgess, and V. Kapos.</b> 2020. “Mapping co-benefits for carbon storage and biodiversity to inform conservation policy and action.” Philosophical Transactions of the Royal Society B. [Link]</td>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://www.lavanguardia.com/natural/20200717/482342212781/soja-y-vacuno-que-los-europeos-compramos-a-brasil-a-costa-la-amazonia.html">
+      <b class="media-item">La Vanguardia</b> | Soja y vacuno que los europeos compramos a Brasil a costa la Amazonia 
+      </a>
+    </td>   
   </tr>
-  <tr data-name="emissions">
-    <td name=""><b>Santika, T, E. Law, K. A. Wilson, F.A.V. St John, K. Carlson, H. K. Gibbs C. L. Morgans, M. Ancrenaz, and E. Meijaard.</b> 2020. “Impact of palm oil sustainability certification on village well-being and poverty in Indonesia” In Review. [Link]</td>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://www.lavanguardia.com/natural/20200717/482342212781/soja-y-vacuno-que-los-europeos-compramos-a-brasil-a-costa-la-amazonia.html">
+      <b class="media-item">D Noticias</b> | Até um quinto da soja exportada do Brasil para a UE deriva da desflorestação ilegal  
+      </a>
+    </td>   
+  </tr>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://g1.globo.com/jornal-nacional/noticia/2020/07/16/soja-e-carne-exportadas-do-brasil-para-ue-podem-ter-rastro-de-desmate-ilegal-diz-estudo.ghtml">
+      <b class="media-item">G1</b> | Soja e carne exportadas do Brasil para UE podem ter rastro de desmate ilegal  
+      </a>
+    </td>   
+  </tr>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://www.jornaldocomercio.com/_conteudo/economia/2020/07/748112-desmatamento-pode-contaminar-20-da-soja-e-17-da-carne-exportadas-a-europa.html">
+      <b class="media-item">Jornal do Comercio </b> | Desmatamento pode contaminar 20% da soja e 17% da carne exportadas à Europa 
+      </a>
+    </td>   
+  </tr>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://greenreport.it/news/agricoltura/le-mele-marce-dellagribusiness-brasiliano-ed-europeo/">
+      <b class="media-item">Green Report</b> | Le mele marce dell’agribusiness brasiliano 
+      </a>
+    </td>   
+  </tr>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://www.greenme.it/ambiente/soia-amazzonia-deforestazione-illegale-brasile/">
+      <b class="media-item">Green Me </b> | Un quinto della soia europea viene dalla deforestazione in Brasile 
+      </a>
+    </td>   
+  </tr>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://www.klimareporter.de/finanzen-wirtschaft/brandbeschleuniger-handel">
+      <b class="media-item">Klima Reporter </b> | Brandbeschleuniger Handel 
+      </a>
+    </td>   
+  </tr>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://www.tagesspiegel.de/wissen/software-zeigt-raubbau-in-amazonien-eu-importiert-zwei-millionen-tonnen-soja-von-illegal-gerodeten-flaechen/26011410.html">
+      <b class="media-item">Tagesspiegel </b> | EU importiert zwei Millionen Tonnen Soja von illegal gerodeten Flächen 
+      </a>
+    </td>   
+  </tr>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://www.la-croix.com/Economie/Au-Bresil-deforeste-illegalement-exporter-soja-vers-lEurope-2020-07-19-1201105527">
+      <b class="media-item">La Croix </b> | Au Brésil, on déforeste illégalement pour exporter le soja vers l’Europe 
+      </a>
+    </td>   
+  </tr>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://www.villesetcommunes.info/actu-monde/bresil-20-exportations-vers-leurope-proviennent-de-deforestation-illegale/">
+      <b class="media-item">Villes et Communes </b> | Brésil: 20 % des exportations vers l’Europe proviennent de la déforestation illégale  
+      </a>
+    </td>   
+  </tr>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://www.economist.com/the-americas/2020/06/11/how-big-beef-and-soya-firms-can-stop-deforestation">
+      <b class="media-item">The Economist </b> | How big beef and soya firms can stop deforestation 
+      </a>
+    </td>   
+  </tr>
+  <tr data-name="global">
+    <td name="">
+      <a href = "https://nelson.wisc.edu/news-archive/story.php?story=3275">
+      <b class="media-item">The Commons </b> | SAGE associate professor and Geography graduate research fellow publish three papers on carbon stocks 
+      </a>
+    </td>   
+  </tr>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://www.csmonitor.com/Environment/2020/0304/Saving-the-Amazon-How-cattle-ranchers-can-halt-deforestation">
+      <b class="media-item">Christian Science Monitor </b> | Saving the Amazon: How cattle ranchers can halt deforestation 
+      </a>
+    </td>   
+  </tr>
+  <tr data-name="global">
+    <td name="">
+      <a href = "https://onwisconsin.uwalumni.com/features/earths-bright-future/">
+      <b class="media-item">On Wisconsin </b> | Earth’s Bright Future 
+      </a>
+    </td>   
+  </tr>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://www.theguardian.com/environment/2020/feb/20/meat-company-faces-heat-over-cattle-laundering-in-amazon-supply-chain">
+      <b class="media-item">The Guardian </b> | Meat company faces heat over ‘cattle laundering’ in Amazon supply chain 
+      </a>
+    </td>   
   </tr>
   <tr class="header">
     <th style="width:60%;">2019</th>
   </tr>
-  <tr data-name="cattle_emissions">
-    <td name=""><b>Xie, Y.,T.J. Lark., J.F. Brown, and H. K. Gibbs.</b> 2019. “Mapping irrigated cropland extent across the conterminous United States at 30 m resolution using a semi-automatic training approach on Google Earth Engine.” ISPRS Journal of Photogrammetry and Remote Sensing. [Link]</td>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://www.nytimes.com/2019/10/10/world/americas/amazon-fires-brazil-cattle.html?smid=nytcore-ios-share">
+      <b class="media-item">New York Times </b> | Why Did a Vow to End Amazon Fires Falter? Blame ʻCattle Launderingʼ 
+      </a>
+    </td>   
   </tr>
-  <tr data-name="cattle">
-    <td name=""><b>Buckley, K.J., P. Newton, H. K. Gibbs, I. McConnel, and J. Ehrmann.</b> 2019. “Pursuing sustainability through multi-stakeholder collaboration: A description of the governance, actions, and perceived impacts of the roundtables for sustainable beef.” World Development. [Link]</td>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://news.mongabay.com/2019/10/brazilian-beef-industry-plays-outsized-role-in-tropical-carbon-emissions-report/">
+      <b class="media-item">Mongabay </b> | Brazilian beef industry plays outsized role in tropical carbon emissions 
+      </a>
+    </td>   
   </tr>
-  <tr>
-    <td><b>Lark, T.J., B. Larson, I. Schelly, S. Batish, and H. K. Gibbs.</b> 2019. “Accelerated conversion of native prairie to cropland in Minnesota.” Environmental Conservation. [Link]</td>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://www.nature.com/articles/d41586-019-02606-4">
+      <b class="media-item">Nature </b> | The crop that’s gobbling up a vast Brazilian ecosystem 
+      </a>
+    </td>   
   </tr>
-  <tr>
-    <td><b>Spawn, S.A., T.J. Lark, and H. K. Gibbs.</b> 2019. “Carbon emissions from cropland expansion in the United States.” Environmental Research Letters. [Link]</td>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://news.mongabay.com/2019/09/giant-norway-pension-fund-weighs-brazil-divestment-over-amazon-deforestation/">
+      <b class="media-item">Mongabay </b> | Giant Norway pension fund weighs Brazil divestment over Amazon deforestation 
+      </a>
+    </td>   
   </tr>
-  <tr class="cattle">
-    <td class="cattle"><b>Lima, M., C. Antonio da Silva Junior, L.L. Rausch, H. K. Gibbs, and J.A. Johann.</b> 2019. “Demystifying sustainable soy in Brazil.” Land Use Policy. [Link]</td>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "https://news.mongabay.com/2019/07/cargill-rejects-cerrado-soy-moratorium-pledges-30-million-search-for-ideas/amp/?__twitter_impression=true">
+      <b class="media-item">Mongabay </b> | Cargill rejects Cerrado soy moratorium, pledges $30 million search for ideas  
+      </a>
+    </td>   
   </tr>
-  <tr>
-    <td><b>Sullivan, C.C., H. K. Gibbs and L.L. Rausch.</b> 2019. “Towards Zero Deforestation Cattle in Colombia.” Policy brief. [Link]</td>
+  <tr class="header">
+    <th style="width:60%;">2018</th>
   </tr>
-  <tr>
-    <td><b>National Wildlife Federation and Gibbs Land Use and Environment Lab.</b> 2019. “Amazon Soy Moratorium: Delivering Win-Win Outcomes for Forests and Agribusiness.” Policy brief. [Link]</td>
+  <tr data-name="global">
+    <td name="">
+      <a href = "https://www.science.org/content/article/scientists-reveal-how-much-world-s-forests-being-destroyed-industrial-agriculture">
+      <b class="media-item">Science News  </b> | New global study reveals the ‘staggering’ loss of forests caused by industrial agriculture. 
+      </a>
+    </td>   
   </tr>
-  <tr>
-    <td><b>Moffette, F., M. Skidmore, and H. K. Gibbs.</b> 2019. “Environmental Policies That Shape Productivity: Evidence from Cattle Ranching in the Amazon.” In review. [Link]</td>
+  <tr data-name="global">
+    <td name="">
+      <a href = "https://news.mongabay.com/2018/03/do-environmental-advocacy-campaigns-drive-successful-forest-conservation/">
+      <b class="media-item">Mongabay </b> | Do environmental advocacy campaigns drive successful forest conservation? 
+      </a>
+    </td>   
   </tr>
-  <tr>
-    <td><b>Rausch, L.L., H. K. Gibbs, I. Schelly, A. Brandão Jr., D.C. Morton, A.C. Filho, B. Strassburg, N. Walker, P. Noojipady, P. Barreto, and D. Meyer.</b> 2019. “Soy expansion in Brazil’s Cerrado.” Conservation Letters. [Link]</td>
+  <tr data-name="global">
+    <td name="">
+      <a href = "https://news.mongabay.com/2018/02/zero-deforestation-pledges-need-help-support-to-meet-targets-new-study-finds/">
+      <b class="media-item">Mongabay </b> | Zero-deforestation pledges need help, support to meet targets, new study finds 
+      </a>
+    </td>   
   </tr>
-  <tr>
-    <td><b>Brito, B., P. Barreto, A. Brandão Jr., S Baima, and P. H. Gomes.</b> 2019. “Stimulus for land grabbing and deforestation in the Brazilian Amazon.” Environmental Research Letters.[Abstract] [Link]</td>
+  <tr data-name="latin_america">
+    <td name="">
+      <a href = "assets/10-31-17-brazil-deforestation.pdf">
+      <b class="media-item">Press release </b> | Avoided Deforestation Linked to Environmental Registration of Properties in the Brazilian Amazon 
+      </a>
+    </td>   
   </tr>
-  <tr>
-    <td><b>Vale, P., H. K. Gibbs, R. Vale, J. Munger, A. Brandão, M. Christie, and E. Florence.</b> 2019. “Mapping the cattle industry in Brazil’s most dynamic cattle ranching state: Slaughterhouses in Mato Grosso, 1967-2016.” PlosOne. [Link]</td>
-  </tr>
-  <tr>
-    <td><b>Vale, R., P. Vale, H. K. Gibbs, D. Pedrón, J. Engelman, P. Barreto, and R. Pereira.</b> 2019. “Expansion and market concentration of Brazil’s beef industry, 1966-2017.” (almost in review) [Link]</td>
-  </tr>
-  <tr>
-    <td><b>Vale, P., H. K. Gibbs, R. Vale, M. Christie, E. Florence, J. Munger, and D. Sabaini.</b> 2019. “The expansion of intensive beef farming to the Brazilian Amazon.” Global Environmental Change. [Link]</td>
-  </tr>
-  <tr>
-    <td><b>Garrett, R.D., S. Levy, K.M. Carlson, T.A. Gardner, J. Godar, J. Clapp, P. Dauvergne, R. Heilmayr, Y. le Polain de Waroux, B. Ayre, R. Barr, B .Døvre, H. K. Gibbs, S. Hall, S. Lake, J.C. Milder, L.L. Rausch, R. Rivero, X. Rueda, R. Sarsfield, B. Soares-Filho, and N. Villoria.</b> 2019. “Criteria for effective zero-deforestation commitments.” Global Environmental Change. [Link]</td>
-  </tr>
-  <tr class="Filho">
-    <td>Filho</td>
-  </tr>
-  <tr class="Filho">
-    <td>Gibbs</td>
-  </tr>
-  <tr class="Filho">
-    <td>Spawn</td>
-  </tr>
+
 </table>  
 </div>
 </div>
