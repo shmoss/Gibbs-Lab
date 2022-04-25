@@ -88,34 +88,75 @@
   </div>
 </div>
 
-  <div id='filterButtons' class='row'>
+<div class = "row">
+  <div id='filterButtons' class="btn-group" data-toggle="buttons">
+    <div class='col-md-12 pl-md-5 pr-md-5'>    
 
-    <div class='col-md-12 pl-md-5 pr-md-5'>
-     
-  <button class="btn active" id ="showAll" onclick="displayAll()">Show All</button>
-  <button class="btn" onclick="fltTbl('latin_america')">Latin America</button>
-  <button class="btn" onclick="fltTbl('north_america')">North America</button>
-  <button class="btn" onclick="fltTbl('southeast_asia')">Southeast Asia</button>
-  <button class="btn" onclick="fltTbl('africa')">Africa</button>
-  <button class="btn" onclick="fltTbl('global')">Global</button>
-</div>
+  
+        <label class="btn btn-default active" onclick="displayAll()">
+          <input class="btn" type="radio" name="options" value="left 2" autocomplete="off"> Show All 
+        </label>
+        <label class="btn btn-default" onclick="fltTbl('latin_america')">
+          <input class="btn" type="radio" name="options" value="middle 2" autocomplete="off" > Latin America
+        </label>
+        <label class="btn btn-default" onclick="fltTbl('north_america')">
+          <input class="btn" type="radio" name="options" value="middle 2" autocomplete="off" > North America
+        </label>
+        <label class="btn btn-default" onclick="fltTbl('southeast_asia')">
+          <input class="btn" type="radio" name="options" value="middle 2" autocomplete="off" > Southeast Asia
+        </label>
+        <label class="btn btn-default" onclick="fltTbl('africa')">
+          <input class="btn" type="radio" name="options" value="middle 2" autocomplete="off" > Africa
+        </label>
+        <label class="btn btn-default" onclick="fltTbl('global')">
+          <input class="btn" type="radio" name="options" value="right 2" autocomplete="off"> Global
+        </label> 
+    
+
+       <div class = "row" >
+        </div>
+        
+        <label class="btn btn-default" onclick="fltTbl('zero-deforestation')">
+          <input class="btn" type="radio" name="options" value="middle 2" autocomplete="off" > Zero-Deforestation
+        </label>
+        <label class="btn btn-default" onclick="fltTbl('policy-outcomes')">
+          <input class="btn" type="radio" name="options" value="middle 2" autocomplete="off" > Policy Outcomes
+        </label>
+        <label class="btn btn-default" onclick="fltTbl('supply-chain')">
+          <input class="btn" type="radio" name="options" value="right 2" autocomplete="off"> Supply Chain Traceability
+        </label> 
+        <label class="btn btn-default" onclick="fltTbl('cropland-expansion')">
+          <input class="btn" type="radio" name="options" value="right 2" autocomplete="off"> US Cropland Expansion
+        </label> 
+        <label class="btn btn-default" onclick="fltTbl('carbon-and-emissions')">
+          <input class="btn" type="radio" name="options" value="right 2" autocomplete="off"> Global Carbon and Emissions
+        </label> 
+        <label class="btn btn-default" onclick="fltTbl('irrigation')">
+          <input class="btn" type="radio" name="options" value="right 2" autocomplete="off"> Irrigation
+        </label> 
+        <label class="btn btn-default" onclick="fltTbl('biofuels')">
+          <input class="btn" type="radio" name="options" value="right 2" autocomplete="off"> Biofuels
+        </label> 
+        <label class="btn btn-default" onclick="fltTbl('health-landuse-change')">
+          <input class="btn" type="radio" name="options" value="right 2" autocomplete="off"> Health and Land Use Change
+        </label> 
+        </div>
+
+
+    
+  </div>
 </div>
 
-<div id='filterButtons' class='row'>
+<div class = "row">
+  <div id='filterButtons' class="btn-group" data-toggle="buttons">
+    <div class='col-md-12 pl-md-5 pr-md-5'>    
+        
+    </div>
+  </div>
+</div>
 
-    <div class='col-md-12 pl-md-5 pr-md-5'>
-     
-  <button class="btn active" id ="showAll" onclick="displayAll()">Show All</button>
-  <button class="btn" onclick="fltTbl('zero-deforestation')">Zero-Deforestation</button>
-  <button class="btn" onclick="fltTbl('policy-outcomes')">Policy Outcomes</button>
-  <button class="btn" onclick="fltTbl('supply-chain')">Supply Chain Traceability</button>
-  <button class="btn" onclick="fltTbl('cropland-expansion')">US Cropland Expansion</button>
-  <button class="btn" onclick="fltTbl('carbon-and-emissions')">Global Carbon and Emissions</button>
-  <button class="btn" onclick="fltTbl('irrigation')">Irrigation</button>
-  <button class="btn" onclick="fltTbl('biofuels')">Biofuels</button>
-  <button class="btn" onclick="fltTbl('health-landuse-change')">Health and Land Use Change</button>
-</div>
-</div>
+
+
 
 
 

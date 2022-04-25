@@ -4,6 +4,12 @@ $(document).ready(function(){
     })
   });   
 
+
+$('input').on('change', function () {
+  console.clear();
+  console.log(this.value)
+})
+
 var tableRows = $('#myTable tbody tr')
 filterBoxes = $('.column.right :checkbox').on('change', filterTable);
 
@@ -163,9 +169,9 @@ $('.col-6.col-md-3.p-4.alumni').fadeOut(0);
 
 //$('.col-6.col-md-3.p-4.alumni').css("background-color:red");
 
-$('.btn').not(".showAll").click(function() {
-    $(".btn").removeClass('active');
-});
+// $('.btn').not(".showAll").click(function() {
+//     $(".btn").removeClass('active');
+// });
 
 
 $(".showAll").click(function() {

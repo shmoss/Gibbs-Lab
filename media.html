@@ -45,29 +45,29 @@
       <div class="collapse navbar-collapse text-left" id="navbarNav">
           <ul id = "navPills" class=" nav-pills navbar-nav ml-auto">    
               <li>
-                <a href="index.html" id="aboutPill" class="btn btn-s-md btn-white m-b">ABOUT
+                <a href="index.html" id="aboutPill" class="btn btn-s-md btn-white m-b" input type="radio" >ABOUT
                 </a>
               </li>
               <li>
-                <a href="people.html" id="aboutPill" class="btn btn-s-md btn-white m-b">
+                <a href="people.html" id="aboutPill" class="btn btn-s-md btn-white m-b " input type="radio">
                   PEOPLE
                 </a>
               </li>
               <li>
-                <a href="research.html" id="aboutPill" class="btn btn-s-md btn-white m-b">RESEARCH
+                <a href="research.html" id="aboutPill" class="btn btn-s-md btn-white m-b" input type="radio">RESEARCH
                 </a>
               </li>
               <li>
-                <a href="publications.html" id="aboutPill" class="btn btn-s-md btn-white m-b">PUBLICATIONS
+                <a href="publications.html" id="aboutPill" class="btn btn-s-md btn-white m-b" input type="radio">PUBLICATIONS
                 </a>
               </li>
               <li>
-                 <a href="media.html" id="aboutPill" class="btn btn-s-md btn-white m-b active">
+                 <a href="media.html" id="aboutPill" class="btn btn-s-md btn-white m-b active" input type="radio">
                 MEDIA
                 </a>
               </li>
               <li>
-                 <a href="teaching.html" id="aboutPill" class="btn btn-s-md btn-white m-b">
+                 <a href="teaching.html" id="aboutPill" class="btn btn-s-md btn-white m-b" input type="radio">
                 TEACHING
                 </a>
               </li>
@@ -88,19 +88,26 @@
   </div>
 </div>
 
-  <div id='filterButtons' class='row'>
-
-    <div class='col-md-12 pl-md-5 pr-md-5'>
-     
-  <button class="btn active" id ="showAll" onclick="displayAll()">Show All</button>
-  <button class="btn" onclick="fltTbl('latin_america')">Latin America</button>
-  <button class="btn" onclick="fltTbl('north_america')">North America</button>
-  <button class="btn" onclick="fltTbl('global')">Global</button>
+<div class = "row">
+  <div id='filterButtons' class="btn-group" data-toggle="buttons">
+    <div class='col-md-12 pl-md-5 pr-md-5'>    
+        <label class="btn btn-default active" onclick="displayAll()">
+          <input class="btn" type="radio" name="options" value="left 2" autocomplete="off"> Show All 
+        </label>
+        <label class="btn btn-default" onclick="fltTbl('latin_america')">
+          <input class="btn" type="radio" name="options" value="middle 2" autocomplete="off" > Latin America
+        </label>
+        <label class="btn btn-default" onclick="fltTbl('north_america')">
+          <input class="btn" type="radio" name="options" value="middle 2" autocomplete="off" > North America
+        </label>
+        <label class="btn btn-default" onclick="fltTbl('global')">
+          <input class="btn" type="radio" name="options" value="right 2" autocomplete="off"> Global
+        </label> 
+    </div>
+  </div>
 </div>
-</div>
 
 
-</div>
 	
 
 
