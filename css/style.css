@@ -598,6 +598,11 @@ color:#004869 !important
   box-shadow:none !important;
 }
 
+/* "Read More" Button on Card */
+.btn.btn-indigo.btn-rounded.btn-md {
+  font-size:12px;
+}
+
 
 /* ------------------------------Cards------------------------------*/
 
@@ -608,11 +613,32 @@ color:#004869 !important
   border:0 !important;
 }
 
+.card :hover h4{
+  color:#0c2d1c !important;
+}
+
 .card:hover {
   box-shadow:0rem 0.0625rem 0.5rem 0rem rgba(0,0,0,0.8);
   transition: box-shadow 0.3s ease-in-out;
 }
 
+.card:hover .card-img-top {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.card-title {
+  font-size:20px;
+  font-weight:700;
+}
+
+.card-text {
+  line-height:1.6em;
+}
 
 /* ------------------------------Publications------------------------------*/
 
