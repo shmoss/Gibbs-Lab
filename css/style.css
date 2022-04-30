@@ -41,12 +41,14 @@ body::-webkit-scrollbar-thumb {
   border-radius: 8px;
 }
 
-h2{
-  font-family: 'Benne', serif;
-  font-family: 'Martel Sans', sans-serif;
-  font-weight: 800 !important;
+h1 {
+  padding-bottom:8px;
   color:#0c2d1c !important;
-  font-size: 26px !important;
+  font-weight: 600 !important
+}
+
+h2 {
+ color:#0c2d1c !important
 }
 
 a {
@@ -152,6 +154,10 @@ a:hover{
 }
 
 /* ------------------------------News Scroll------------------------------*/
+
+#inTheNewsHeading {
+  font-size:26px;
+}
 
 #newsContainer {
   height:400px;
@@ -578,7 +584,14 @@ color:#004869 !important
   background-color:#f7f7f7 !important;
   color:#0c2d1c;
   border:none;
+
 }
+
+.btn.btn-default {
+  letter-spacing: 0.01em; 
+}
+
+
 
 .btn.active {
   background-color:#0c2d1c !important;
