@@ -315,7 +315,7 @@ var capstone_HTML = '<div class="col-md-10">' +
 
 var geog_env_309_HTML = '<div class="col-md-10">' +
                           '<h2 class="mb-3">Geog / Env. St 309: People, Land & Food</h2>' +
-                          '<h6 class="mb-3">Welcome to the “People, Land and Food” course website!  You can download a syllabus <a class = "more_news_link" href = "http://www.gibbs-lab.com/wp-content/uploads/2019/09/Gibbs_syllaubus_People_Land_Food_Spring_2018_Final_REVISED.pdf" target="_blank"><b><i>here</i></b></a> to learn more.</h6>' +
+                          '<h6 class="mb-3">Welcome to the “People, Land and Food” course website!  You can download a syllabus <a class = "more_news_link" href = "assets/Gibbs_syllabus_People_Land_Food_Spring_2022_Final.pdf" target="_blank"><b><i>here</i></b></a> to learn more.</h6>' +
                           '<p>'+
                             'The ways in which our society uses and transforms land to produce food has impacted our world more than any other environmental change.  This course will explore real-world examples and together we will investigate solutions to improve our use of land and food production strategies. We will also go beyond the walls of the classroom to study our campus and city community, and work towards making change on the ground.'+
                           '</p>'+
