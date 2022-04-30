@@ -22,56 +22,7 @@ body {
 	letter-spacing: 1px;
 	font-family: 'Raleway', sans-serif;
 	font-size:16px;
-    background-color:#f7f7f7 !important;
-
-}
-
-h2{
-  font-family: 'Benne', serif;
-  font-family: 'Martel Sans', sans-serif;
-  font-weight: 800 !important;
-  color:#0c2d1c !important;
-  font-size: 26px !important;
-
-}
-
-.btn-group input[type="radio"] {
-  opacity: 0;
-  position: fixed;
-  width: 0;
-}
-
-
-
-.logo_subheader {
-  font-size: 12px;
-  font-weight:400 !important;
-}
-
-.logo_header {
-  font-size: 40px;
-  font-weight:800 !important;
-  font: Raleway, sans-serif;
-
-}
-
-.introHomePage{
-  font-size: 16px;
-  font-weight:800 !important;
-  color: #0c2d1c !important
-}
-
-.newsDate {
-  font-size: 12px;
-
-}
-
-.newsItemHeading {
-  font-size: 16px
-}
-
-.newsMainContent {
-  font-size: 12px
+  background-color:#f7f7f7 !important;
 }
 
 body::-webkit-scrollbar {
@@ -90,22 +41,139 @@ body::-webkit-scrollbar-thumb {
   border-radius: 8px;
 }
 
+h2{
+  font-family: 'Benne', serif;
+  font-family: 'Martel Sans', sans-serif;
+  font-weight: 800 !important;
+  color:#0c2d1c !important;
+  font-size: 26px !important;
+}
+
 a {
   color:#004869;
 }
 
+a:hover, a:active {
+  text-decoration:none;
+  color: #333;
+}
+
+p {
+  margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400 !important;
+    line-height: 1.8em;
+    letter-spacing: 0.01em; 
+    color:#403F3F;
+}
+
+a {
+  color:#0c2d1c
+}
+
+b {
+  font-weight: 700;
+}
 
 
+.page-container {
+  width: inherit;
+  max-width: 100%;
+  margin: auto;   
+}
+
+.container {
+  padding-right:10px;
+  padding-left:10px;
+  padding-top:40px;
+  padding-bottom:20px;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.col-md-8 {
+  padding-top:40px;
+  padding-right: 45px;
+  padding-left: 15px;
+}
+
+.col-md-4 {
+  padding-top:40px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.img {
+  position: relative;
+  width: 100px;
+  height:100px;
+  background-position: 50% 50%;
+}
+
+
+.btn-group input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+/* Logo */
+.logo_subheader {
+  font-size: 12px;
+  font-weight:400 !important;
+}
+
+.logo_header {
+  font-size: 40px;
+  font-weight:800 !important;
+  font: Raleway, sans-serif;
+
+}
+
+/* delete? */
+.introHomePage{
+  font-size: 16px;
+  font-weight:800 !important;
+  color: #0c2d1c !important
+}
+
+/* ------------------------------Home Page------------------------------*/
+
+/* 'who we are' heading */
+.who-we-are p {
+  font-size:16px !important;
+  font-weight:500;
+}
+
+/* ------------------------------News Scroll------------------------------*/
+
+#newsContainer {
+  height:400px;
+  overflow-y: scroll;
+  border-width:0px;  
+}
+
+/* News Scroll */
+.newsDate {
+  font-size: 12px;
+
+}
+
+.newsMainContent {
+  font-size: 12px
+}
 
 
 #newsContainer::-webkit-scrollbar {
-    width: .75em;
-    border-radius: 8px;
+  width: .75em;
+  border-radius: 8px;
 }
  
 #newsContainer::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    border-radius: 8px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 8px;
 }
  
 #newsContainer::-webkit-scrollbar-thumb {
@@ -114,130 +182,233 @@ a {
   border-radius: 8px;
 }
 
-.page-container {
-    width: inherit;
-    max-width: 100%;
-    margin: auto;
-    
+.list-group {
+  float:center;
 }
 
-.col-10.team {
-  padding-bottom:10%;
-  max-width:70%;
+.list-group-item {
+  border-left:none;
+  border-right:none;
+  border-top:none;
+  border-bottom:none;
+  background-color:#f7f7f7;
+  padding: 10px 30px 18px 0px !important;
+  color:#403F3F !important;
 }
 
-.col-md-6.course {
-  color:#403F3F
-}
 
-.course-photo {
-  max-width:50%;
-}
+/* ------------------------------Navigation------------------------------*/
 
-.img-fluid.course {
-  padding-top:4%;
-  padding-bottom:4%;
-  max-width:60%;
-}
-
-.img-fluid.course.hollybio {
-  padding-left:4%;
-  max-width:75%;
-}
-
-.col-10.holly {
-  padding-bottom:10%;
-  padding-left:0%;
-  padding-right:0%;
-}
-
-.holly_photo_description_container {
-  padding-top:2%;
-}
-
-#gibbsLogo{
-  max-height:100px;
-  padding-left:10px;
-
-  
-  
-}
+/*  Navigation pills */
 
 #navPills li{
   padding:6px 6px 6px 6px !important;
   font-size: 14px !important;
 }
 
-#aboutPill {
-  font-size: 14px !important;
-}
-
-
 #nav-pills ul{
 
   padding:16px 16px 16px 6px !important
 }
+
+/*  Navigation pills text*/
+.btn.btn-s-md.btn-white.m-b {
+  font-size: 14px !important;
+}
+
+.navbar {
+  background-color:#f7f7f7 !important;    
+  padding-bottom:10px;
+  border-bottom:1px solid #E6E7E8;
+  -webkit-box-shadow: 0px 1px 2px rgba(159,159,155,0.4)
+}
+
+
+#toggle {
+    background-color:none;
+    color:black;
+}
+
+.nav-item {
+  text-align: right;
+  padding:0px 10px 0px 10px
+}
+
+.nav-link {
+  text-align:left;
+  font-size:14px;
+  color:#0c2d1c !important;    
+}
+
+/*.navbar-toggler-icon {
+  border-color:red!important;
+  color:red !important
+}
+
+.navbar-toggler{
+  color:red;
+}
+
+
+.navbar.toggler.collapsed .page-container{
+    background-color: blue   
+}
+*/
 
 
 .col-lg-4.col-md-6.p-4{
   overflow:hidden !important
 }
 
+
+/* ------------------------------Carousel------------------------------*/
+
+/* carousel */
+.container-fluid {
+  background:#373737
+}
+
+.carousel {
+  opacity:.8;
+}
+
+.carousel-caption {
+  position: relative;
+  left: 0;
+  top: 0;
+  background-color: black;
+  opacity:.8;
+  color:white !important;
+  height:125px;
+}
+
+.carousel-item img {
+  width:100% !important;
+} 
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 28px;
+  width: 28px;
+  outline: black;
+  background-size: 100%, 100%;
+  border: 5px solid black;
+  background-color: black
+}
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity ease-out .7s;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+  opacity: 0;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+  transform: translateX(0);
+  transform: translate3d(0, 0, 0);
+}
+
+.carousel-indicators > li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+
+/* ------------------------------People Page ------------------------------*/
+
+/*  Bio photo */
 .img-holder {
   max-width: 190px;
   max-height: 190px;
   overflow: hidden !important;
   border-radius:0%;
   margin:0 auto
-
 }
 
-.news-img-holder {
-
-  overflow: hidden;
-  margin:0 auto
-
-}
-
+/*  Bio info container (name, title) */
 .bio-holder {
   padding-top:10px;
-
 }
 
+/*  Bio name */
+.people_name {
+  padding-top:2px;
+  font-size: 20px;
+  color:#0c2d1c !important
+}
+
+/*  Bio title */
+.mb-0 {
+  color:#004869 !important;
+  font-size:14px;
+  font-weight:400 !important;
+  text-transform: uppercase
+}
+
+/*  Bio image container */
+.img-holder {
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+
+} 
+
+/*  Scaling bio image on hover */
+.img-fluid.d-block.mx-auto:hover {
+  -webkit-transform: scale(1.1);
+  -webkit-transition: all 0.125s ease-in-out 0s;
+  -moz-transition: all 0.125s ease-in-out 0s;
+  -ms-transition: all 0.125s ease-in-out 0s;
+  -o-transition: all 0.125s ease-in-out 0s;
+  transition: all 0.125s ease-in-out 0s;
+}
+
+.img-fluid.d-block.mb-3.mx-auto:focus {
+  -webkit-transform: scale(1.1);
+  -webkit-transition: all 0.125s ease-in-out 0s;
+  -moz-transition: all 0.125s ease-in-out 0s;
+  -ms-transition: all 0.125s ease-in-out 0s;
+  -o-transition: all 0.125s ease-in-out 0s;
+  transition: all 0.125s ease-in-out 0s;
+}
+
+
+/* ------------------------------Team Page ------------------------------*/
+.col-10.team {
+  padding-bottom:10%;
+  max-width:70%;
+}
+
+/* ------------------------------People Sub-Page (individual people pages)------------------------------*/
+
+/*  bio info container  */
+.col-md-9.col-sm-8 {
+  padding-top:40px;
+}
+
+/*  bio headshot */
+.img-fluid.d-block.headshot {
+  border-radius : 50%;
+  max-width: auto !important;
+  max-height: auto !important;
+}
+
+/*  bio social media icons */
 .bio-social-icons{
   display:inline-block;
 }
-
-
-.row.research{
-  padding-bottom:55px;
-}
-
-/*.svg-inline--fa.fa-linkedin.fa-w-14 {
-  display:inline-block;
-  color:#0e76a8;
-  height:100%;
-  width:25px;
-  vertical-align: bottom
-}
-
-.svg-inline--fa.fa-researchgate.fa-w-14 {
-  display:inline-block;
-  color:#40BA9B;
-  border-radius: 25px !important;
-  border:1px !important;
-  height:100%;
-  width:25px;
-  vertical-align: bottom;
-  
-}
-
-
-.svg-inline--fa.fa-github.fa-w-16 {
-  height:25px;
-  width:25px;
-  vertical-align: bottom;
-}*/
 
 .social-menu {
   display: flex;
@@ -254,7 +425,6 @@ a {
   transition: all 0.2s ease-in-out;
   display: flex;
   justify-content: center;
-
 }
 
 ul.social-menu{
@@ -303,50 +473,65 @@ ul.social-menu{
   vertical-align: bottom;
 }
 
-.news-blurb p{
-    color:#707070 !important;
-}
-
-.news-blurb-date span{
-
-}
-
-#lark-headshot{
-  width:100% !important;
-
-  pointer-events:none !important;
-}
-
-.bio-title{
+/*  bio info  */
+.bio-title {
   margin-bottom:0px;
   font-weight:600;
   font-size:14px;
   color:#004869;
 }
 
-.bio-subtitle{
+.bio-subtitle {
   margin-bottom:0px;
   font-weight:600;
   font-size:18px;
   color:#004869;
 }
 
-.bio-email{
+.bio-email {
   color:#004869;
   font-weight:600;
   font-size:14px;
 }
 
-.bio-contact-info{
+.bio-contact-info {
 color:#004869 !important
 }
 
-.mb-0 {
-  color:#004869 !important;
-  font-size:14px;
-  font-weight:400 !important;
-  text-transform: uppercase
 
+/*  bio text container  */
+.col-md-8.bioParagraph { 
+  padding-top:0px;
+}
+
+/*  delete? */
+.news-img-holder {
+  background-color:red;
+  overflow: hidden;
+  margin:0 auto
+}
+
+/* ------------------------------Holly Gibbs Page ------------------------------*/
+
+/*  Holly Gibbs Action Photos Captions */
+.holly_photo_description_container {
+  padding-top:2%;
+}
+
+
+
+/*  This is for logo. Logo was replaced by text. Use this to resize original Gibbs logo */
+#gibbsLogo{
+  max-height:100px;
+  padding-left:10px;
+ 
+}
+
+/* ------------------------------Research Page------------------------------*/
+
+/*  research row */
+.row.research{
+  padding-bottom:55px;
 }
 
 .research_subtopic_description {
@@ -355,61 +540,28 @@ color:#004869 !important
   text-align: center
 }
 
-
 .col-sm-2.back_to_research_nav {
   color:#004869 !important;
   text-align:left !important;
-
-
 }
  
-.img-holder {
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-
-} 
-
-.img-fluid.d-block.mx-auto:hover{
-        -webkit-transform: scale(1.1);
-        -webkit-transition: all 0.125s ease-in-out 0s;
-        -moz-transition: all 0.125s ease-in-out 0s;
-        -ms-transition: all 0.125s ease-in-out 0s;
-        -o-transition: all 0.125s ease-in-out 0s;
-        transition: all 0.125s ease-in-out 0s;
-    }
-
-.img-fluid.d-block.mb-3.mx-auto:focus{
-        -webkit-transform: scale(1.1);
-        -webkit-transition: all 0.125s ease-in-out 0s;
-        -moz-transition: all 0.125s ease-in-out 0s;
-        -ms-transition: all 0.125s ease-in-out 0s;
-        -o-transition: all 0.125s ease-in-out 0s;
-        transition: all 0.125s ease-in-out 0s;
-    }
 
   
-
-.img-fluid.d-block.mb-3.mx-auto{
-
-    }
-
-.d-block.w-100.news-image:hover{
+/*  delete? */
+/*.d-block.w-100.news-image:hover{
     -webkit-transform: scale(1.1);
     -webkit-transition: all 0.125s ease-in-out 0s;
     -moz-transition: all 0.125s ease-in-out 0s;
     -ms-transition: all 0.125s ease-in-out 0s;
     -o-transition: all 0.125s ease-in-out 0s;
     transition: all 0.125s ease-in-out 0s;
-}
+}*/
 
 .img-fluid.d-block.mb-3.mx-auto.rounded-circle{
   padding-bottom:0px;
 }
 
-
-#chk1{
-  background-color:red;
-}
-
+/* ------------------------------Buttons------------------------------*/
 #searchBars, #filterButtons{
   padding-top:20px;
 }
@@ -418,18 +570,14 @@ color:#004869 !important
   padding-top:0px;
 }
 
-#myInput, #myInput_year{
-  max-height:60%;
-}
-
 .btn {
   background-color:#f7f7f7 !important;
   color:#0c2d1c;
   border:none;
 }
 
-.btn.active{
- background-color:#0c2d1c !important;
+.btn.active {
+  background-color:#0c2d1c !important;
   color:#f7f7f7 !important;
   box-shadow:none !important;
 }
@@ -444,420 +592,96 @@ color:#004869 !important
   background-color:#0c2d1c !important;
   color:#f7f7f7 !important;
   box-shadow:none !important;
-
 }
 
-.avatar.mx-auto{
 
-}
+/* ------------------------------Cards------------------------------*/
 
-img.rounded-circle.z-depth-1 {
-  max-height:200px;
-}
-
- .people_name {
-  padding-top:2px;
-  font-size: 20px;
-  color:#0c2d1c !important
- }
-
-
-.card{
+/* card */
+.card {
   box-shadow:0rem 0rem 0.5rem 0rem rgb(0 0 0 / 10%);
   background: #fff;
   border:0 !important;
-
 }
 
-.card:hover{box-shadow:0rem 0.0625rem 0.5rem 0rem rgba(0,0,0,0.8);
-            transition: box-shadow 0.3s ease-in-out;
-          }
-
-
-.col-md-6.px-3.py-3{
-
+.card:hover {
+  box-shadow:0rem 0.0625rem 0.5rem 0rem rgba(0,0,0,0.8);
+  transition: box-shadow 0.3s ease-in-out;
 }
 
-#first {
-  
+
+/* ------------------------------Publications------------------------------*/
+
+.container.publications {
+  padding-right:10px;
+  padding-left:10px;
+  padding-top:0px;
+  padding-bottom:20px;
+  margin-right:auto;
+  margin-left:auto;
 }
 
-#second {
-  
- 
+.container.publicationsFilters {
+  padding-right:10px;
+  padding-left:10px;
+  padding-top:40px;
+  padding-bottom:0px;
+  margin-right:auto;
+  margin-left:auto;
 }
 
-.publink:hover{
+/* link to paper */
+.publink:hover {
   color:#FF9900;
 }
 
-.navbar {
-    background-color:#f7f7f7 !important;
-    
-    padding-bottom:10px;
-    border-bottom:1px solid #E6E7E8;
-    -webkit-box-shadow: 0px 1px 2px rgba(159,159,155,0.4)
 
-}
+/* ------------------------------Media------------------------------*/
 
-
-#toggle{
-    background-color:none;
-    color:black;
-}
-
-.navbar-toggler-icon  {
-border-color:red!important;
-color:red !important
-}
-
-.navbar-toggler{
-  color:red;
-}
-
-
-
-.navbar.toggler.collapsed .page-container{
-    background-color: blue
-    
-}
-
-
-
-.container-fluid {
-	background:#373737
-
-}
-
-.container{
-    padding-right:10px;
-    padding-left:10px;
-    padding-top:40px;
-    padding-bottom:20px;
-    margin-right:auto;
-    margin-left:auto;
-
-}
-
-.container.publications{
-    padding-right:10px;
-    padding-left:10px;
-    padding-top:0px;
-    padding-bottom:20px;
-    margin-right:auto;
-    margin-left:auto;
-
-}
-
-.container.publicationsFilters{
-    padding-right:10px;
-    padding-left:10px;
-    padding-top:40px;
-    padding-bottom:0px;
-    margin-right:auto;
-    margin-left:auto;
-
-}
-
-#carouselContainer{
-  
-
-}
-
-#carouselRow{
-  
-
-}
-
-.carousel {
-opacity:.8;
-}
-
-/*  THIS WILL RESIZE THE CAROUSEL
-.carousel-inner{
-  width:100%;
-  max-height: 300px !important;
-}
-*/
-
-.carousel-caption{
-    position: relative;
-    left: 0;
-    top: 0;
-    background-color: black;
-    opacity:.8;
-    color:white !important;
-    height:125px;
-}
-
-.carousel-item img{
-width:100% !important;
-
-
-} 
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 28px;
-  width: 28px;
-  outline: black;
-  background-size: 100%, 100%;
-  border: 5px solid black;
-  background-color: black
-
-}
-
-.carousel-fade .carousel-item {
-  opacity: 0;
-  transition: opacity ease-out .7s;
-
-}
-
-.carousel-fade .carousel-item.active,
-.carousel-fade .carousel-item-next.carousel-item-left,
-.carousel-fade .carousel-item-prev.carousel-item-right {
-  opacity: 1;
-}
-
-.carousel-fade .active.carousel-item-left,
-.carousel-fade .active.carousel-item-right {
-  opacity: 0;
-}
-
-.carousel-fade .carousel-item-next,
-.carousel-fade .carousel-item-prev,
-.carousel-fade .carousel-item.active,
-.carousel-fade .active.carousel-item-left,
-.carousel-fade .active.carousel-item-prev {
-  transform: translateX(0);
-  transform: translate3d(0, 0, 0);
-}
-
-.carousel-indicators > li {
-    width: 10px;
-  height: 10px;
-  border-radius: 50%;
-}
-
-
-
-.carousel-item img{
-   
-   
-}
-
-#applegate{
-
-}
-
-.nav-item{
-    text-align: right;
-    padding:0px 10px 0px 10px
-
-}
-
-.nav-link{
-    text-align:left;
-    font-size:14px;
-    color:#0c2d1c !important;
-    
-}
-
-
-.img-fluid.d-block.headshot {
-  border-radius : 50%;
-  max-width: auto !important;
-  max-height: auto !important;
-
-}
-
-.col-md-9.col-sm-8 {
-  padding-top:40px;
-
-}
-
-
-.bioName {
-  display:block;
-}
-
-
-.col-md-8.bioParagraph { 
-  padding-top:0px;
-
-}
-.nav-link:active { 
-   
-}
-
-p {
-	margin-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 400 !important;
-    line-height: 1.8em;
-    letter-spacing: 0.01em;	
-    color:#403F3F;
-}
-
-a {
-	color:#0c2d1c
-}
-
-b {
-  font-weight: 700;
-
-}
-
+/* Media name (i.e. Forbes) */
 .media-item {
   color: #004869
 }
 
-.aboutHeading {
-  color:#004869
+
+/* ------------------------------Teaching Page ------------------------------*/
+
+/* Geog/Env Studies 309 Professor Bio */
+.col-md-6.course {
+  color:#403F3F;
 }
 
-.bioName  {
-   color: #030b07;
-   font-size: 44px !important
-
+/* Capstone Graphic */
+.img-fluid.course {
+  padding-top:4%;
+  padding-bottom:4%;
+  max-width:60%;
 }
 
-.bioName {
-   
-}
-
-.email{
-  font-weight:700;
-  color:#004869
-}
-
-
-
-.col-lg-4.col-md-6.p-4 {
-  padding-bottom:50px !important
+/* Geog/Env Studies 309 Holly Photo */
+.img-fluid.course.hollybio {
+  padding-left:4%;
+  max-width:75%;
 }
 
 
-.col-md-8 {
-  padding-top:40px;
- padding-right: 45px;
- padding-left: 15px;
+/* Geog/Env Studies 309 Holly Photo */
+
+/*  Holly Gibbs Action Photos */
+.col-10.holly {
+  padding-bottom:10%;
+  padding-left:0%;
+  padding-right:0%;
 }
 
+/*.aboutHeading {
+  color:#004869;
+  background-color: red
+}*/
 
-.col-md-4 {
-  padding-top:40px;
-padding-right: 15px;
-padding-left: 15px;
+/* ------------------------------Filterable Table ------------------------------*/
 
-}
-
-.col-md-4.publication-search-bar {
-  padding-top:0px;
-padding-right: 15px;
-padding-left: 15px;
-
-}
-
-
-a:hover, a:active {
-	text-decoration:none;
-	color: #333;
-}
-
-.img {
-    position: relative;
-    width:  100px;
-    height: 100px;
-    background-position: 50% 50%;
-
-}
-
-.overview {
-	padding-top: 50px;
-    margin-right: 0%!important;
-    margin-left: 0%!important;
-}
-
-a div.col-md-4.col-sm-6 p, a div.col-md-4.col-sm-6 h3{
-    
-  
-}
-
-h5{
-     color:white !important;
-}
-
-
-
-#newsContainer {
-    height:400px;
-    overflow-y: scroll;
-    border-width:0px;
-
-
-   
-}
-
-#inTheNewsHeading{
-  /* padding: .75rem 1.25rem; */
-  
-}
-
-.who-we-are p{
-  font-size:16px !important;
-  font-weight:500;
-}
-
-.featured-media-coverage p{
-  font-size:16px !important;
-  font-weight:500;
-}
-
-.list-group{
-    float:center;
-
-    
-
-}
-
-.list-group-item{
-    border-left:none;
-    border-right:none;
-    border-top:none;
-    border-bottom:none;
-    background-color:#f7f7f7;
-    padding: 10px 30px 18px 0px !important;
-    color:#403F3F !important;
-   
-
-
-
-}
-
-#myInput {
-  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
-  background-position: 10px 12px; /* Position the search icon */
-  background-repeat: no-repeat; /* Do not repeat the icon image */
-  width: 100%; /* Full-width */
-  font-size: 16px; /* Increase font-size */
-  padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
-  margin-bottom: 12px; /* Add some space below the input */
-}
-
-#myInput_year {
-  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
-  background-position: 10px 12px; /* Position the search icon */
-  background-repeat: no-repeat; /* Do not repeat the icon image */
-  width: 100%; /* Full-width */
-  font-size: 16px; /* Increase font-size */
-  padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
-  margin-bottom: 12px; /* Add some space below the input */
-}
-
+/*  table */
 #myTable {
   border-collapse: separate; /* Collapse borders */
   width: 100%; /* Full-width */
@@ -869,21 +693,17 @@ h5{
 #myTable th, #myTable td {
   text-align: left; /* Left-align text */
   padding: 12px; /* Add padding */
-
 }
 
 #myTable tr {
   /* Add a bottom border to all table rows */
   border-bottom: 0px solid #ddd;
   background-color: rgba(12,45,28,0.03);
-
 }
 
 #myTable th {
   /* Add a bottom border to all table rows */
-
   background-color: #F7F7F7 !important
-
 }
 
 #myTable tr.header, #myTable tr:hover {
@@ -904,238 +724,167 @@ input[type=number] {
 }
 
 @media (max-width: 575px) {
-  #lark-headshot{
-  padding-bottom:10px;
-}
 
-  .container.bioParagraph{
+  #lark-headshot {
+    padding-bottom:10px;
+  }
+
+  .container.bioParagraph {
     padding-top:0px;
   }
 
-
-.bio-social-icons{
-  padding-bottom:15px;
-}
-
-
-
-
+  .bio-social-icons{
+    padding-bottom:15px;
+  }
 
 }
 
 @media (max-width: 992px) {
 
-
-.row.research{
-  padding-bottom:0px;
-}
-
-.bio-contact-info {
-  font-size:18px !important
-}
-
-
-
-
- .people_name {
-  font-size:16px !important;
-  color:#0c2d1c !important
- }
-
- .mb-0 {
-  color:#004869 !important;
-  font-size:12px;
-  text-transform: uppercase;
-  font-weight:400 !important;
-}
-
-
-
-  .container{
-    
+  .row.research{
+    padding-bottom:0px;
   }
 
-  #about span{ 
+  .bio-contact-info {
+    font-size:18px !important
+  }
+
+  .people_name {
+    font-size:16px !important;
+    color:#0c2d1c !important
+  }
+
+  .mb-0 {
+    color:#004869 !important;
+    font-size:12px;
+    text-transform: uppercase;
+    font-weight:400 !important;
+  }
+
+
+  #about span { 
     color:#f7f7f7 !important;
     background-color:#0c2d1c;
     border-radius:8px;
     padding:6px 6px 6px 6px;
-}
+  }
 
-
-
-#people span{ 
+  #people span { 
     color:#f7f7f7 !important;
     background-color:#0c2d1c;
     border-radius:8px;
     padding:6px 6px 6px 6px;
-}
+  }
 
-#publications span{ 
+  #publications span { 
     color:#f7f7f7 !important;
     background-color:#0c2d1c;
     border-radius:8px;
     padding:6px 6px 6px 6px;
-}
+  }
 
+  .page-container {
+    padding-top:0vh;
+    padding-left:3vh;
+    padding-right:3vh;
+  }
 
-
-
-    .page-container{
-        padding-top:0vh;
-        padding-left:3vh;
-        padding-right:3vh;
-    }
-
-    .nav-link:hover span{ 
-
+  .nav-link:hover span { 
     color:#f7f7f7 !important;
     background-color:#0c2d1c;
     border-radius:8px;
     padding:6px 6px 6px 6px;
+  }
 
-    }
-
-    .nav-link span{ 
-
+  .nav-link span { 
     padding-left:6px 
-
-    }
+  }
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
 }
 
 @media (min-width: 992px) {
 
-#about { 
+  #about { 
     color:#f7f7f7 !important;
     background-color:#0c2d1c;
     border-radius:8px;
-}
+  }
 
-#people { 
+  #people { 
     color:#f7f7f7 !important;
     background-color:#0c2d1c;
     border-radius:8px;
-}
+  }
 
-#publications { 
+  #publications { 
     color:#f7f7f7 !important;
     background-color:#0c2d1c;
     border-radius:8px;
-}
+  }
 
-
-
-
-
-
-.nav-link:hover { 
+  .nav-link:hover { 
     color:#f7f7f7 !important;
     background-color:#0c2d1c;
     border-radius:8px;
-   
-
-}
+  }
   /* CSS that should be displayed if width is equal to or less than 800px goes here */
 }
 
 
 @media (max-width:767px) {
- .nav-pills {
-   float: left !important;
- }
+  
+   .nav-pills {
+     float: left !important;
+   }
 } 
 
 
-
 @media only screen and (max-width: 768px) {
-    #second {
-        order: 2;
-    }
 
-    #first {
-        order: 1;
-    }
-   
-}
-
-
-.card-img-top {
-
-
+  .card-img-top {
     -webkit-filter: brightness(100%);
+  }
 
+  .card-text.readMore {
+    padding-top:12px;
+    font-size:12px;
+    color:#403F3F;
+    font-weight:700;
+  }
 
+  /* mouse over link */
+  .card-text.readMore :hover {
+    color: #08c;
+  }
 
-}
+  /* mouse over link */
+  .lab_news_link:hover {
+    color: #08c;
+  }
 
-.card-text.readMore {
-  padding-top:12px;
-  font-size:12px;
-  color:#403F3F;
-  font-weight:700;
-}
+  .more_news_link:hover {
+    color: #08c;
+  }
 
-
-
-
-
-/* mouse over link */
-.card-text.readMore :hover {
-  color: #08c;
-}
-
-
-/* mouse over link */
-.lab_news_link:hover {
-  color: #08c;
-}
-
-.more_news_link:hover {
-  color: #08c;
-}
-
-.card-img-top:hover {
+  .card-img-top:hover {
     -webkit-filter: brightness(50%);
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
     -ms-transition: all .5s ease;
     transition: all .5s ease;
-}
+  }
 
-
-.card:hover .card-img-top{
-  -webkit-filter: brightness(50%);
+  .card:hover .card-img-top{
+    -webkit-filter: brightness(50%);
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
     -ms-transition: all .5s ease;
     transition: all .5s ease;
+  }
+
 }
-
-
-/*.block-grid-mosaic__group {
-  background-color:rgba(255,255,255,0.8);bottom:1.375rem;left:0;padding:0.3125rem 0.625rem;position:absolute;width:80%;z-index:3;}
-
-  .block-grid-mosaic__item{float:left;margin-bottom:0.625rem;margin-right:0.625rem;overflow:hidden;position:relative;}
-
-  @media screen and (max-width:767px){.block-grid-mosaic__item{padding-bottom:73.5%;width:calc((100% - 0.625rem) / 2);}
-
-  .block-grid-mosaic__item:nth-child(2n + 1){clear:both;}
-
-  .block-grid-mosaic__item:nth-child(2n){margin-right:0;}}
-
-  .block-grid-mosaic__item:hover 
-
-  .block-grid-mosaic__image:before{opacity:1;}
-
-  .block-grid-mosaic__item:hover .social-tile{background-color:#070808}
-
-  .block-grid-mosaic__content{height:100%;left:0;position:absolute;right:0;width:100%;}.block-grid-mosaic__content .type{background-color:#fff;font-size:0.8125rem;left:0;padding:0.125rem 0.625rem 0.0625rem 1.625rem;position:absolute;top:1.375rem;z-index:2;}.block-grid-mosaic__content .type:before{left:0.625rem;margin:0;top:0.3125rem;}
-
-*/
-
 
 
 
