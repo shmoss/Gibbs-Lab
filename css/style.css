@@ -60,12 +60,12 @@ a:hover, a:active {
 
 p {
   margin-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 400 !important;
-    line-height: 1.8em;
-    letter-spacing: 0.01em; 
-    color:#403F3F;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400 !important;
+  line-height: 1.8em;
+  letter-spacing: 0.01em; 
+  color:#403F3F;
 }
 
 a {
@@ -76,6 +76,10 @@ b {
   font-weight: 700;
 }
 
+
+a:hover{
+  color:#2E86C1 
+}
 
 .page-container {
   width: inherit;
@@ -646,9 +650,28 @@ color:#004869 !important
 
 /* ------------------------------Teaching Page ------------------------------*/
 
+
+h6 {
+  color:#0c2d1c 
+}
+/* Capstone list content */
+ul.capstone.list.content {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400 !important;
+  line-height: 1.8em;
+  letter-spacing: 0.01em; 
+  color:#403F3F;
+}
+
 /* Geog/Env Studies 309 Professor Bio */
 .col-md-6.course {
   color:#403F3F;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400 !important;
+  line-height: 1.8em;
+  letter-spacing: 0.01em; 
 }
 
 /* Capstone Graphic */
@@ -672,6 +695,14 @@ color:#004869 !important
   padding-bottom:10%;
   padding-left:0%;
   padding-right:0%;
+}
+
+
+.teaching-content-header {
+  color:#0c2d1c;
+  font-weight:600;
+  padding-top:10px;
+  padding-bottom:3px;
 }
 
 /*.aboutHeading {
@@ -854,16 +885,16 @@ input[type=number] {
 
   /* mouse over link */
   .card-text.readMore :hover {
-    color: #08c;
+    color: #2E86C1 ;
   }
 
   /* mouse over link */
   .lab_news_link:hover {
-    color: #08c;
+    color: #2E86C1 ;
   }
 
   .more_news_link:hover {
-    color: #08c;
+    color: #2E86C1 ;
   }
 
   .card-img-top:hover {

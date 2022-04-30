@@ -217,14 +217,15 @@ $(function(){
 var capstone_HTML = '<div class="col-md-10">' +
               '<h2 class="mb-3">Environmental Studies Capstone</h2>' +
                 '<p>' +
-                  '<h6 class="mb-3">Consumer-Driven Sustainability: Making Our Choices Matter Spring 2014</h6>' +
-                  '<h6 class="mb-3">Co-taught by Prof. Holly Gibbs and Tyler Lark Spring 2014</h6>' +
+                  
+                  '<h6><b>Co-taught by Prof. Holly Gibbs and Tyler Lark</b></h6>' +
                 '</p>' +
 
                 '<div class="course-content">' +
+                '<h6 class="teaching-content-header">Overview</h6>' +
                 
                 '<p>' +
-                'Overview.   In this SIRE-supported course, students gained practical hands-on experiencing conducting a semester long research project culminating in working, distributable reports or media designed to create change regarding a sustainability-related topic on campus or in the community.' +
+                'In this SIRE-supported course, students gained practical hands-on experiencing conducting a semester long research project culminating in working, distributable reports or media designed to create change regarding a sustainability-related topic on campus or in the community.' +
                 '</p>' +
 
                 '<p class=course-photo>' +
@@ -250,7 +251,7 @@ var capstone_HTML = '<div class="col-md-10">' +
                 'Metrics.  A key theme throughout the course was the concept of metrics.  Students were exposed to the value, importance, and data needed to quantitatively identify and measure meaningful statistics and outcomes related to sustainability and their specific research projects.   Examples of metrics computed by the students include:' +
                 '</p>' +
 
-                '<ul>' +
+                '<ul class = "capstone list content">' +
                   '<li>' +
                     'Wisconsin union produces 285 miles of receipts per year, at an annual purchasing cost of $17,000' +
                   '</li>' +
@@ -315,7 +316,9 @@ var capstone_HTML = '<div class="col-md-10">' +
 
 var geog_env_309_HTML = '<div class="col-md-10">' +
                           '<h2 class="mb-3">Geog / Env. St 309: People, Land & Food</h2>' +
-                          '<h6 class="mb-3">Welcome to the “People, Land and Food” course website!  You can download a syllabus <a class = "more_news_link" href = "assets/Gibbs_syllabus_People_Land_Food_Spring_2022_Final.pdf" target="_blank"><b><i>here</i></b></a> to learn more.</h6>' +
+                           '</p>'+
+                          '<h6><b>Welcome to the “People, Land and Food” course website!  You can download a syllabus <a class = "more_news_link" href = "assets/Gibbs_syllabus_People_Land_Food_Spring_2022_Final.pdf" target="_blank"><b><i>here</i></b></a> to learn more.</b></h6>' +
+                          '</p>'+
                           '<p>'+
                             'The ways in which our society uses and transforms land to produce food has impacted our world more than any other environmental change.  This course will explore real-world examples and together we will investigate solutions to improve our use of land and food production strategies. We will also go beyond the walls of the classroom to study our campus and city community, and work towards making change on the ground.'+
                           '</p>'+
@@ -336,7 +339,7 @@ var geog_env_309_HTML = '<div class="col-md-10">' +
                           '</div>'+
                           '</p>'+
                           '<p>'+
-                            'PROFESSOR BIO'+
+                          '<h6 class="teaching-content-header">Professor Bio</h6>' +
                           '</p>'+
                           '<p>'+
                           '<div class="row">'+
@@ -368,18 +371,18 @@ var geog_env_309_HTML = '<div class="col-md-10">' +
 
 var grad_seminar = '<div class="col-md-10">' +
                           '<h2 class="mb-3">Graduate Seminars</h2>' +
-                          '<h6 class="mb-3">I generally teach one graduate level seminar each year often on interdisciplinary topics around land change science.</h6>' +
+                          '<h6><b>I generally teach one graduate level seminar each year often on interdisciplinary topics around land change science.</b></h6>' +
                           '<p>'+
                           '</p>' +
-                          '<h6 class="mb-3">Approaches to Reducing Tropical Deforestation</h6>' +
+                          '<h6 class="teaching-content-header">Approaches to Reducing Tropical Deforestation</h6>' +
                           '<p>'+
                             'In this graduate seminar, we will explore a range of approaches aiming to reduce deforestation looking across the tropics and through time.  We will consider the social and environmental implications of various efforts including REDD+, payments for ecosystem services, demand-side conservation such as eco-certification and zero-deforestation agreements, and command-and-control interventions including land use zoning and protected areas.  Are they effective?  Where and under what circumstances?  What are the unintended consequences?   All major forest regions will be considered but Brazil will be a focus as we examine the dramatic fluctuations in rates of forest clearing.  This is an interdisciplinary seminar, leaning heavily on literature from “land change science”, which seeks to understand the dynamics of land cover and land use and their various consequences through an examination of coupled human-environment systems.  By the end of the class, you will be conversant in the major issues surrounding tropical deforestation, and complete an in-depth research paper or project.'+
                           '</p>'+
-                          '<h6 class="mb-3">Emerging Market Impacts on Global Agriculture</h6>' +
+                          '<h6 class="teaching-content-header">Emerging Market Impacts on Global Agriculture</h6>' +
                           '<p>'+
                             'In this graduate seminar, we will explore a range of approaches aiming to reduce deforestation looking across the tropics and through time.  We will consider the social and environmental implications of various efforts including REDD+, payments for ecosystem services, demand-side conservation such as eco-certification and zero-deforestation agreements, and command-and-control interventions including land use zoning and protected areas.  Are they effective?  Where and under what circumstances?  What are the unintended consequences?   All major forest regions will be considered but Brazil will be a focus as we examine the dramatic fluctuations in rates of forest clearing.  This is an interdisciplinary seminar, leaning heavily on literature from “land change science”, which seeks to understand the dynamics of land cover and land use and their various consequences through an examination of coupled human-environment systems.  By the end of the class, you will be conversant in the major issues surrounding tropical deforestation, and complete an in-depth research paper or project.'+
                           '</p>'+
-                          '<h6 class="mb-3">The Global Land Reserve</h6>' +
+                          '<h6 class="teaching-content-header">The Global Land Reserve</h6>' +
                           '<p>'+
                             'Land suitable for agricultural production is becoming an increasingly scarce resource globally as demands for food, feed and fuel grow.  This graduate–level discussion seminar will investigate the location and potential of the world’s available land bank (aka relatively unused, productive lands) to produce the needed agricultural products.  Most studies have quantified the global land reserve from a top-down perspective relying on global models and statistics that neglect spatial information and local realities such as use by local communities, degraded soils, land zoning, land tenure, conservation concerns and transportation infrastructure.  We will explore these issues using peer-reviewed manuscripts, grey literature, newspaper articles, maps, and census data, and attempt to navigate the constraints and opportunities to utilize the land reserve over the next 5-10 years.  The land reserve is concentrated in Latin America’s cerrados and grasslands, Indonesia grasslands, African savannas and abandoned / idle farmland in the US, Europe and following the collapse of the Soviet Union.'+
                           '</p>'
