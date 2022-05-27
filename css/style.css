@@ -66,7 +66,7 @@ p {
   font-size: 16px;
   font-weight: 400 !important;
   line-height: 1.8em;
-  letter-spacing: 0.01em; 
+  letter-spacing: normal;
   color:#403F3F;
 }
 
@@ -127,7 +127,7 @@ a:hover{
 
 /* Logo */
 .logo_subheader {
-  font-size: 12px;
+  font-size: 14px;
   font-weight:400 !important;
 }
 
@@ -204,6 +204,7 @@ a:hover{
   background-color:#f7f7f7;
   padding: 10px 30px 18px 0px !important;
   color:#403F3F !important;
+  letter-spacing:.04em;
 }
 
 
@@ -218,12 +219,13 @@ a:hover{
 
 #nav-pills ul{
 
-  padding:16px 16px 16px 6px !important
+  
 }
 
 /*  Navigation pills text*/
 .btn.btn-s-md.btn-white.m-b {
   font-size: 14px !important;
+  letter-spacing: .04em;
 }
 
 .navbar {
@@ -249,6 +251,12 @@ a:hover{
   font-size:14px;
   color:#0c2d1c !important;    
 }
+
+#navbarNav {
+
+}
+
+
 
 /*.navbar-toggler-icon {
   border-color:red!important;
@@ -365,7 +373,7 @@ a:hover{
 .mb-0 {
   color:#004869 !important;
   font-size:14px;
-  font-weight:400 !important;
+  font-weight:500 !important;
   text-transform: uppercase
 }
 
@@ -590,7 +598,7 @@ color:#004869 !important
 }
 
 .btn.btn-default {
-  letter-spacing: 0.01em; 
+  letter-spacing: normal;
 }
 
 
@@ -651,8 +659,10 @@ color:#004869 !important
   font-weight:700;
 }
 
-.card-text {
+p.card-text {
   line-height:1.6em;
+  font-weight:500 !important;
+
 }
 
 /* ------------------------------Publications------------------------------*/
@@ -751,6 +761,25 @@ ul.capstone.list.content {
   background-color: red
 }*/
 
+
+/* ------------------------------Opportunities------------------------------*/
+
+.job-announcement {
+   font-weight: 600 !important;
+}
+
+.job-link{
+  color:#2E86C1;
+  font-weight:800 !important;
+}
+
+.opportunitiesList li{
+  margin: 20px 0 !important
+}
+
+.holly-contact-opportunities {
+  color:#2E86C1;
+}
 /* ------------------------------Filterable Table ------------------------------*/
 
 /*  table */
