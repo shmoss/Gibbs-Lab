@@ -27,7 +27,7 @@
 
 <!-- Navigation -->
   <nav id="navbar" class="navbar navbar-expand-xl navbar-light bg-dark sticky-top">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.html">
       <div class="logo_subheader">
         Global Land Use and Environment Lab 
         <br>
@@ -68,6 +68,18 @@
            <a href="teaching.html" class="btn btn-s-md btn-white m-b">
           TEACHING
           </a>
+        </li> 
+        <li>
+          <div class="dropdown">
+            <button class="btn btn-s-md btn-white m-b dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            OPPORTUNITIES
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="opportunities.html">Opportunities</a>
+              <a class="dropdown-item" href="welcome-to-madison.html">Welcome to Madison</a>
+              <a class="dropdown-item" href="food-sustainability.html">Food sustainability <br>organizations in Madison</a>
+            </div>
+        </div>
         </li>            
       </ul> 
     </div>
@@ -80,13 +92,14 @@
         <div class="col-md-10">
           <h1>Meet Our Team</h1>
           <p>
-            Many talented people from diverse fields call WID their intellectual home. Drawing from disciplines as diverse as computer sciences, biology, chemistry, informatics, engineering, mathematics, art, soil science, genetics, the humanities, and communications, the WID community prides itself on promoting productive collisions of ideas.
+            Our researchers come from diverse fields to discover new ways to under how and why people use land around the world.
+            GLUE is home to many accomplished individuals and together we form a strong community committed to <a class= "lab_news_link" href=" https://geography.wisc.edu/dei-and-climate/statement-of-values/"><b>values</b></a> of diversity, equity and inclusion. We aim to reconcile forest conservation, climate change, and food security by informing policy and market-based strategies.
 
-            WID Faculty have dual appointments in WID and home departments all across the UW-Madison campus. By nucleating world-class faculty around key research strengths, WID is positioned to bring novel approaches to big problems.
+
           </p>
 
           <p>
-          <a class="more_news_link" href="team.html"><b><i>See our Team in Action»</i></b>
+          <a class="more_news_link_people" href="team.html"><b><i>See our Team in Action»</i></b>
           </p>       
           </a>
 
@@ -107,7 +120,7 @@
     </div>
 
     <div class="py-5 text-center text-info background-info" style="">
-      <div class="container">   
+      <div class="container" id="people-container">   
         <div id="parent" class="row">
 
              <!-- Lead Scientists -->
@@ -217,19 +230,6 @@
               </div>
             </div>
             <div class="col-6 col-md-3 p-4 research-staff">
-            <div class="img-holder">
-            <a style='color:none'href="marin-skidmore.html"><img class="img-fluid d-block mx-auto" src="bio_img/marin_skidmore_bio.png" alt="Card image cap" width="200">
-            </a>
-            </div>
-              <div class="bio-holder">
-                <a style='color:none'href="marin-skidmore.html">
-                <h4 class="people_name"> <b>Marin Elisabeth Skidmore</b> </h4>
-                <p class="mb-0">Research Staff</p>
-                <!-- <p class="mb-0">Post-doctoral Research Associate</p> -->
-                </a>
-              </div>
-            </div>
-            <div class="col-6 col-md-3 p-4 research-staff">
               <div class="img-holder">
               <a style='color:none'href="yanhua-xie.html"><img class="img-fluid d-block mx-auto" src="bio_img/Yanhua_Xie_bio.png" alt="Card image cap" width="200">
               </a>
@@ -237,7 +237,7 @@
               <div class="bio-holder">
                 <a style='color:none'href="yanhua-xie.html">
                 <h4 class="people_name"> <b>Yanhua Xie</b> </h4>
-                <p class="mb-0">Post-doctoral Research Associate</p>
+                <p class="mb-0">Research Staff</p>
                
                 </a>
               </div>
@@ -250,12 +250,12 @@
               <div class="bio-holder">
                 <a style='color:none'href="ticiana-amaral.html">
                 <h4 class="people_name"> <b>Ticiana Amaral</b> </h4>
-                <p class="mb-0">Research Specialist</p>
+                <p class="mb-0">Research Staff</p>
                 </a>
               </div>
             </div>
             <!-- Students -->
-            <div class="col-6 col-md-3 p-4 students">
+            <div class="col-6 col-md-3 p-4 research-staff">
               <div class="img-holder">
                 <a style='color:none'href="amintas-brandao.html">
                   <div class="img-holder">
@@ -266,11 +266,11 @@
               <div class="bio-holder">
                 <a style='color:none'href="amintas-brandao.html">
                 <h4 class="people_name"> <b>Amintas Brandão Jr.</b> </h4>
-                <p class="mb-0">Grad Student</p>
+                <p class="mb-0">Research Staff</p>
                 </a>
               </div>
             </div>
-            <div class="col-6 col-md-3 p-4 students">
+            <div class="col-6 col-md-3 p-4 research-staff">
               <div class="img-holder">
                 <a style='color:none'href="juliana-brandao.html"><img class="img-fluid d-block mx-auto" src="bio_img/juliana_brandao_bio.png" alt="Card image cap" width="200">
                 </a>
@@ -278,7 +278,7 @@
               <div class="bio-holder">
                 <a style='color:none'href="juliana_brandao.html">
                 <h4 class="people_name"> <b>Juliana Brandão</b> </h4>
-                <p class="mb-0">Grad Student</p>
+                <p class="mb-0">Research Staff</p>
                 </a>
               </div>
             </div>
@@ -302,18 +302,6 @@
               <div class="bio-holder">
                 <a style='color:none'href="tara-mittelberg.html">
                 <h4 class="people_name"> <b>Tara Mittelberg</b> </h4>
-                <p class="mb-0">Grad Student</p>
-                </a>
-              </div>
-            </div>
-            <div class="col-6 col-md-3 p-4 students">
-              <div class="img-holder">
-                <a style='color:none'href="kaitlyn-sims.html"><img class="img-fluid d-block mx-auto" src="bio_img/kaitlyn_sims_bio.png" alt="Card image cap" width="200">
-                </a>
-              </div>
-              <div class="bio-holder">
-                <a style='color:none'href="kaitlyn-sims.html">
-                <h4 class="people_name"> <b>Kaitlyn Sims</b> </h4>
                 <p class="mb-0">Grad Student</p>
                 </a>
               </div>
@@ -684,6 +672,31 @@
             </div>
             <div class="col-6 col-md-3 p-4 alumni">
               <div class="img-holder">
+                <a style='color:none'href="kaitlyn-sims.html"><img class="img-fluid d-block mx-auto" src="bio_img/kaitlyn_sims_bio.png" alt="Card image cap" width="200">
+                </a>
+              </div>
+              <div class="bio-holder">
+                <a style='color:none'href="kaitlyn-sims.html">
+                <h4 class="people_name"> <b>Kaitlyn Sims</b> </h4>
+                <p class="mb-0">Alumni</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 p-4 alumni">
+            <div class="img-holder">
+            <a style='color:none'href="marin-skidmore.html"><img class="img-fluid d-block mx-auto" src="bio_img/marin_skidmore_bio.png" alt="Card image cap" width="200">
+            </a>
+            </div>
+              <div class="bio-holder">
+                <a style='color:none'href="marin-skidmore.html">
+                <h4 class="people_name"> <b>Marin Elisabeth Skidmore</b> </h4>
+                <p class="mb-0">Alumni</p>
+                <!-- <p class="mb-0">Post-doctoral Research Associate</p> -->
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 p-4 alumni">
+              <div class="img-holder">
                 <a style='color:none'href="beichen-tian.html"><img class="img-fluid d-block mx-auto" src="bio_img/beichen_tian_bio.png" alt="Card image cap" width="200">   
                 </a>
               </div>
@@ -721,7 +734,6 @@
 
         </div>
       </div>
-    </div> 
   </div>
 
 
