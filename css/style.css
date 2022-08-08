@@ -840,17 +840,19 @@ ul.capstone.list.content {
 }
 
 /* ------------------------------Food Sustainability ------------------------------*/
-
+#food-sustainability-header {
+  padding-bottom:0px;
+}
 .col-md-8.sustainabilityOrg {
   padding-top:50px;
-  padding-left:30px;
-  padding-right:30px;
+  padding-left:15px;
+  padding-right:15px;
 }
 
 .col-md-4.sustainabilityOrg {
-  padding-top:50px;
-  padding-left:30px;
-  padding-right:30px;
+  padding-top:10px;
+  padding-left:15px;
+  padding-right:15px;
 }
 
 .mb-3.sustainabilityOrg {
@@ -859,15 +861,22 @@ ul.capstone.list.content {
 }
 
 .mb-3.studentOrgs {
-  padding-bottom:20px;
+  padding-bottom:0px;
+  padding-top:10px;
   
 }
 
 .sustainability-img {
-  width:100%;
+  
+  max-width:225px;
 
   box-shadow: 0px 3px 2px #ccc;
 
+}
+
+/* first item under headings, make padding less */
+#food-recovery-network, #slow-food {
+  padding-top:30px;
 }
 /* ------------------------------Filterable Table ------------------------------*/
 
