@@ -43,12 +43,15 @@ body::-webkit-scrollbar-thumb {
 
 h1 {
   padding-bottom:8px;
-  color:#0c2d1c !important;
-  font-weight: 600 !important
+  color:#0c2d1c!important;
+  font-size:36px;
+  font-weight: 700 !important
 }
 
 h2 {
- color:#0c2d1c !important
+ font-size:28px;
+ color:#0c2d1c !important;
+ font-weight: 700 !important
 }
 
 a {
@@ -67,7 +70,7 @@ p {
   font-weight: 400 !important;
   line-height: 1.8em;
   letter-spacing: normal;
-  color:#403F3F;
+  color:#606060;
 }
 
 a {
@@ -76,6 +79,7 @@ a {
 
 b {
   font-weight: 700;
+
 }
 
 
@@ -90,8 +94,8 @@ a:hover{
 }
 
 .container {
-  padding-right:10px;
-  padding-left:10px;
+  padding-right:30px !important;
+  padding-left:30px !important;
   padding-top:40px;
   padding-bottom:20px;
   margin-right:auto;
@@ -129,12 +133,14 @@ a:hover{
 .logo_subheader {
   font-size: 14px;
   font-weight:400 !important;
+  color:#0c2d1c;
 }
 
 .logo_header {
   font-size: 40px;
   font-weight:800 !important;
   font: Raleway, sans-serif;
+  color:#0c2d1c;
 
 }
 
@@ -151,6 +157,7 @@ a:hover{
 .who-we-are p {
   font-size:16px !important;
   font-weight:500;
+  line-height:32px;
 }
 
 .more_news_link_people {
@@ -172,11 +179,13 @@ a:hover{
 /* News Scroll */
 .newsDate {
   font-size: 12px;
+  color:#0c2d1c !important;
 
 }
 
 .newsMainContent {
-  font-size: 12px
+  font-size: 12px;
+  color:#606060;
 }
 
 
@@ -332,7 +341,7 @@ a:hover{
   position: relative;
   left: 0;
   top: 0;
-  background-color: black;
+  background-color: #000a06;
   opacity:.8;
   color:white !important;
   height:125px;
@@ -424,6 +433,8 @@ a:hover{
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
   border-radius: 50% !important;
 }
+
+
 
 
 /*  Scaling bio image on hover */
@@ -590,6 +601,10 @@ color:#004869 !important
 
 /* ------------------------------Research Page------------------------------*/
 
+.col-lg-4.col-md-4.px-3.py-3 {
+  padding-bottom:60px !important;
+}
+
 /*  research row */
 .row.research{
   padding-bottom:55px;
@@ -649,6 +664,7 @@ color:#004869 !important
 .btn {
   background-color:#f7f7f7 !important;
   color:#0c2d1c;
+  font-weight:400 !important;
   border:none;
 
 }
@@ -660,7 +676,7 @@ color:#004869 !important
 
 
 .btn.active {
-  background-color:#0c2d1c !important;
+  background-color:#0c2d1c!important;
   color:#f7f7f7 !important;
   box-shadow:none !important;
 }
@@ -717,7 +733,7 @@ color:#004869 !important
 
 p.card-text {
   line-height:1.6em;
-  font-weight:500 !important;
+  font-weight:400 !important;
 
 }
 
