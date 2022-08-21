@@ -329,10 +329,10 @@ var geog_env_309_HTML = '<div class="col-md-10">' +
                             'P.S. Some good news!!  I’m honored to have been awarded the Chancellor’s Distinguished Teaching Award in 2016 and the University Housing Honored Instructor Award 2015!  My warmest thanks to the students and faculty who took the time to nominate me!'+
                             '</p>'+
                             '<p>'+
-                            'Please email me with any questions (hkgibbs@wisc.edu).'+
+                            'Please email me with any questions <a class="bio-email-teaching" href="mailto:hkgibbs@wisc.edu">hkgibbs@wisc.edu</a>.'+
                           '</p>'+
                         '<p class=course-photo>'+              
-                          '<div class="col-8 course">' +
+                          '<div class="col-12 course">' +
                             '<a href="assets/geog_309_farming.jpeg" src="assets/geog_309_farming.jpeg">'+
                             '<img class="img-fluid course" src="assets/geog_309_farming.jpeg" alt="Card image cap">'+
                             '</a>'+
@@ -343,10 +343,10 @@ var geog_env_309_HTML = '<div class="col-md-10">' +
                           '</p>'+
                           '<p>'+
                           '<div class="row">'+
-                            '<div class="col-md-6 course">'+
+                            '<div class="col-md-12 course">'+
                               'I am an Associate Professor of Geography and Environmental Studies, and part of the Center for Sustainability and the Global Environment and the Wisconsin Energy Initiative.  A physical scientist by training, I focus on interdisciplinary, applied questions around land-use change, globalization, environment, and policy.  I investigate how and why people clear tropical forests or change agricultural practices around the world and what that means for climate change, biodiversity and social justice.  Much of my time is spent behind a computer using satellite images and models to understand land use but I also spend quite a bit of time exploring communities and conditions in tropical countries especially Brazil, Indonesia, Malaysia and Ethiopia.' +
                             '</div>'+
-                              '<div class="col-md-6">' +
+                              '<div class="col-md-12">' +
                                 '<a href="assets/geog_309_holly.jpeg">'+
                                   '<img class="img-fluid course hollybio" src="assets/geog_309_holly.jpeg" alt="Card image cap">'+
                                 '</a>'+
@@ -356,9 +356,7 @@ var geog_env_309_HTML = '<div class="col-md-10">' +
                            '<p>'+
                             'I am passionate about using my academic scholarship to change the world. Throughout my career, I have worked closely with policymakers, business leaders and non-governmental organizations to ensure that the science I conduct matters.  Accordingly, I am highly committed to teaching and love the opportunity to share my experience and expertise with students while also learning from them.  Teaching “People, Land and Food” is a dream come true for me as I am passionate about the topic and eager to consider opportunities to make a difference here at home as well as around the world!  I enjoy sharing my on-the-ground experiences with students whether from testifying at a political hearing about the impacts of crop-based biofuels on climate, assisting climate negotiators from developing countries, measuring trees or interviewing farmers in the tropics.'+
                             '</p>'+
-                            '<p>'+
-                            'You can learn more about me and my research here: gibbs-lab.com'+
-                          '</p>'+
+                           
 
 
 

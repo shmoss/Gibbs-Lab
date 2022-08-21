@@ -48,6 +48,8 @@ h1 {
   font-weight: 700 !important
 }
 
+
+
 h2 {
  font-size:28px;
  color:#0c2d1c !important;
@@ -76,7 +78,7 @@ p {
   font-weight: 400 !important;
   line-height: 1.8em;
   letter-spacing: normal;
-  color:#606060;
+  color:#383f45;
 }
 
 a {
@@ -103,6 +105,15 @@ a:hover{
   padding-right:30px !important;
   padding-left:30px !important;
   padding-top:40px;
+  padding-bottom:20px;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.container.more-media {
+  padding-right:30px !important;
+  padding-left:30px !important;
+  padding-top:10px;
   padding-bottom:20px;
   margin-right:auto;
   margin-left:auto;
@@ -138,7 +149,7 @@ a:hover{
 /* Logo */
 .logo_subheader {
   font-size: 14px;
-  font-weight:400 !important;
+  font-weight:500 !important;
   color:#0c2d1c;
 }
 
@@ -180,6 +191,7 @@ a:hover{
   height:400px;
   overflow-y: scroll;
   border-width:0px;  
+  padding-left:0px !important;
 }
 
 /* News Scroll */
@@ -191,7 +203,7 @@ a:hover{
 
 .newsMainContent {
   font-size: 12px;
-  color:#606060;
+  color:#383f45;
 }
 
 
@@ -430,9 +442,9 @@ a:hover{
 
 /*  Bio title */
 .mb-0 {
-  color:#606060 !important;
+  color:#383f45 !important;
   font-size:14px;
-  font-weight:500 !important;
+  font-weight:400 !important;
   text-transform: uppercase
 }
 
@@ -655,6 +667,7 @@ color:#004869 !important
 
 .header.research {
   font-size:16px;
+   color:#0c2d1c;
 }
 
  
@@ -757,6 +770,7 @@ color:#004869 !important
 p.card-text {
   line-height:1.6em;
   font-weight:400 !important;
+  font-size:14px;
 
 }
 
@@ -802,12 +816,23 @@ p.card-text {
   color: #004869
 }
 
+.media-text{
+  color:#212529;
+  font-size: 14px;
+  font-weight:400 !important;
+}
 
 /* ------------------------------Teaching Page ------------------------------*/
 
 
-h6 {
-  color:#0c2d1c 
+h6{
+  color:#0c2d1c;
+
+}
+
+h6.teaching-content-header {
+  color:#0c2d1c;
+  font-size:18px; 
 }
 /* Capstone list content */
 ul.capstone.list.content {
@@ -816,29 +841,41 @@ ul.capstone.list.content {
   font-weight: 400 !important;
   line-height: 1.8em;
   letter-spacing: 0.01em; 
-  color:#403F3F;
+  color:#383f45;
 }
 
 /* Geog/Env Studies 309 Professor Bio */
-.col-md-6.course {
+.col-12.course {
   color:#403F3F;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 400 !important;
   line-height: 1.8em;
   letter-spacing: 0.01em; 
+  padding-left:0px !important;
+  padding-top:0px !important;
 }
+
+.col-md-12.course {
+  color:#383f45;
+  letter-spacing:normal;
+  font-weight:400 !important;
+  line-height:1.8em;
+
+}
+
+
 
 /* Capstone Graphic */
 .img-fluid.course {
-  padding-top:4%;
-  padding-bottom:4%;
-  max-width:60%;
+  padding-top:3%;
+  padding-bottom:3%;
+  max-width:75%;
 }
 
 /* Geog/Env Studies 309 Holly Photo */
 .img-fluid.course.hollybio {
-  padding-left:4%;
+
   max-width:75%;
 }
 
@@ -858,6 +895,12 @@ ul.capstone.list.content {
   font-weight:600;
   padding-top:10px;
   padding-bottom:3px;
+}
+
+.bio-email-teaching {
+  color:#004869;
+  font-weight:600;
+  font-size:16px;
 }
 
 /*.aboutHeading {
@@ -1000,7 +1043,7 @@ input[type=number] {
   }
 
   .mb-0 {
-    color:#004869 !important;
+    color:#383f45 !important;
     font-size:12px;
     text-transform: uppercase;
     font-weight:400 !important;
